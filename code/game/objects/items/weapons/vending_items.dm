@@ -154,10 +154,6 @@
 	machine_name = "Robotech Deluxe"
 	icon_state = "refill_engi"
 
-/obj/item/vending_refill/smith
-	machine_name = "Castivend"
-	icon_state = "refill_custom"
-
 //Departmental clothing vendors
 
 /obj/item/vending_refill/secdrobe

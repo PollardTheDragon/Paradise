@@ -75,8 +75,7 @@
 /// Start the equipping process. This is the proc you should yield in.
 /// Returns TRUE/FALSE depending on if it is allowed.
 /datum/strippable_item/proc/start_equip(atom/source, obj/item/equipping, mob/user)
-	var/thief_mode = in_thief_mode(user)
-	if(!thief_mode)
+	if(!in_thief_mode(user))
 		source.visible_message(
 			"<span class='notice'>[user] tries to put [equipping] on [source].</span>",
 			"<span class='notice'>[user] tries to put [equipping] on you.</span>",
@@ -86,7 +85,7 @@
 			if(!victim_human.has_vision())
 				to_chat(victim_human, "<span class='userdanger'>You feel someone trying to put something on you.</span>")
 
-	if(!do_mob(user, source, equipping.put_on_delay, hidden = thief_mode))
+	if(!do_mob(user, source, equipping.put_on_delay))
 		return FALSE
 
 	if(QDELETED(equipping) || !user.Adjacent(source) || (equipping.flags & NODROP))
@@ -128,8 +127,7 @@
 	add_attack_logs(user, source, "Attempting stripping of [item]")
 	item.add_fingerprint(user)
 
-	var/thief_mode = in_thief_mode(user)
-	if(!thief_mode)
+	if(!in_thief_mode(user))
 		source.visible_message(
 			"<span class='warning'>[user] tries to remove [source]'s [item.name].</span>",
 			"<span class='userdanger'>[user] tries to remove your [item.name].</span>",
@@ -140,7 +138,7 @@
 			if(!victim_human.has_vision())
 				to_chat(source, "<span class='userdanger'>You feel someone fumble with your belongings.</span>")
 
-	return start_unequip_mob(get_item(source), source, user, hidden = thief_mode)
+	return start_unequip_mob(get_item(source), source, user)
 
 /// The proc that unequips the item from the source. This should not yield.
 /datum/strippable_item/proc/finish_unequip(atom/source, mob/user)
@@ -257,10 +255,10 @@
 	return equipping.put_on_delay
 
 /// A utility function for `/datum/strippable_item`s to start unequipping an item from a mob.
-/proc/start_unequip_mob(obj/item/item, mob/source, mob/user, strip_delay, hidden = FALSE)
+/proc/start_unequip_mob(obj/item/item, mob/source, mob/user, strip_delay)
 	if(!strip_delay)
 		strip_delay = item.strip_delay
-	if(!do_mob(user, source, strip_delay, hidden = hidden))
+	if(!do_mob(user, source, strip_delay))
 		return FALSE
 
 	return TRUE

@@ -22,7 +22,6 @@
 	desc = "Bluer than the standard model."
 	icon_state = "labcoat_cmo_open"
 	item_state = "labcoat_cmo_open"
-	insert_max = 2
 
 /obj/item/clothing/suit/storage/labcoat/mad
 	name = "mad scientist's labcoat"
@@ -88,7 +87,6 @@
 	desc = "More purple than the standard model."
 	icon_state = "labcoat_rd_open"
 	item_state = "labcoat_rd_open"
-	insert_max = 2
 
 /obj/item/clothing/suit/storage/labcoat/hydro
 	name = "hydroponics labcoat"

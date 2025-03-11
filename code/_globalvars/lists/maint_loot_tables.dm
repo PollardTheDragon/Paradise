@@ -129,7 +129,6 @@ GLOBAL_LIST_INIT(maintenance_loot_tier_2, list(
 		/obj/item/clothing/head/welding,
 		/obj/item/crowbar/red,
 		/obj/item/storage/belt/utility,
-		/obj/item/smithed_item/random,
 	) = 45,
 
 	list(

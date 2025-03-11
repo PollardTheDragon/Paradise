@@ -644,7 +644,6 @@ GLOBAL_LIST_INIT(brass_recipes, list (
 	turf_type = /turf/simulated/floor/clockwork
 	table_type = /obj/structure/table/reinforced/brass
 	dynamic_icon_state = TRUE
-	materials = list(MAT_BRASS = 2000)
 
 /obj/item/stack/tile/brass/examine_more(mob/user)
 	. = ..()

@@ -5,8 +5,6 @@
 	var/turf/simulated/floor/primary_turf_type
 	/// Icon state of planet present on background of station Z-level
 	var/planet_icon_state
-	/// Icon for glass floors
-	var/primary_turf_type_icon
 
 /datum/lavaland_theme/New()
 	if(!primary_turf_type)
@@ -25,7 +23,6 @@
 	name = "lava"
 	primary_turf_type = /turf/simulated/floor/lava/lava_land_surface
 	planet_icon_state = "planet_lava"
-	primary_turf_type_icon = 'icons/turf/floors/lava.dmi'
 
 /datum/lavaland_theme/lava/setup()
 	var/datum/river_spawner/lava_spawner = new(level_name_to_num(MINING))
@@ -35,7 +32,6 @@
 	name = "plasma"
 	primary_turf_type = /turf/simulated/floor/lava/lava_land_surface/plasma
 	planet_icon_state = "planet_plasma"
-	primary_turf_type_icon = 'icons/turf/floors/liquidplasma.dmi'
 
 /datum/lavaland_theme/plasma/setup()
 	var/datum/river_spawner/spawner = new(level_name_to_num(MINING))
@@ -46,8 +42,8 @@
 	name = "chasm"
 	primary_turf_type = /turf/simulated/floor/chasm/straight_down/lava_land_surface
 	planet_icon_state = "planet_chasm"
-	primary_turf_type_icon = 'icons/turf/floors/Chasms.dmi'
 
 /datum/lavaland_theme/chasm/setup()
 	var/datum/river_spawner/spawner = new(level_name_to_num(MINING), spread_prob_ = 10, spread_prob_loss_ = 5)
 	spawner.generate(nodes = 6, min_x = 50, min_y = 7, max_x = 250, max_y = 225)
+

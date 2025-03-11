@@ -59,17 +59,16 @@ GLOBAL_LIST_INIT(strippable_human_items, create_strippable_list(list(
 	if(!length(jumpsuit.accessories))
 		return
 	var/obj/item/clothing/accessory/A = jumpsuit.accessories[1]
-	var/thief_mode = in_thief_mode(user)
-	if(!thief_mode)
+	if(!in_thief_mode(user))
 		user.visible_message("<span class='danger'>[user] starts to take off [A] from [source]'s [jumpsuit]!</span>", \
 							"<span class='danger'>You start to take off [A] from [source]'s [jumpsuit]!</span>")
 
-	if(!do_mob(user, source, POCKET_STRIP_DELAY, hidden = thief_mode))
+	if(!do_mob(user, source, POCKET_STRIP_DELAY))
 		return
 	if(QDELETED(A) || !(A in jumpsuit.accessories))
 		return
 
-	if(!thief_mode)
+	if(!in_thief_mode(user))
 		user.visible_message("<span class='danger'>[user] takes [A] off of [source]'s [jumpsuit]!</span>", \
 							"<span class='danger'>You take [A] off of [source]'s [jumpsuit]!</span>")
 	jumpsuit.detach_accessory(A, user)
@@ -158,10 +157,9 @@ GLOBAL_LIST_INIT(strippable_human_items, create_strippable_list(list(
 	add_attack_logs(user, source, "Attempting pickpocketing of [item]")
 	item.add_fingerprint(user)
 
-	var/thief_mode = in_thief_mode(user)
-	var/result = start_unequip_mob(item, source, user, POCKET_STRIP_DELAY, thief_mode)
+	var/result = start_unequip_mob(item, source, user, POCKET_STRIP_DELAY)
 
-	if(!result && !thief_mode)
+	if(!result && !in_thief_mode(user))
 		warn_owner(source)
 
 	return result
