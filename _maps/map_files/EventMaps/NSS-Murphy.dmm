@@ -59,14 +59,7 @@
 	},
 /area/template_noop)
 "aK" = (
-/mob/living/basic/megafauna/bluespace_horror{
-	health = 3000;
-	maxHealth = 3000;
-	name = "The Unseen Hand"
-	},
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
+/turf/simulated/floor/plasteel/white/full,
 /area/template_noop)
 "aP" = (
 /turf/simulated/wall/mineral/titanium/interior{
@@ -294,10 +287,25 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"cY" = (
+/obj/effect/turf_decal/woodsiding{
+	dir = 10
+	},
+/turf/simulated/floor/lava/plasma,
+/area/template_noop)
 "cZ" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/closet/crate/freezer/iv_storage,
 /turf/simulated/floor/plasteel/white,
+/area/template_noop)
+"da" = (
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "de" = (
 /obj/mecha/combat/marauder/mauler/loaded{
@@ -387,6 +395,12 @@
 /obj/machinery/bodyscanner,
 /turf/simulated/floor/plasteel/dark,
 /area/template_noop)
+"dX" = (
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
 "ea" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/effect/spawner/random/pool/spaceloot/syndicate/rare/depot,
@@ -435,6 +449,27 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"eG" = (
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/chair/sofa/bench,
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
+"eI" = (
+/obj/machinery/light/clockwork,
+/obj/structure/shelf/clockwork,
+/obj/item/clockwork/component/vanguard_cogwheel,
+/obj/item/clockwork/component/vanguard_cogwheel,
+/obj/item/clockwork/component/vanguard_cogwheel,
+/obj/item/clockwork/component/vanguard_cogwheel,
+/obj/item/clockwork/component/vanguard_cogwheel,
+/obj/item/clockwork/component/vanguard_cogwheel,
+/turf/simulated/floor/clockwork,
+/area/template_noop)
 "eQ" = (
 /obj/effect/turf_decal/tiles/department/science/corner{
 	dir = 4
@@ -452,6 +487,10 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"fd" = (
+/obj/machinery/light/clockwork,
+/turf/simulated/floor/clockwork,
 /area/template_noop)
 "fh" = (
 /obj/machinery/economy/vending/smith,
@@ -472,10 +511,23 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"fl" = (
+/turf/simulated/floor/plasteel/fakestairs/center{
+	dir = 1
+	},
+/area/template_noop)
 "fm" = (
 /mob/living/basic/hivebot/tele,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
+"fp" = (
+/obj/effect/turf_decal/tiles/white/half{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark/half{
+	dir = 1
 	},
 /area/template_noop)
 "fG" = (
@@ -495,6 +547,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
+/area/template_noop)
+"fM" = (
+/obj/item/clothing/head/caphat,
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/effect/turf_decal/tiles/department/command/mono,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "fP" = (
 /obj/effect/spawner/random/blood/often,
@@ -571,9 +629,11 @@
 /turf/simulated/floor/plasteel/dark,
 /area/template_noop)
 "gL" = (
-/obj/structure/chair/sofa/bench,
 /obj/effect/turf_decal/trimline/department/medbay/line{
 	dir = 4
+	},
+/obj/structure/chair/sofa/bench{
+	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
 /area/template_noop)
@@ -615,6 +675,12 @@
 	pixel_y = -2
 	},
 /turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"hf" = (
+/obj/item/flag/nt,
+/obj/effect/turf_decal/siding,
+/obj/structure/railing,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "hh" = (
 /obj/machinery/porta_turret/ruin/plasma,
@@ -719,6 +785,16 @@
 /obj/effect/mob_spawn/human/corpse/random_species/doctor,
 /turf/simulated/floor/indestructible/titanium/blue,
 /area/template_noop)
+"iC" = (
+/obj/effect/turf_decal/siding{
+	dir = 5
+	},
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/item/flag/nt,
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
 "iN" = (
 /obj/machinery/magma_crucible,
 /turf/simulated/floor/plasteel/dark/grid{
@@ -735,10 +811,23 @@
 	},
 /turf/simulated/floor/mineral/plastitanium,
 /area/template_noop)
+"iT" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/obj/effect/turf_decal/tiles/department/command/mono,
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
 "iZ" = (
 /obj/machinery/door/airlock/survival_pod,
 /obj/structure/fans/tiny,
 /turf/simulated/floor/mineral/plastitanium/red,
+/area/template_noop)
+"ji" = (
+/obj/effect/turf_decal/woodsiding{
+	dir = 6
+	},
+/turf/simulated/floor/lava/plasma,
 /area/template_noop)
 "jp" = (
 /obj/effect/spawner/random/space_pirate,
@@ -748,6 +837,10 @@
 /area/template_noop)
 "ju" = (
 /turf/simulated/floor/indestructible/titanium/blue,
+/area/template_noop)
+"jz" = (
+/obj/effect/turf_decal/tiles/white/corner,
+/turf/simulated/floor/plasteel/dark/corner,
 /area/template_noop)
 "jB" = (
 /obj/structure/shuttle/engine/propulsion/burst{
@@ -768,6 +861,10 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"jI" = (
+/obj/item/kirbyplants/large,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "jJ" = (
 /mob/living/basic/skeleton/incursion/security,
@@ -818,12 +915,10 @@
 	},
 /area/template_noop)
 "kz" = (
-/obj/structure/chair/sofa/bench/left{
-	dir = 1
-	},
 /obj/structure/sign/medical{
 	pixel_y = 32
 	},
+/obj/structure/chair/sofa/bench/left,
 /turf/simulated/floor/plasteel/dark,
 /area/template_noop)
 "kB" = (
@@ -877,6 +972,22 @@
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw,
 /turf/simulated/floor/plasteel/white,
 /area/template_noop)
+"lg" = (
+/obj/structure/railing/cap/reversed{
+	dir = 4
+	},
+/obj/effect/turf_decal/tiles/white/half{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark/half{
+	dir = 1
+	},
+/area/template_noop)
+"lh" = (
+/obj/structure/railing/cap/normal,
+/obj/effect/turf_decal/tiles/department/command,
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
 "lj" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/bluespace_tap/organic_uncommon,
@@ -905,6 +1016,10 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"lo" = (
+/obj/machinery/light/spot,
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
 "lB" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/bluespace_tap/cultural_common,
@@ -913,6 +1028,12 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"lD" = (
+/obj/effect/turf_decal/woodsiding{
+	dir = 9
+	},
+/turf/simulated/floor/lava/plasma,
 /area/template_noop)
 "lE" = (
 /obj/structure/chair/sofa/bench/right,
@@ -933,14 +1054,48 @@
 	},
 /turf/simulated/floor/mineral/plastitanium,
 /area/template_noop)
+"lO" = (
+/obj/effect/turf_decal/tiles/department/command/mono,
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
+"lP" = (
+/obj/structure/table/flipped{
+	dir = 1
+	},
+/obj/machinery/economy/vending/snack/free,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
 "lR" = (
 /mob/living/simple_animal/bot/medbot/syndicate/emagged,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"lT" = (
+/obj/effect/turf_decal/siding{
+	dir = 6
+	},
+/obj/item/flag/nt,
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
+"lU" = (
+/obj/structure/table/reinforced/brass,
+/turf/simulated/floor/carpet/royalblack,
+/area/template_noop)
 "lW" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/corner{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"mg" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/machinery/light/spot{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
@@ -1013,6 +1168,16 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"mY" = (
+/obj/structure/shelf/clockwork,
+/obj/item/clockwork/component/replicant_alloy/replication_plate,
+/obj/item/clockwork/component/replicant_alloy/replication_plate,
+/obj/item/clockwork/component/replicant_alloy/replication_plate,
+/obj/item/clockwork/component/replicant_alloy/replication_plate,
+/obj/item/clockwork/component/replicant_alloy/replication_plate,
+/obj/item/clockwork/component/replicant_alloy/replication_plate,
+/turf/simulated/floor/clockwork,
+/area/template_noop)
 "ne" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/effect/turf_decal/box/white{
@@ -1061,6 +1226,11 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"nG" = (
+/turf/simulated/floor/plasteel/fakestairs/right{
+	dir = 1
+	},
+/area/template_noop)
 "nJ" = (
 /obj/structure/window/basic{
 	dir = 4
@@ -1077,9 +1247,33 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/template_noop)
+"nU" = (
+/obj/item/ammo_box/magazine/c_foam,
+/obj/item/ammo_box/magazine/c_foam{
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/obj/item/gun/projectile/c_foam_launcher{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
 "nX" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw,
 /turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"oi" = (
+/obj/structure/shelf/clockwork,
+/obj/item/clockwork/component/replicant_alloy,
+/obj/item/clockwork/component/replicant_alloy,
+/obj/item/clockwork/component/replicant_alloy,
+/obj/item/clockwork/component/replicant_alloy,
+/obj/item/clockwork/component/replicant_alloy,
+/obj/item/clockwork/component/replicant_alloy,
+/turf/simulated/floor/clockwork,
 /area/template_noop)
 "om" = (
 /mob/living/basic/heretic_summon/ash_spirit,
@@ -1096,6 +1290,14 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"oz" = (
+/obj/effect/turf_decal/siding,
+/obj/structure/railing,
+/obj/structure/chair/sofa/bench/right{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
 "oD" = (
 /obj/effect/turf_decal/tiles/department/engineering/half{
 	dir = 1
@@ -1104,6 +1306,14 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"oH" = (
+/obj/structure/table/reinforced/brass,
+/obj/item/clockwork/component{
+	name = "scripture of Ratvar";
+	desc = "A copy of the scriptures of Ratvar, the Clockwork Justicular. Contained within are all the instructions needed to call upon his powerful magic and replicate his designs. Its inner workings are unfathomably complex and cannot be operated except by a servant of Ratvar. Even if the secrets could be extracted, doing so would invite Ratvar into the mind of any who learned them."
+	},
+/turf/simulated/floor/carpet/royalblack,
 /area/template_noop)
 "oL" = (
 /obj/structure/closet/crate,
@@ -1164,6 +1374,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"pE" = (
+/obj/structure/chair/sofa/pew/clockwork{
+	dir = 4
+	},
+/turf/simulated/floor/clockwork,
+/area/template_noop)
 "pH" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning{
 	dir = 1
@@ -1200,6 +1416,24 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"qa" = (
+/obj/structure/shelf/clockwork,
+/obj/item/clockwork/component/vanguard_cogwheel/onyx_prism,
+/obj/item/clockwork/component/vanguard_cogwheel/onyx_prism,
+/obj/item/clockwork/component/vanguard_cogwheel/onyx_prism,
+/obj/item/clockwork/component/vanguard_cogwheel/onyx_prism,
+/obj/item/clockwork/component/vanguard_cogwheel/onyx_prism,
+/obj/item/clockwork/component/vanguard_cogwheel/onyx_prism,
+/turf/simulated/floor/clockwork,
+/area/template_noop)
+"qb" = (
+/obj/structure/barricade/wooden,
+/obj/effect/mapping_helpers/airlock/c_foam/five,
+/obj/machinery/door/airlock/command{
+	name = "NSS Murphy Birdge"
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/template_noop)
 "qc" = (
 /obj/item/gun/projectile/automatic/mini_uzi,
@@ -1253,8 +1487,28 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"qz" = (
+/obj/effect/turf_decal/woodsiding{
+	dir = 5
+	},
+/turf/simulated/floor/lava/plasma,
+/area/template_noop)
 "qD" = (
 /turf/simulated/floor/mineral/plastitanium/red,
+/area/template_noop)
+"qF" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/suit/fire/firefighter/atmos{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/obj/item/clothing/suit/fire/firefighter/atmos{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/template_noop)
 "qG" = (
 /obj/machinery/smithing/casting_basin,
@@ -1353,6 +1607,12 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/template_noop)
+"ri" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
 "ru" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/light,
@@ -1447,6 +1707,15 @@
 /obj/machinery/autolathe/upgraded/gamma,
 /turf/simulated/floor/mineral/plastitanium,
 /area/template_noop)
+"sU" = (
+/obj/structure/table/flipped{
+	dir = 1
+	},
+/obj/machinery/economy/vending/coffee/free,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
 "tb" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -1525,6 +1794,20 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"tq" = (
+/obj/structure/table/reinforced,
+/obj/item/watertank/atmos{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/watertank/atmos{
+	pixel_x = -6;
+	pixel_y = -3
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
 "ts" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/corner{
 	dir = 4
@@ -1534,6 +1817,9 @@
 "tw" = (
 /obj/machinery/door/airlock/research,
 /turf/simulated/floor/plasteel/white,
+/area/template_noop)
+"tD" = (
+/turf/simulated/floor/lava/plasma,
 /area/template_noop)
 "tP" = (
 /obj/machinery/door/airlock/survival_pod/glass,
@@ -1546,6 +1832,16 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"tW" = (
+/obj/structure/shelf/clockwork,
+/obj/item/clockwork/component/belligerent_eye/lens_gem,
+/obj/item/clockwork/component/belligerent_eye/lens_gem,
+/obj/item/clockwork/component/belligerent_eye/lens_gem,
+/obj/item/clockwork/component/belligerent_eye/lens_gem,
+/obj/item/clockwork/component/belligerent_eye/lens_gem,
+/obj/item/clockwork/component/belligerent_eye/lens_gem,
+/turf/simulated/floor/clockwork,
 /area/template_noop)
 "tX" = (
 /obj/effect/turf_decal/tiles/department/science/side{
@@ -1571,6 +1867,10 @@
 /obj/mecha/working/ripley/firefighter,
 /turf/simulated/floor/mech_bay_recharge_floor,
 /area/template_noop)
+"ui" = (
+/obj/effect/turf_decal/woodsiding,
+/turf/simulated/floor/lava/plasma,
+/area/template_noop)
 "ul" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/technocracy_minor,
@@ -1578,9 +1878,29 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"up" = (
+/obj/structure/table/flipped{
+	dir = 1
+	},
+/obj/structure/sign/command{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
 "uv" = (
 /obj/effect/turf_decal/trimline/department/medbay/line,
 /turf/simulated/floor/plasteel/white,
+/area/template_noop)
+"uw" = (
+/obj/structure/table/flipped,
+/obj/structure/sign/command{
+	pixel_y = -32
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/template_noop)
 "uB" = (
 /obj/effect/spawner/random/blood,
@@ -1596,11 +1916,24 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"uJ" = (
+/turf/simulated/floor/clockwork,
+/area/template_noop)
 "uK" = (
 /obj/effect/mine/pickup/bloodbath,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"uS" = (
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/chair/sofa/bench/left,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "vd" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_ccw{
@@ -1628,13 +1961,20 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/chair/sofa/bench/left{
-	dir = 1
-	},
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_ccw{
 	dir = 4
 	},
+/obj/structure/chair/sofa/bench/left,
 /turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"vw" = (
+/obj/machinery/door_control{
+	id = "murphy_bridge_lockdown";
+	name = "NSS Murphy Bridge Viewport Blast Door Button"
+	},
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/effect/turf_decal/tiles/department/command/mono,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "vD" = (
 /obj/machinery/economy/vending/coffee,
@@ -1649,6 +1989,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"vL" = (
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "vM" = (
 /obj/machinery/door/airlock/public,
@@ -1746,6 +2089,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"wB" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
 "wD" = (
 /obj/effect/turf_decal/trimline/department/science/filled/warning,
 /turf/simulated/floor/plasteel/white,
@@ -1771,6 +2120,16 @@
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium,
+/area/template_noop)
+"wY" = (
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/item/flag/nt,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "xf" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_ccw,
@@ -1836,6 +2195,17 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"xX" = (
+/obj/machinery/door/airlock/clockwork/glass{
+	name = "Chapel of the Clockwork Justicular"
+	},
+/turf/simulated/floor/clockwork,
+/area/template_noop)
+"xY" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/siding,
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
 "ya" = (
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
@@ -1856,6 +2226,10 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"yx" = (
+/obj/item/flag/nt,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "yA" = (
 /turf/simulated/wall/indestructible/titanium,
@@ -1883,6 +2257,17 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"yL" = (
+/obj/structure/railing/cap/reversed{
+	dir = 1
+	},
+/obj/effect/turf_decal/tiles/department/command,
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"yN" = (
+/obj/effect/turf_decal/tiles/department/command,
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
 "yR" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/magic/wand/chaos,
@@ -1897,12 +2282,39 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"yX" = (
+/turf/simulated/floor/plasteel/fakestairs/left{
+	dir = 4
+	},
+/area/template_noop)
 "za" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/bluespace_crystal/five,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"zc" = (
+/obj/item/storage/fancy/cigars/cohiba{
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/obj/item/storage/fancy/matches{
+	pixel_x = -18
+	},
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/effect/turf_decal/tiles/department/command/mono,
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
+"zf" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding{
+	dir = 4
+	},
+/obj/machinery/light/floor,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "zj" = (
 /obj/effect/turf_decal/tiles/department/science/side{
@@ -1918,6 +2330,11 @@
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /turf/simulated/floor/indestructible/titanium/blue,
+/area/template_noop)
+"zx" = (
+/obj/structure/railing/cap/reversed,
+/obj/effect/turf_decal/tiles/department/command,
+/turf/simulated/floor/plasteel/dark,
 /area/template_noop)
 "zy" = (
 /obj/structure/gunrack,
@@ -1941,6 +2358,27 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"zL" = (
+/obj/structure/rack,
+/obj/item/tank/internals/oxygen,
+/obj/item/tank/internals/oxygen{
+	pixel_x = 5;
+	pixel_y = -2
+	},
+/obj/item/tank/internals/oxygen{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
+"zM" = (
+/obj/structure/table/flipped,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
 "zO" = (
 /obj/machinery/door/airlock/medical,
 /obj/structure/barricade/wooden,
@@ -1950,6 +2388,43 @@
 /obj/mecha/nkarrdem/loaded,
 /turf/simulated/floor/mech_bay_recharge_floor,
 /area/template_noop)
+"Aa" = (
+/obj/machinery/door/poddoor/impassable{
+	id = "murphy_bridge_lockdown";
+	name = "NNS Murphy Bridge Viewport Blast Door"
+	},
+/turf/simulated/wall/indestructible/opsglass/titanium_window,
+/area/template_noop)
+"Ac" = (
+/obj/structure/table/flipped{
+	dir = 1
+	},
+/obj/structure/sign/command{
+	pixel_y = 32
+	},
+/obj/structure/engineeringcart/full,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
+"Ai" = (
+/obj/structure/engineeringcart/full,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
+"An" = (
+/obj/effect/turf_decal/tiles/white/half,
+/turf/simulated/floor/plasteel/dark/half,
+/area/template_noop)
+"Ap" = (
+/obj/effect/turf_decal/tiles/white/corner{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark/corner{
+	dir = 1
+	},
+/area/template_noop)
 "Ay" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -1957,6 +2432,16 @@
 /obj/effect/mob_spawn/human/corpse/random_species/engineer,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium/blue,
+/area/template_noop)
+"AC" = (
+/obj/structure/shelf/clockwork,
+/obj/item/clockwork/component/geis_capacitor,
+/obj/item/clockwork/component/geis_capacitor,
+/obj/item/clockwork/component/geis_capacitor,
+/obj/item/clockwork/component/geis_capacitor,
+/obj/item/clockwork/component/geis_capacitor,
+/obj/item/clockwork/component/geis_capacitor,
+/turf/simulated/floor/clockwork,
 /area/template_noop)
 "AI" = (
 /obj/item/ammo_box/magazine/laser,
@@ -1967,6 +2452,25 @@
 /obj/item/ammo_box/magazine/laser,
 /obj/structure/shelf/security,
 /turf/simulated/floor/mineral/plastitanium,
+/area/template_noop)
+"AO" = (
+/obj/machinery/light/floor,
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
+"AS" = (
+/obj/effect/turf_decal/tiles/department/command,
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"AU" = (
+/obj/structure/table/flipped{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/template_noop)
 "AX" = (
 /mob/living/basic/bear/polar,
@@ -1980,6 +2484,18 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"Bf" = (
+/obj/effect/turf_decal/siding{
+	dir = 10
+	},
+/obj/structure/railing{
+	dir = 10
+	},
+/obj/structure/chair/sofa/bench/left{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "Bg" = (
 /obj/effect/turf_decal/tiles/department/science,
@@ -2111,12 +2627,31 @@
 /mob/living/basic/skeleton/incursion/security,
 /turf/simulated/floor/plasteel/dark,
 /area/template_noop)
+"CU" = (
+/obj/structure/chair/sofa/pew/clockwork/left{
+	dir = 4
+	},
+/turf/simulated/floor/clockwork,
+/area/template_noop)
 "CV" = (
 /obj/structure/closet/crate,
 /obj/item/gun/projectile/automatic/toy/pistol/riot,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"CX" = (
+/obj/item/reagent_containers/drinks/drinkingglass/devilskiss{
+	pixel_x = 3;
+	pixel_y = 6
+	},
+/obj/item/ashtray/bronze{
+	pixel_x = -8;
+	pixel_y = 9
+	},
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/effect/turf_decal/tiles/department/command/mono,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "Dd" = (
 /obj/structure/chair/sofa/bench/left{
@@ -2147,9 +2682,23 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"Dq" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
 "Dv" = (
 /obj/structure/filingcabinet/chestdrawer/autopsy,
 /turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"Dx" = (
+/obj/machinery/computer/nonfunctional{
+	dir = 4;
+	name = "NSS Murphy Bridge Console";
+	desc = "One of the bridge computers for the NSS Murphy. It is nonfunctional and spitting out error messages."
+	},
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "DA" = (
 /obj/structure/chair/comfy/shuttle{
@@ -2182,6 +2731,11 @@
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /turf/simulated/floor/indestructible/titanium/blue,
 /area/template_noop)
+"DT" = (
+/obj/structure/window/reinforced/clockwork/fulltile,
+/obj/structure/grille/ratvar,
+/turf/simulated/floor/clockwork/reebe,
+/area/template_noop)
 "Ea" = (
 /mob/living/simple_animal/hostile/syndicate/depot/modsuit,
 /turf/simulated/floor/plasteel{
@@ -2207,6 +2761,17 @@
 "Ef" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_ccw,
 /turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"Eg" = (
+/obj/structure/chair/sofa/pew/clockwork/right{
+	dir = 4
+	},
+/turf/simulated/floor/clockwork,
+/area/template_noop)
+"Eh" = (
+/obj/structure/clockwork/wall_gear,
+/obj/machinery/light/clockwork/floor,
+/turf/simulated/floor/clockwork,
 /area/template_noop)
 "El" = (
 /obj/structure/closet/crate,
@@ -2338,11 +2903,26 @@
 /obj/effect/mob_spawn/human/corpse/random_species/assistant,
 /turf/simulated/floor/plasteel/white,
 /area/template_noop)
+"FG" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
 "FK" = (
 /mob/living/basic/hivebot/range,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"FL" = (
+/obj/structure/shuttle/engine/huge{
+	dir = 4
+	},
+/turf/simulated/wall/clockwork,
 /area/template_noop)
 "FN" = (
 /obj/effect/turf_decal/tiles/department/medical,
@@ -2402,6 +2982,11 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/template_noop)
+"Ga" = (
+/turf/simulated/floor/plasteel/fakestairs/right{
+	dir = 4
+	},
+/area/template_noop)
 "Gf" = (
 /obj/effect/turf_decal/tiles/department/science,
 /turf/simulated/floor/plasteel/white,
@@ -2424,6 +3009,13 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"Gt" = (
+/obj/structure/railing/cap/reversed{
+	dir = 4
+	},
+/obj/effect/turf_decal/tiles/department/command,
+/turf/simulated/floor/plasteel/dark,
 /area/template_noop)
 "Gu" = (
 /obj/machinery/door_control{
@@ -2456,6 +3048,12 @@
 	},
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /turf/simulated/floor/indestructible/titanium,
+/area/template_noop)
+"GN" = (
+/obj/effect/turf_decal/woodsiding{
+	dir = 1
+	},
+/turf/simulated/floor/lava/plasma,
 /area/template_noop)
 "GR" = (
 /mob/living/basic/gorilla/rampaging,
@@ -2561,6 +3159,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"HS" = (
+/obj/machinery/light/clockwork{
+	dir = 4
+	},
+/turf/simulated/floor/clockwork,
+/area/template_noop)
 "HX" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -2599,6 +3203,14 @@
 /obj/machinery/bodyscanner,
 /turf/simulated/floor/plasteel/white,
 /area/template_noop)
+"Il" = (
+/obj/effect/turf_decal/siding,
+/obj/structure/railing,
+/obj/structure/chair/sofa/bench{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark/full,
+/area/template_noop)
 "Iw" = (
 /obj/structure/chair/sofa/bench,
 /turf/simulated/floor/plasteel{
@@ -2611,6 +3223,16 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"IB" = (
+/obj/effect/turf_decal/siding{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/structure/chair/sofa/bench/right,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "IH" = (
 /obj/structure/gunrack,
@@ -2628,6 +3250,15 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"IT" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 4
+	},
+/obj/structure/window/reinforced/clockwork{
+	dir = 8
+	},
+/turf/simulated/floor/clockwork/reebe,
+/area/template_noop)
 "IY" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning,
 /turf/simulated/floor/plasteel/white,
@@ -2644,6 +3275,16 @@
 	},
 /turf/simulated/floor/plasteel/freezer,
 /area/template_noop)
+"JB" = (
+/obj/structure/shelf/clockwork,
+/obj/item/clockwork/component/hierophant_ansible/obelisk,
+/obj/item/clockwork/component/hierophant_ansible/obelisk,
+/obj/item/clockwork/component/hierophant_ansible/obelisk,
+/obj/item/clockwork/component/hierophant_ansible/obelisk,
+/obj/item/clockwork/component/hierophant_ansible/obelisk,
+/obj/item/clockwork/component/hierophant_ansible/obelisk,
+/turf/simulated/floor/clockwork,
+/area/template_noop)
 "JG" = (
 /mob/living/basic/netherworld/migo,
 /turf/simulated/floor/plasteel/full{
@@ -2655,6 +3296,19 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/plasteel/white,
+/area/template_noop)
+"JN" = (
+/obj/effect/turf_decal/tiles/white/corner{
+	dir = 1
+	},
+/mob/living/basic/megafauna/bluespace_horror{
+	health = 3000;
+	maxHealth = 3000;
+	name = "The Unseen Hand"
+	},
+/turf/simulated/floor/plasteel/dark/corner{
+	dir = 1
+	},
 /area/template_noop)
 "JT" = (
 /obj/structure/closet/crate,
@@ -2691,6 +3345,33 @@
 	},
 /turf/simulated/floor/mineral/plastitanium,
 /area/template_noop)
+"Kh" = (
+/obj/structure/table/reinforced/brass,
+/obj/item/clockwork/component/belligerent_eye,
+/turf/simulated/floor/carpet/royalblack,
+/area/template_noop)
+"Ki" = (
+/turf/simulated/floor/plasteel/fakestairs/left,
+/area/template_noop)
+"Kl" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas{
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/item/clothing/head/hardhat/atmos{
+	pixel_x = -7;
+	pixel_y = 7
+	},
+/obj/item/clothing/head/hardhat/atmos{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
 "Ko" = (
 /obj/machinery/shower/directional/west,
 /turf/simulated/floor/noslip,
@@ -2704,6 +3385,16 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"Ku" = (
+/obj/structure/shelf/clockwork,
+/obj/item/clockwork/component/belligerent_eye/blind_eye,
+/obj/item/clockwork/component/belligerent_eye/blind_eye,
+/obj/item/clockwork/component/belligerent_eye/blind_eye,
+/obj/item/clockwork/component/belligerent_eye/blind_eye,
+/obj/item/clockwork/component/belligerent_eye/blind_eye,
+/obj/item/clockwork/component/belligerent_eye/blind_eye,
+/turf/simulated/floor/clockwork,
 /area/template_noop)
 "Kv" = (
 /obj/structure/closet/crate,
@@ -2771,6 +3462,14 @@
 /obj/machinery/light,
 /turf/simulated/floor/mineral/plastitanium,
 /area/template_noop)
+"Ln" = (
+/obj/effect/turf_decal/tiles/white/half{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark/half{
+	dir = 1
+	},
+/area/template_noop)
 "Lp" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -2798,6 +3497,13 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"LJ" = (
+/obj/structure/railing/cap/normal{
+	dir = 1
+	},
+/obj/effect/turf_decal/tiles/department/command,
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
 "LV" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/machinery/door_control{
@@ -2815,6 +3521,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating/airless,
+/area/template_noop)
+"LZ" = (
+/turf/simulated/floor/plasteel/fakestairs/left{
+	dir = 1
+	},
 /area/template_noop)
 "Mb" = (
 /obj/machinery/door/airlock/external/glass,
@@ -2903,6 +3614,9 @@
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/mob_spawn/human/corpse/random_species/engineer,
 /turf/simulated/floor/indestructible/titanium/blue,
+/area/template_noop)
+"Nn" = (
+/turf/simulated/floor/carpet/royalblack,
 /area/template_noop)
 "Nv" = (
 /obj/structure/shuttle/engine/heater{
@@ -3020,6 +3734,24 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/template_noop)
+"Ot" = (
+/obj/structure/railing/cap/normal{
+	dir = 4
+	},
+/obj/effect/turf_decal/tiles/white/half{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark/half{
+	dir = 1
+	},
+/area/template_noop)
+"OD" = (
+/obj/structure/barricade/wooden,
+/obj/machinery/door/airlock/command{
+	name = "NSS Murphy Birdge"
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
 "OH" = (
 /obj/effect/spawner/random/space_pirate,
 /turf/simulated/floor/plasteel/full{
@@ -3039,6 +3771,15 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"OV" = (
+/turf/simulated/floor/plasteel/fakestairs/right,
+/area/template_noop)
+"Pd" = (
+/obj/machinery/light/clockwork{
+	dir = 1
+	},
+/turf/simulated/floor/clockwork,
 /area/template_noop)
 "Ph" = (
 /obj/effect/turf_decal/tiles/department/medical,
@@ -3080,6 +3821,9 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/template_noop)
+"PL" = (
+/turf/simulated/floor/plasteel/fakestairs/center,
+/area/template_noop)
 "PU" = (
 /obj/machinery/economy/vending/wallmed/directional/north,
 /turf/simulated/floor/mineral/plastitanium,
@@ -3096,6 +3840,19 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/template_noop)
+"Qq" = (
+/obj/machinery/light/clockwork{
+	dir = 1
+	},
+/obj/structure/shelf/clockwork,
+/obj/item/clockwork/component/geis_capacitor/antennae,
+/obj/item/clockwork/component/geis_capacitor/antennae,
+/obj/item/clockwork/component/geis_capacitor/antennae,
+/obj/item/clockwork/component/geis_capacitor/antennae,
+/obj/item/clockwork/component/geis_capacitor/antennae,
+/obj/item/clockwork/component/geis_capacitor/antennae,
+/turf/simulated/floor/clockwork,
 /area/template_noop)
 "Qy" = (
 /turf/simulated/floor/mech_bay_recharge_floor,
@@ -3163,9 +3920,27 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/template_noop)
+"Rc" = (
+/obj/structure/shelf/clockwork,
+/obj/item/clockwork/component/hierophant_ansible,
+/obj/item/clockwork/component/hierophant_ansible,
+/obj/item/clockwork/component/hierophant_ansible,
+/obj/item/clockwork/component/hierophant_ansible,
+/obj/item/clockwork/component/hierophant_ansible,
+/obj/item/clockwork/component/hierophant_ansible,
+/turf/simulated/floor/clockwork,
+/area/template_noop)
 "Rg" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning{
 	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"Rl" = (
+/obj/machinery/computer/nonfunctional{
+	dir = 4;
+	name = "NSS Murphy Bridge Console";
+	desc = "One of the bridge computers for the NSS Murphy. It is nonfunctional and spitting out error messages."
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/template_noop)
@@ -3209,6 +3984,9 @@
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/optable,
 /turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"RL" = (
+/turf/simulated/wall/clockwork,
 /area/template_noop)
 "RP" = (
 /obj/machinery/mech_bay_recharge_port/upgraded,
@@ -3321,6 +4099,10 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/template_noop)
+"SV" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
 "SY" = (
 /obj/structure/closet/crate/nanotrasen,
 /turf/simulated/floor/plasteel/full{
@@ -3427,6 +4209,22 @@
 /mob/living/basic/lightgeist,
 /turf/simulated/floor/plasteel/white,
 /area/template_noop)
+"UL" = (
+/obj/structure/rack,
+/obj/item/radio{
+	pixel_y = 4
+	},
+/obj/item/radio{
+	pixel_x = 2;
+	pixel_y = 1
+	},
+/obj/item/radio{
+	pixel_x = -8
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
 "UM" = (
 /obj/machinery/door/airlock/atmos,
 /turf/simulated/floor/plasteel{
@@ -3480,6 +4278,10 @@
 /obj/item/gun/energy/gun/shotgun,
 /obj/item/gun/energy/gun/shotgun,
 /turf/simulated/floor/mineral/plastitanium,
+/area/template_noop)
+"Vc" = (
+/obj/machinery/door/airlock/clockwork,
+/turf/simulated/floor/clockwork,
 /area/template_noop)
 "Vh" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/corner{
@@ -3541,6 +4343,12 @@
 /obj/machinery/autolathe/upgraded/gamma,
 /turf/simulated/floor/plasteel/white,
 /area/template_noop)
+"VN" = (
+/obj/effect/turf_decal/tiles/white/half{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark/half,
+/area/template_noop)
 "VO" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
@@ -3567,6 +4375,11 @@
 /obj/machinery/economy/vending/smith,
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
+	},
+/area/template_noop)
+"Wi" = (
+/turf/simulated/floor/plasteel/fakestairs/center{
+	dir = 8
 	},
 /area/template_noop)
 "Wj" = (
@@ -3720,6 +4533,10 @@
 "XO" = (
 /turf/simulated/wall/mineral/titanium,
 /area/template_noop)
+"Yf" = (
+/mob/living/simple_animal/hostile/clockwork_construct/clockwork_marauder/hostile,
+/turf/simulated/floor/clockwork,
+/area/template_noop)
 "Yi" = (
 /turf/simulated/wall/indestructible/opsglass/titanium_window,
 /area/template_noop)
@@ -3804,6 +4621,17 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/template_noop)
+"Zq" = (
+/obj/structure/railing/cap/normal{
+	dir = 4
+	},
+/obj/effect/turf_decal/tiles/department/command,
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"Zs" = (
+/obj/item/flag/nt,
+/turf/simulated/floor/plasteel/dark,
+/area/template_noop)
 "Zt" = (
 /obj/structure/chair/sofa/bench/right,
 /turf/simulated/floor/plasteel{
@@ -3823,6 +4651,11 @@
 	pixel_y = 10
 	},
 /turf/simulated/floor/plasteel/dark,
+/area/template_noop)
+"ZJ" = (
+/obj/effect/turf_decal/siding,
+/obj/structure/railing,
+/turf/simulated/floor/plasteel/dark/full,
 /area/template_noop)
 "ZK" = (
 /obj/effect/turf_decal/tiles/department/engineering/corner{
@@ -4757,28 +5590,28 @@ Rp
 Rp
 Rp
 yA
+Aa
+Aa
+Aa
+Aa
+Aa
 yA
+Aa
+Aa
+Aa
+Aa
+Aa
+Aa
+Aa
+Aa
+Aa
 yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
+Aa
+Aa
+Aa
+Aa
+Aa
+Aa
 yA
 Rp
 Rp
@@ -4919,28 +5752,28 @@ Rp
 Rp
 yA
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+SV
+Rl
+Rl
+Rl
+SV
+mg
+SV
+Rl
+Rl
+Rl
+Rl
+Rl
+Rl
+Rl
+SV
+mg
+SV
+Rl
+Rl
+Rl
+Rl
+SV
 yA
 yA
 Rp
@@ -5080,30 +5913,30 @@ Rp
 Rp
 yA
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Zs
+Fr
+Dq
+Dq
+Dq
+Fr
+Fr
+Fr
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Fr
+Fr
+Fr
+Dq
+Dq
+Dq
+Dq
+Fr
+Zs
 yA
 yA
 Rp
@@ -5240,34 +6073,34 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Aa
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Aa
 Rp
 Rp
 Rp
@@ -5402,34 +6235,34 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Aa
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Aa
 Rp
 Rp
 Rp
@@ -5564,34 +6397,34 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Aa
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Aa
 Rp
 Rp
 Rp
@@ -5726,34 +6559,34 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Aa
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+yN
+Zq
+yN
+yN
+yN
+yN
+yN
+yN
+yN
+Gt
+yN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Aa
 Rp
 Rp
 Rp
@@ -5889,32 +6722,32 @@ yA
 yA
 yA
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+dX
+Fr
+Fr
+Fr
+Fr
+Fr
+yN
+yN
+xY
+yX
+Wi
+Wi
+Wi
+Wi
+Wi
+Ga
+FG
+yN
+yN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+lo
 yA
 yA
 yA
@@ -6051,32 +6884,32 @@ Ue
 Ue
 Ue
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+zx
+zf
+lT
+lO
+lO
+lO
+lO
+lO
+lO
+lO
+iC
+zf
+LJ
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 Ue
 Ue
@@ -6213,32 +7046,32 @@ Ue
 Ue
 Ue
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+yN
+nG
+Ln
+Ln
+Ln
+Ln
+Ln
+Ln
+Ln
+Ln
+Ln
+Ki
+yN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 Ue
 Ue
@@ -6375,32 +7208,32 @@ Ue
 Ue
 Ue
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+yN
+fl
+vL
+vL
+aK
+vL
+vL
+jz
+aK
+An
+Ap
+PL
+yN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 Ue
 Ue
@@ -6535,36 +7368,36 @@ Ue
 Ue
 Ue
 Ue
-Ue
+uw
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+yN
+fl
+vL
+vL
+aK
+vL
+jz
+aK
+aK
+vL
+vL
+PL
+yN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
-Ue
+Ac
 Ue
 Ue
 Ue
@@ -6697,36 +7530,36 @@ Ue
 Ue
 Ue
 Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+zM
+qb
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+yN
+fl
+vL
+vL
 aK
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
+jz
+aK
+JN
+aK
+vL
+vL
+PL
+yN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+OD
+AU
 Ue
 Ue
 Ue
@@ -6859,36 +7692,36 @@ Ue
 Ue
 Ue
 Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
+zM
+qb
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+yN
+fl
+vL
+vL
+aK
+aK
+Ap
+vL
+aK
+vL
+vL
+PL
+yN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+OD
+lP
 Ue
 Ue
 Ue
@@ -7021,36 +7854,36 @@ Ue
 Ue
 Ue
 Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
+zM
+qb
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+yN
+fl
+jz
+VN
+aK
+Ap
+vL
+vL
+aK
+vL
+vL
+PL
+yN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+OD
+sU
 Ue
 Ue
 Ue
@@ -7183,36 +8016,36 @@ Ue
 Ue
 Ue
 Ue
-Ue
+uw
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+dX
+Fr
+Fr
+Fr
+Fr
+Fr
+yN
+LZ
+fp
+fp
+Ot
+fp
+fp
+fp
+lg
+fp
+fp
+OV
+yN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+lo
 yA
-Ue
+up
 Ue
 Ue
 Ue
@@ -7345,34 +8178,34 @@ Ue
 Ue
 Ue
 Ue
-Ue
+nU
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+lh
+Bf
+AO
+Dx
+ZJ
+yX
+Wi
+Ga
+da
+Dx
+AO
+IB
+yL
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 Ue
 Ue
@@ -7509,32 +8342,32 @@ Ue
 Ue
 Ue
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+yN
+Il
+vL
+ri
+ZJ
+vw
+lO
+fM
+da
+ri
+vL
+eG
+yN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 Ue
 Ue
@@ -7671,32 +8504,32 @@ Ue
 Ue
 Ue
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+AS
+oz
+yx
+jI
+hf
+zc
+iT
+CX
+wY
+jI
+yx
+uS
+AS
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 Ue
 Ue
@@ -35218,26 +36051,26 @@ Ue
 Ue
 Ue
 aP
+uJ
+UL
+zL
+uJ
+uJ
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Ai
+wB
+tq
+Kl
+qF
 aP
 Ue
+uJ
+uJ
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
+uJ
 Ue
 Ue
 Ue
@@ -35381,29 +36214,29 @@ Ue
 Ue
 aP
 Ue
+uJ
+Ue
+uJ
+Ue
+uJ
+Ue
+uJ
 Ue
 Ue
 Ue
+uJ
+RL
+uJ
+uJ
+uJ
+uJ
 Ue
+uJ
+uJ
+uJ
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
 Ue
 Ue
 Ue
@@ -35535,45 +36368,45 @@ Ue
 Ue
 Ue
 Ue
+uJ
 Ue
 Ue
 Ue
 Ue
 Ue
+RL
+tW
+uJ
+uJ
 Ue
-aP
+uJ
+uJ
+uJ
+uJ
 Ue
+uJ
 Ue
+oi
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 Ue
+uJ
 Ue
+uJ
+uJ
 Ue
+uJ
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
 Ue
 Ue
 Ue
@@ -35687,54 +36520,54 @@ Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-mE
-mE
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
 Ue
 Ue
 Ue
 mE
-Ue
-Ue
-Ue
-Ue
 mE
+Yf
+Ue
+Ue
+Ue
+uJ
+uJ
 Ue
 Ue
 Ue
 Ue
+RL
+AC
+uJ
+uJ
+uJ
+uJ
+lD
+cY
+uJ
+uJ
+Ue
+uJ
+mY
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Yf
+uJ
+Ue
+Ue
+uJ
+Yf
+uJ
+uJ
+Ue
+uJ
 Ue
 Ue
 Ue
@@ -35848,59 +36681,59 @@ Ue
 Ue
 Ue
 Ue
+uJ
+Ue
+Ue
+uJ
 Ue
 Ue
 Ue
+Yf
+Ue
+Ue
+uJ
+Ue
+uJ
 Ue
 Ue
 Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
+uJ
+RL
+Qq
+uJ
+uJ
+uJ
+lD
+tD
+tD
+cY
+uJ
+uJ
+uJ
+eI
+RL
+uJ
+uJ
+uJ
+uJ
+Yf
+uJ
+uJ
+uJ
+uJ
 Ue
 Ue
+uJ
+uJ
+uJ
+uJ
 Ue
-mE
+uJ
+uJ
+uJ
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
+Yf
+uJ
 Ue
 Ue
 yA
@@ -36010,59 +36843,59 @@ Ue
 Ue
 Ue
 Ue
+uJ
+uJ
+Ue
+uJ
 Ue
 Ue
+uJ
+uJ
+Ue
+uJ
+uJ
+Ue
+uJ
+Ue
+uJ
+uJ
+uJ
+RL
+Rc
+uJ
+uJ
+uJ
+GN
+tD
+tD
+ui
+uJ
+uJ
+uJ
+qa
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
 Ue
 Ue
 yA
@@ -36173,58 +37006,58 @@ mE
 Ue
 Ue
 Ue
+uJ
 Ue
 Ue
+uJ
+uJ
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+JB
+uJ
+uJ
+uJ
+qz
+tD
+tD
+ji
+uJ
+uJ
+uJ
+Ku
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 Ue
 Ue
 yA
@@ -36331,64 +37164,64 @@ Ue
 Ue
 Ue
 Ue
+uJ
+Ue
+uJ
+uJ
+uJ
+uJ
+Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+RL
+RL
+RL
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+qz
+ji
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+RL
+RL
+RL
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-aP
-aP
-aP
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-aP
-aP
-aP
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
 yA
 Rp
 Rp
@@ -36490,67 +37323,67 @@ Rp
 Rp
 yA
 Ue
+uJ
 Ue
 Ue
 Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Vc
+uJ
+uJ
+uJ
+Vc
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Vc
+uJ
+uJ
+uJ
+Vc
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
 yA
 Rp
 Rp
@@ -36653,66 +37486,66 @@ Rp
 yA
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-nh
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Vc
+uJ
+uJ
+uJ
+Vc
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Vc
+uJ
+uJ
+uJ
+Vc
+uJ
+Yf
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Yf
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 yA
 Rp
 Rp
@@ -36815,66 +37648,66 @@ Rp
 yA
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-aP
-aP
-aP
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-aP
-aP
-aP
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+RL
+RL
+RL
+RL
+DT
+DT
+DT
+DT
+RL
+xX
+xX
+RL
+DT
+DT
+DT
+DT
+RL
+RL
+RL
+RL
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Yf
+uJ
+uJ
+uJ
+uJ
+uJ
 yA
 Rp
 Rp
@@ -36976,67 +37809,67 @@ Rp
 Rp
 yA
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Yf
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+uJ
+Eg
+pE
+CU
+Eh
+Nn
+Nn
+Eh
+Eg
+pE
+CU
+uJ
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 yA
 Rp
 Rp
@@ -37137,68 +37970,68 @@ Rp
 Rp
 Rp
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+Nn
+Nn
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 yA
 Rp
 Rp
@@ -37299,68 +38132,68 @@ Rp
 Rp
 Rp
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Yf
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+uJ
+Eg
+pE
+CU
+Eh
+Nn
+Nn
+Eh
+Eg
+pE
+CU
+uJ
+RL
+uJ
+uJ
+uJ
+uJ
+Yf
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 yA
 Rp
 Rp
@@ -37461,68 +38294,68 @@ Rp
 Rp
 Rp
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+Pd
+uJ
+uJ
+uJ
+uJ
+Nn
+Nn
+uJ
+uJ
+uJ
+uJ
+fd
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Yf
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 yA
 Rp
 Rp
@@ -37623,68 +38456,68 @@ Rp
 Rp
 Rp
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+uJ
+Eg
+pE
+CU
+Eh
+Nn
+Nn
+Eh
+Eg
+pE
+CU
+uJ
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 yA
 Rp
 Rp
@@ -37785,68 +38618,68 @@ Rp
 Rp
 Rp
 yA
-Ue
-Ue
-Ue
-mE
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+Yf
+Yf
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Yf
+uJ
+uJ
+uJ
+uJ
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+Nn
+Nn
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+Yf
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 yA
 Rp
 Rp
@@ -37947,68 +38780,68 @@ Rp
 Rp
 Rp
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+Nn
+Nn
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 yA
 Rp
 Rp
@@ -38109,68 +38942,68 @@ Rp
 Rp
 Rp
 yA
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
-Nv
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+RL
+uJ
+uJ
+uJ
+uJ
+lU
+oH
+Kh
+lU
+uJ
+uJ
+uJ
+uJ
+RL
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
+IT
 yA
 Rp
 Rp
@@ -38271,68 +39104,68 @@ Rp
 Rp
 Rp
 yA
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
-Pl
-Pl
-wl
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
+RL
+RL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
+RL
+RL
+FL
 yA
 Rp
 Rp
@@ -38458,18 +39291,18 @@ yA
 yA
 yA
 yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
+RL
+RL
+uJ
+HS
+uJ
+uJ
+uJ
+uJ
+HS
+uJ
+RL
+RL
 yA
 yA
 yA
@@ -38619,20 +39452,20 @@ Rp
 Rp
 Rp
 Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
+yA
+yA
+RL
+RL
+RL
+RL
+RL
+RL
+RL
+RL
+RL
+RL
+yA
+yA
 Rp
 Rp
 Rp
@@ -38782,18 +39615,18 @@ Rp
 Rp
 Rp
 Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
-Rp
+yA
+yA
+yA
+yA
+yA
+yA
+yA
+yA
+yA
+yA
+yA
+yA
 Rp
 Rp
 Rp
