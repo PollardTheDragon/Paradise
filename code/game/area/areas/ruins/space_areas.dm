@@ -292,6 +292,11 @@
 	requires_power = FALSE
 	ambientsounds = list("sound/ambience/reebe_ambience_1.ogg", "sound/ambience/reebe_ambience_2.ogg", "sound/ambience/reebe_ambience_3.ogg")
 
+/area/ruin/space/nss_murphy/clockwork
+	name = "\improper NSS Murphy Engineering Deck"
+	requires_power = FALSE
+	ambientsounds = list("sound/ambience/reebe_ambience_1.ogg", "sound/ambience/reebe_ambience_2.ogg", "sound/ambience/reebe_ambience_3.ogg")
+
 /area/ruin/space/rocky_motel
 	name = "\improper Rocky Motel"
 	icon_state = "rocky_motel"
