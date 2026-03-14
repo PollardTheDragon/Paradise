@@ -28,6 +28,15 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"ar" = (
+/obj/machinery/smithing/casting_basin,
+/obj/machinery/light,
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "at" = (
 /obj/structure/table/reinforced,
 /obj/item/stock_parts/cell/hyper{
@@ -80,10 +89,9 @@
 	requires_power = 0
 	})
 "aC" = (
-/mob/living/basic/malfborg/service,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/machinery/cooking/ice_cream_mixer/upgraded,
+/turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -215,6 +223,14 @@
 "bf" = (
 /obj/item/gun/projectile/automatic/pistol/deagle,
 /turf/simulated/floor/indestructible/titanium/blue,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"bl" = (
+/obj/structure/chair/comfy/brown{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -668,6 +684,16 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"dS" = (
+/obj/structure/table/glass/reinforced/plasma,
+/obj/item/ashtray/bronze{
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dW" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -738,6 +764,16 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"el" = (
+/mob/living/basic/goat/chef{
+	name = "Ramsay"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "et" = (
 /mob/living/basic/scarybat,
 /turf/simulated/floor/plasteel{
@@ -802,6 +838,13 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"eU" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/machinery/cooking/deepfryer/upgraded,
+/turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -919,6 +962,17 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"gc" = (
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gd" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/plasteel/dark,
@@ -941,6 +995,12 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"gr" = (
+/obj/machinery/economy/vending/cigarette,
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -1135,6 +1195,16 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"hP" = (
+/obj/structure/sign/service/bar{
+	pixel_y = -32
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hQ" = (
 /obj/machinery/porta_turret/ruin/immolator,
 /turf/simulated/floor/plasteel/full{
@@ -1172,6 +1242,14 @@
 	},
 /obj/structure/closet/crate/freezer/iv_storage,
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"ij" = (
+/obj/structure/chair,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -1280,6 +1358,22 @@
 /obj/structure/gunrack/clockwork,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
+"jd" = (
+/obj/structure/chair/wood/wings{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"jf" = (
+/obj/structure/sink/kitchen/directional/north,
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ji" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 6
@@ -1417,6 +1511,16 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"ko" = (
+/obj/structure/table/glass/reinforced/plasma,
+/obj/item/book/manual/barman_recipes,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kr" = (
 /obj/machinery/door/airlock/survival_pod/glass,
 /turf/simulated/floor/mineral/plastitanium,
@@ -1427,6 +1531,13 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"ky" = (
+/obj/structure/table/glass/reinforced/plasma,
+/obj/item/clothing/mask/cigarette/pipe,
+/turf/simulated/floor/carpet/purple,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -1443,6 +1554,15 @@
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/simulated/floor/indestructible/titanium,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"kE" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -1465,6 +1585,16 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"kK" = (
+/obj/structure/sign/service/bar{
+	pixel_x = 32
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -1607,6 +1737,21 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"lK" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/structure/table/reinforced,
+/obj/machinery/reagentgrinder{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/condiment/enzyme{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lN" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -1682,6 +1827,22 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"lY" = (
+/obj/structure/table/glass/reinforced/plasma,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"lZ" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mg" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/machinery/light/spot{
@@ -1750,6 +1911,25 @@
 /obj/effect/turf_decal/woodsiding,
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/nss_murphy/clockwork)
+"mD" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cooking/bowl,
+/obj/machinery/light,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"mG" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mH" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 4
@@ -1795,6 +1975,14 @@
 /obj/machinery/light/clockwork,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
+"nb" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ne" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/effect/turf_decal/box/white{
@@ -1810,6 +1998,24 @@
 	name = "Bloodstained note"
 	},
 /turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"nl" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/structure/table/reinforced,
+/obj/machinery/cooking/grill/upgraded,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"nn" = (
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -1921,6 +2127,16 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/nss_murphy/clockwork)
+"og" = (
+/obj/structure/sign/service/kitchen{
+	pixel_x = 32
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "oi" = (
 /obj/structure/shelf/clockwork,
 /obj/item/clockwork/component/replicant_alloy,
@@ -1978,6 +2194,19 @@
 	dir = 1
 	},
 /obj/effect/spawner/random/pool/spaceloot/syndicate/common,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"oE" = (
+/obj/machinery/biogenerator,
+/obj/item/reagent_containers/glass/bucket,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
@@ -2068,6 +2297,7 @@
 	})
 "pz" = (
 /obj/machinery/economy/vending/syndisnack,
+/obj/machinery/light,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
@@ -2233,6 +2463,15 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"qy" = (
+/obj/structure/table/glass/reinforced/plasma,
+/obj/item/eftpos/register{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qz" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 5
@@ -2260,6 +2499,9 @@
 /area/ruin/space/nss_murphy/clockwork)
 "qG" = (
 /obj/machinery/smithing/casting_basin,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
@@ -2349,6 +2591,15 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"qV" = (
+/obj/machinery/chem_dispenser/beer{
+	pixel_y = 8
+	},
+/obj/structure/table/glass/reinforced/plasma,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qZ" = (
 /turf/simulated/floor/indestructible/titanium,
 /area/ruin/space/nss_murphy{
@@ -2385,10 +2636,27 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"rp" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/mob/living/basic/malfborg/service,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ru" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/light,
 /obj/structure/closet/crate/freezer/iv_storage,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"rz" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/structure/window/basic,
+/obj/machinery/icemachine{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -2438,9 +2706,36 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"rY" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/box/disks_plantgene{
+	pixel_x = 7;
+	pixel_y = 10
+	},
+/obj/item/storage/box/disks_plantgene{
+	pixel_x = -7;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/glass/bucket,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "rZ" = (
 /mob/living/basic/carp/holocarp,
 /turf/simulated/floor/transparent/glass/titanium,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"sb" = (
+/obj/machinery/economy/vending/hydroseeds,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -2524,6 +2819,11 @@
 /obj/item/reagent_containers/iv_bag/slime,
 /obj/item/reagent_containers/iv_bag/slime,
 /turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"sR" = (
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -2801,6 +3101,15 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"uz" = (
+/obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "uB" = (
 /obj/effect/spawner/random/blood,
 /obj/effect/mob_spawn/human/corpse/random_species/scientist,
@@ -2824,6 +3133,15 @@
 /area/ruin/space/nss_murphy/clockwork)
 "uK" = (
 /obj/effect/mine/pickup/bloodbath,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"uP" = (
+/obj/structure/closet/crate/hydroponics/prespawned,
+/obj/effect/turf_decal/tiles/department/virology/mono,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
@@ -2920,6 +3238,9 @@
 	})
 "vD" = (
 /obj/machinery/economy/vending/coffee,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
@@ -3035,6 +3356,13 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"wp" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tiles/dark/checker,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wq" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 8
@@ -3088,6 +3416,22 @@
 /area/ruin/space/nss_murphy/clockwork)
 "wD" = (
 /obj/effect/turf_decal/trimline/department/science/filled/warning,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"wG" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cooking/board,
+/obj/item/kitchen/knife{
+	pixel_x = 9;
+	pixel_y = 3
+	},
+/obj/item/kitchen/rollingpin{
+	pixel_x = -5;
+	pixel_y = 4
+	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -3156,6 +3500,14 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"xo" = (
+/obj/machinery/gibber,
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xp" = (
 /obj/effect/spawner/random/blood/often,
 /obj/item/clothing/head/welding,
@@ -3208,6 +3560,25 @@
 "xC" = (
 /mob/living/basic/mining/basilisk/watcher/magmawing,
 /turf/simulated/floor/plasteel/dark/grid{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"xJ" = (
+/obj/machinery/seed_extractor,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"xK" = (
+/obj/structure/sign/service/bar{
+	pixel_x = -32
+	},
+/turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/nss_murphy{
@@ -3271,6 +3642,16 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/nss_murphy/clockwork)
+"yg" = (
+/obj/structure/table/wood,
+/obj/item/ashtray/bronze{
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yi" = (
 /obj/structure/table/reinforced/brass,
 /obj/effect/spawner/random/food_or_drink/juice_boxes,
@@ -3297,6 +3678,12 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"yv" = (
+/obj/effect/turf_decal/woodsiding,
+/turf/simulated/floor/carpet/purple,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -3339,6 +3726,13 @@
 "yH" = (
 /obj/machinery/mech_bay_recharge_port/upgraded,
 /turf/simulated/floor/bluegrid,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"yI" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/machinery/cooking/oven/upgraded,
+/turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -3455,6 +3849,13 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"zr" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/cigarettes/cigpack_uplift,
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zv" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -3462,6 +3863,14 @@
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /turf/simulated/floor/indestructible/titanium/blue,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"zw" = (
+/obj/structure/chair/stool/bar{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -3536,6 +3945,13 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"zX" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/cigars,
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Aa" = (
 /obj/machinery/door/poddoor/impassable{
 	id = "murphy_bridge_lockdown";
@@ -3564,10 +3980,22 @@
 	},
 /area/ruin/space/nss_murphy/clockwork)
 "Am" = (
-/obj/structure/table/reinforced,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/item/eftpos/register{
+	pixel_y = 2
 	},
+/obj/item/reagent_containers/condiment/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/condiment/peppermill{
+	pixel_x = 3
+	},
+/obj/structure/table/glass/reinforced/titanium,
+/obj/machinery/door/poddoor/shutters{
+	id_tag = "nss_murphy_kitchen";
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -3610,6 +4038,13 @@
 	},
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
+"AH" = (
+/obj/machinery/economy/vending/coffee,
+/obj/machinery/light,
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "AI" = (
 /obj/item/ammo_box/magazine/laser,
 /obj/item/ammo_box/magazine/laser,
@@ -3715,6 +4150,14 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"Bm" = (
+/obj/machinery/light/spot,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Bo" = (
 /mob/living/simple_animal/hostile/syndicate/modsuit/elite,
 /turf/simulated/floor/plasteel{
@@ -3765,6 +4208,19 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"BB" = (
+/obj/structure/table/wood,
+/obj/item/ashtray/bronze{
+	pixel_x = -1;
+	pixel_y = 1
+	},
+/obj/structure/sign/service/kitchen{
+	pixel_y = -32
+	},
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "BC" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -3773,6 +4229,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/mineral/plastitanium,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"BZ" = (
+/obj/machinery/door/airlock/public,
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -3799,6 +4261,16 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"Cc" = (
+/obj/machinery/light/spot{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Cm" = (
 /obj/item/storage/box/emptysandbags,
 /turf/simulated/floor/plasteel{
@@ -3808,6 +4280,13 @@
 "Co" = (
 /obj/structure/morgue,
 /turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Cq" = (
+/obj/machinery/smartfridge/food/chef,
+/obj/effect/turf_decal/tiles/dark/checker,
+/turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -3853,6 +4332,15 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"CF" = (
+/obj/machinery/chem_master,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -3930,6 +4418,14 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/nss_murphy/clockwork)
+"Dc" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Dd" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 8
@@ -4011,6 +4507,12 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"DD" = (
+/obj/machinery/economy/slot_machine,
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "DI" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/ammo_casing/rocket,
@@ -4039,6 +4541,12 @@
 	},
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /turf/simulated/floor/indestructible/titanium/blue,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"DS" = (
+/obj/structure/reagent_dispensers/beerkeg/nuke,
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -4092,6 +4600,15 @@
 /obj/machinery/light/clockwork/floor,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
+"Ei" = (
+/obj/machinery/economy/vending/hydronutrients,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "El" = (
 /obj/structure/closet/crate,
 /obj/item/ammo_casing/caseless/magspear,
@@ -4154,6 +4671,16 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"ER" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ES" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw{
 	dir = 1
@@ -4201,6 +4728,13 @@
 /obj/effect/spawner/random/bluespace_tap/clothes_rare,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Fh" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
 	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -4267,6 +4801,16 @@
 /obj/effect/spawner/random/blood,
 /obj/effect/mob_spawn/human/corpse/random_species/assistant,
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"FF" = (
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -4382,6 +4926,18 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"Gj" = (
+/obj/machinery/hydroponics/constructable,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Go" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/merchantguild_major,
@@ -4427,9 +4983,27 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"Gv" = (
+/obj/structure/table/reinforced,
+/obj/machinery/reagentgrinder,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "GC" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/simulated/floor/indestructible/titanium/blue,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"GE" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/machinery/cooking/stovetop/loaded,
+/obj/structure/table/reinforced,
+/turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -4470,10 +5044,40 @@
 	},
 /turf/simulated/floor/lava/plasma,
 /area/ruin/space/nss_murphy/clockwork)
+"GO" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/machinery/smartfridge/foodcart{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "GR" = (
 /mob/living/basic/gorilla/rampaging,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"GX" = (
+/obj/structure/sign/service/botany{
+	pixel_x = 32
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"GY" = (
+/obj/structure/closet/crate/freezer,
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
 	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -4562,6 +5166,14 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"HA" = (
+/obj/structure/chair/wood/wings{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "HC" = (
 /obj/effect/turf_decal/tiles/department/science,
 /obj/effect/spawner/random/blood,
@@ -4581,11 +5193,24 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"HE" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/machinery/economy/vending/dinnerware,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "HJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/freezer,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"HK" = (
+/obj/machinery/economy/vending/boozeomat,
+/turf/simulated/floor/carpet/purple,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -4838,6 +5463,14 @@
 /obj/item/clockwork/component/hierophant_ansible/obelisk,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
+"JC" = (
+/obj/machinery/light,
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "JG" = (
 /mob/living/basic/netherworld/migo,
 /turf/simulated/floor/plasteel/full{
@@ -4846,11 +5479,26 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"JJ" = (
+/obj/structure/table/glass/reinforced/plasma,
+/obj/item/reagent_containers/drinks/flask/barflask,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "JL" = (
 /obj/structure/sign/medical/surgery{
 	pixel_y = -32
 	},
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"JM" = (
+/obj/machinery/door/airlock/freezer,
+/turf/simulated/wall/mineral/titanium/interior{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -4866,6 +5514,11 @@
 /turf/simulated/floor/plasteel/dark/corner{
 	dir = 1
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"JQ" = (
+/turf/simulated/floor/carpet/purple,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -5015,6 +5668,12 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"KF" = (
+/obj/machinery/computer/arcade,
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "KG" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/table/glass/reinforced/titanium,
@@ -5029,9 +5688,17 @@
 	})
 "KL" = (
 /obj/machinery/door/airlock/glass,
+/obj/effect/turf_decal/tiles/department/virology/mono,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"KU" = (
+/obj/structure/table/glass/reinforced/plasma,
+/obj/item/gun/projectile/revolver/doublebarrel,
+/turf/simulated/floor/carpet/purple,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -5062,6 +5729,20 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"Lc" = (
+/obj/machinery/chem_master/condimaster{
+	name = "CondiMaster Neo";
+	pixel_x = -5
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ld" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 6
@@ -5083,6 +5764,14 @@
 	},
 /turf/simulated/floor/plasteel/dark/half{
 	dir = 1
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Lo" = (
+/obj/structure/kitchenspike,
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
 	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -5130,6 +5819,18 @@
 	},
 /obj/effect/turf_decal/tiles/department/command,
 /turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"LN" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/machinery/door_control{
+	id = "nss_murphy_kitchen";
+	name = "Kitchen shutters";
+	pixel_x = -28;
+	pixel_y = 5
+	},
+/turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -5226,6 +5927,14 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/nss_murphy/clockwork)
+"Mv" = (
+/obj/structure/sign/public/cryo{
+	pixel_x = -32
+	},
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Mw" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
@@ -5236,6 +5945,14 @@
 "My" = (
 /obj/machinery/atmospherics/unary/thermomachine/freezer/on,
 /turf/simulated/floor/plasteel/freezer,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Mz" = (
+/obj/structure/chair/wood/wings{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -5252,6 +5969,16 @@
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"MG" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/structure/extinguisher_cabinet{
+	name = "west bump";
+	pixel_x = -27
+	},
+/turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -5325,6 +6052,18 @@
 "Nn" = (
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/nss_murphy/clockwork)
+"Nu" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/structure/window/basic{
+	dir = 8
+	},
+/obj/machinery/processor{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Nv" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -5369,6 +6108,14 @@
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/iv_drip,
 /turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"NN" = (
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -5495,6 +6242,12 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"Oz" = (
+/mob/living/basic/malfborg/service,
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "OD" = (
 /obj/structure/barricade/wooden,
 /obj/machinery/door/airlock/command{
@@ -5584,6 +6337,29 @@
 	dir = 4
 	},
 /turf/simulated/floor/mineral/plastitanium,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Pu" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/structure/window/basic,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Pw" = (
+/obj/structure/table/glass/reinforced/plasma,
+/obj/item/storage/fancy/matches,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"PB" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -5733,6 +6509,16 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"QW" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ra" = (
 /obj/effect/turf_decal/trimline/department/medbay/corner,
 /turf/simulated/floor/plasteel/white,
@@ -5842,6 +6628,13 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"RK" = (
+/obj/machinery/door/airlock/glass,
+/obj/effect/turf_decal/tiles/dark/checker,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "RL" = (
 /turf/simulated/wall/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
@@ -5862,6 +6655,17 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/nss_murphy/clockwork)
+"RV" = (
+/obj/machinery/smithing/kinetic_assembler,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "RX" = (
 /obj/structure/table/glass/reinforced/titanium,
 /obj/item/storage/firstaid/regular,
@@ -5993,12 +6797,24 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"SS" = (
+/obj/machinery/gameboard,
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ST" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/computer/operating{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"SU" = (
+/obj/machinery/economy/atm/directional/west,
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -6049,6 +6865,15 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"TG" = (
+/obj/effect/turf_decal/woodsiding{
+	dir = 10
+	},
+/mob/living/basic/malfborg/service,
+/turf/simulated/floor/carpet/purple,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -6129,6 +6954,21 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Ur" = (
+/obj/machinery/door/airlock/research,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Us" = (
+/obj/structure/table/wood,
+/obj/item/kitchen/utensil/fork,
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -6230,6 +7070,17 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"UW" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/structure/table/glass/reinforced/titanium,
+/obj/machinery/door/poddoor/shutters{
+	id_tag = "nss_murphy_kitchen";
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "UY" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/plasma{
@@ -6238,6 +7089,12 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"UZ" = (
+/obj/structure/chair/wood/wings,
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -6256,10 +7113,25 @@
 	},
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
+"Vg" = (
+/obj/machinery/chem_dispenser/soda{
+	pixel_y = 8
+	},
+/obj/structure/table/glass/reinforced/plasma,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Vh" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/corner{
 	dir = 8
 	},
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Vi" = (
+/obj/effect/turf_decal/tiles/dark/checker,
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -6361,7 +7233,7 @@
 	requires_power = 0
 	})
 "VR" = (
-/obj/machinery/door/airlock/public,
+/obj/machinery/door/airlock/mining,
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
@@ -6375,6 +7247,12 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Wc" = (
+/obj/structure/table/wood,
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -6404,6 +7282,14 @@
 /obj/effect/turf_decal/tiles/department/science,
 /mob/living/basic/malfborg,
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Wn" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -6478,11 +7364,33 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"WO" = (
+/obj/structure/chair/comfy/brown{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "WP" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"WV" = (
+/obj/effect/turf_decal/woodsiding{
+	dir = 8
+	},
+/obj/structure/chair/stool/bar{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/purple,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -6501,6 +7409,13 @@
 	},
 /obj/item/soap,
 /turf/simulated/floor/plasteel/freezer,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Xm" = (
+/obj/structure/table/wood,
+/obj/item/candle,
+/turf/simulated/floor/wood,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -6542,6 +7457,13 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"Xu" = (
+/obj/structure/table/glass/reinforced/plasma,
+/obj/item/reagent_containers/glass/rag,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Xv" = (
 /obj/machinery/light{
 	dir = 1
@@ -6580,6 +7502,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/titanium,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"XN" = (
+/obj/machinery/smithing/lava_furnace,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -6630,6 +7563,15 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"Yq" = (
+/obj/effect/turf_decal/woodsiding,
+/obj/structure/chair/stool/bar{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Yt" = (
 /obj/structure/closet/crate,
 /turf/simulated/floor/plasteel/full{
@@ -6673,6 +7615,13 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"Yz" = (
+/obj/structure/table/wood,
+/obj/item/clothing/head/cakehat,
+/turf/simulated/floor/wood,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "YB" = (
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 4
@@ -6687,6 +7636,15 @@
 /obj/structure/closet/crate,
 /obj/item/gun/projectile/bow,
 /turf/simulated/floor/plasteel/full{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"YM" = (
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/mob/living/basic/malfborg/service,
+/turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/nss_murphy{
@@ -6725,6 +7683,16 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"YT" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/structure/sink/kitchen/directional/south,
+/obj/structure/window/basic{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "YU" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/stack/ore/palladium{
@@ -6753,6 +7721,16 @@
 "Zh" = (
 /obj/machinery/optable,
 /turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Zk" = (
+/obj/structure/table/reinforced,
+/obj/machinery/plantgenes,
+/obj/effect/turf_decal/tiles/department/virology/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -26246,7 +27224,7 @@ yA
 mI
 mI
 ku
-Si
+RV
 Si
 ku
 mI
@@ -26386,7 +27364,7 @@ Yi
 Ue
 LX
 Ue
-hW
+Ur
 Ue
 Bg
 Bg
@@ -26548,7 +27526,7 @@ Yi
 Ue
 LX
 Ue
-hW
+Ur
 Ue
 Bg
 Bg
@@ -26891,14 +27869,14 @@ Rp
 Rp
 Rp
 yA
-Po
+XN
 Wj
 Wj
 Wj
 Wj
 Wj
 bx
-ku
+JC
 yA
 Ue
 Ue
@@ -27863,14 +28841,14 @@ Rp
 Rp
 Rp
 yA
-Po
+XN
 Wj
 Wj
 Wj
 Wj
 Wj
 bx
-ku
+JC
 yA
 Ue
 LX
@@ -29004,7 +29982,7 @@ Wj
 Wj
 LC
 LC
-qG
+ar
 yA
 Ue
 LX
@@ -29811,7 +30789,7 @@ ku
 ku
 ku
 ku
-ku
+mG
 ku
 ku
 ku
@@ -30759,6 +31737,7 @@ Ue
 aP
 Ue
 Ue
+Cc
 Ue
 Ue
 Ue
@@ -30769,6 +31748,14 @@ Ue
 Ue
 Ue
 Ue
+Cc
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Cc
 Ue
 Ue
 Ue
@@ -30779,16 +31766,7 @@ Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Cc
 Ue
 Ue
 aP
@@ -32215,7 +33193,7 @@ Ue
 Ue
 Ue
 aP
-Ue
+FF
 Ue
 Wk
 Ue
@@ -32229,12 +33207,12 @@ Ue
 Ue
 Ue
 vI
-Ue
+Bm
 aP
 aP
 aP
 aP
-Ue
+FF
 Wk
 Ue
 AZ
@@ -32248,7 +33226,7 @@ Ue
 Ue
 vI
 Ue
-Ue
+Bm
 aP
 Ue
 Ue
@@ -34159,7 +35137,7 @@ mj
 mj
 Ue
 aP
-Ue
+FF
 Ue
 Wk
 Ue
@@ -34173,12 +35151,12 @@ Ue
 Ue
 Ue
 vI
-Ue
+Bm
 aP
 aP
 aP
 aP
-Ue
+FF
 Wk
 Ue
 Ue
@@ -34192,7 +35170,7 @@ Ue
 Ue
 vI
 Ue
-Ue
+Bm
 aP
 Ue
 mj
@@ -35619,6 +36597,7 @@ Ue
 aP
 Ue
 Ue
+nn
 Ue
 Ue
 Ue
@@ -35629,6 +36608,14 @@ Ue
 Ue
 Ue
 Ue
+nn
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+nn
 Ue
 Ue
 Ue
@@ -35639,16 +36626,7 @@ Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+nn
 Ue
 Ue
 aP
@@ -35659,7 +36637,7 @@ Ue
 Ue
 Ue
 Ue
-Ue
+kK
 Ue
 Ue
 Ue
@@ -35976,27 +36954,27 @@ Ue
 Ue
 Ue
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
+KF
+zw
+nb
+sR
+SU
+Mv
+sR
+sR
+sR
+sR
+nb
+sR
+sR
+BZ
+xK
 Ue
 Ue
 JV
 Ue
 Ue
-Ue
+ER
 Ue
 Ue
 Ue
@@ -36008,8 +36986,8 @@ Ue
 Ue
 Lb
 Ue
-Ue
-yA
+ij
+Yi
 Rp
 Rp
 Rp
@@ -36138,6 +37116,20 @@ Ue
 Ue
 Ue
 aP
+DD
+zw
+sR
+HA
+sR
+sR
+HA
+HA
+HA
+HA
+sR
+sR
+sR
+BZ
 Ue
 Ue
 Ue
@@ -36151,27 +37143,13 @@ Ue
 Ue
 Ue
 Ue
-hW
 Ue
 Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+ij
+Yi
 Rp
 Rp
 Rp
@@ -36300,40 +37278,40 @@ Ue
 Ue
 Ue
 aP
+DD
+zw
+sR
+SS
+sR
+sR
+Wc
+yg
+zr
+Us
+Oz
+sR
+sR
+BZ
+QW
+Ue
+Ue
+Ue
+Ue
+Ue
+og
 Ue
 Ue
 Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
-aC
-Ue
-Ue
-Ue
-hW
+GX
 Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+ij
+Yi
 Rp
 Rp
 Rp
@@ -36462,26 +37440,26 @@ Ue
 Ue
 Ue
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+DD
+zw
+sR
+Mz
+sR
+sR
+Us
+Yz
+yg
+Wc
+sR
+sR
+AH
 aP
 aP
 aP
 aP
 aP
-KL
-KL
+RK
+RK
 aP
 aP
 aP
@@ -36624,39 +37602,39 @@ Ue
 Ue
 Ue
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-KL
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+DD
+zw
+sR
+sR
+sR
+sR
+Mz
+Mz
+Mz
+Mz
+sR
+sR
+sR
+RK
+LN
+Vi
+kE
+MG
+Vi
+Vi
+Vi
+kE
+Vi
+HE
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Ei
+sb
+oE
+NN
+NN
+PB
+NN
+uz
 yA
 Rp
 Rp
@@ -36784,42 +37762,42 @@ Ue
 Ue
 Ue
 Ue
-Ue
+hP
 aP
-Ue
-Ue
-Ue
-Ue
-aC
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+gr
+Oz
+sR
+sR
+Oz
+sR
+sR
+sR
+sR
+sR
+sR
+sR
+sR
 Am
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-aC
-Ue
-Ue
-Ue
-Ue
-yA
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Cq
+NN
+NN
+NN
+NN
+NN
+NN
+NN
+uz
+Yi
 Rp
 Rp
 Rp
@@ -36947,41 +37925,41 @@ Ue
 Ue
 Ue
 Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Am
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aC
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+BZ
+sR
+sR
+sR
+sR
+DS
+sR
+sR
+sR
+sR
+HA
+HA
+HA
+sR
+UW
+Vi
+Vi
+rp
+Vi
+Vi
+rp
+Vi
+Vi
+Vi
+Vi
+wp
+NN
+NN
+NN
+NN
+NN
+NN
+NN
+uz
+Yi
 Rp
 Rp
 Rp
@@ -37110,40 +38088,40 @@ Ue
 Ue
 Ue
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Am
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Am
-Ue
-Ue
-Ue
-Ue
-aC
-Ue
-Ue
-Ue
-yA
+Dc
+sR
+sR
+sR
+sR
+sR
+sR
+sR
+sR
+zX
+Xm
+Wc
+sR
+UW
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+Vi
+aP
+uz
+YM
+uz
+uz
+YM
+NN
+NN
+uz
+Yi
 Rp
 Rp
 Rp
@@ -37272,40 +38250,40 @@ Ue
 Ue
 Ue
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Am
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+WV
+WV
+WV
+WV
+WV
+WV
+WV
+TG
+sR
+Mz
+Mz
+Mz
+sR
+UW
+Vi
+Pu
+Nu
+Vi
+YT
+aP
+JM
+aP
+aP
+aP
+aP
+uz
+NN
+uz
+uz
+NN
+NN
+NN
+uz
+Yi
 Rp
 Rp
 Rp
@@ -37434,39 +38412,39 @@ Ue
 Ue
 Ue
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+lY
+dS
+Xu
+Pw
+dS
+qy
+ky
+Yq
+sR
+sR
+sR
+sR
+sR
+UW
+Vi
+Pu
 aC
-Ue
-Ue
-Ue
-Ue
-Am
-Ue
-Ue
-aC
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Vi
+lK
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fh
+lZ
+Fh
+Lo
+aP
+uz
+NN
+uz
+uz
+NN
+NN
+NN
+Gj
 yA
 Rp
 Rp
@@ -37596,38 +38574,38 @@ Ue
 Ue
 Ue
 aP
-Ue
-Ue
-aC
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Am
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+HK
+JQ
+JQ
+JQ
+JQ
+JQ
+dS
+Yq
+sR
+UZ
+Xm
+jd
+sR
+UW
+Vi
+Pu
+eU
+Vi
+mD
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+jf
+el
+Fh
+Lo
+aP
+uz
+NN
+NN
+NN
+NN
+NN
+NN
 yA
 yA
 Rp
@@ -37758,37 +38736,37 @@ Ue
 Ue
 Ue
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Am
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+qV
+JQ
+JQ
+JQ
+JQ
+JQ
+lY
+Yq
+sR
+sR
+sR
+sR
+sR
+UW
+Vi
+Pu
+GE
+Vi
+wG
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fh
+Fh
+Fh
+Fh
+aP
+gc
+NN
+NN
+NN
+NN
+uP
 yA
 yA
 Rp
@@ -37920,36 +38898,36 @@ Ue
 Ue
 Ue
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Vg
+JQ
+ko
+JJ
+KU
+JQ
+JQ
+yv
+sR
+yg
+WO
+bl
+BB
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+GO
+rz
+yI
+Vi
+nl
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
+Wn
+Lc
+xo
+GY
+aP
+xJ
+Zk
+rY
+Gv
+CF
 yA
 yA
 Rp
@@ -38098,6 +39076,9 @@ mu
 mu
 yA
 yA
+Yi
+Yi
+Yi
 yA
 yA
 yA
@@ -38105,12 +39086,9 @@ yA
 yA
 yA
 yA
-yA
-yA
-yA
-yA
-yA
-yA
+Yi
+Yi
+Yi
 yA
 yA
 Rp
