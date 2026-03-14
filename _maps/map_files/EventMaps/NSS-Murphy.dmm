@@ -12,7 +12,9 @@
 /obj/item/roller,
 /obj/item/roller,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "aj" = (
 /turf/simulated/wall/mineral/titanium/interior{
 	baseturf = /turf/simulated/floor/plating
@@ -23,7 +25,9 @@
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "at" = (
 /obj/structure/table/reinforced,
 /obj/item/stock_parts/cell/hyper{
@@ -60,7 +64,9 @@
 	},
 /obj/structure/sink/directional/east,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "az" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -70,7 +76,17 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"aC" = (
+/mob/living/basic/malfborg/service,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "aE" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/closet/crate/freezer/iv_storage,
@@ -85,27 +101,36 @@
 /obj/item/reagent_containers/iv_bag/slime,
 /obj/machinery/light,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "aI" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/solarcentral_major,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "aJ" = (
 /obj/structure/table/reinforced/brass,
 /obj/effect/turf_decal/woodsiding/end,
+/obj/item/storage/belt/sheath/snakesfang,
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/nss_murphy/clockwork)
 "aK" = (
 /turf/simulated/floor/plasteel/white/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "aP" = (
 /turf/simulated/wall/mineral/titanium/interior{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "aR" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 10
@@ -127,14 +152,18 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "aX" = (
 /obj/structure/closet/crate,
 /obj/item/spellbook/oneuse/forcewall,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "aZ" = (
 /obj/structure/shelf/supply,
 /obj/item/hammer,
@@ -146,7 +175,9 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bc" = (
 /obj/structure/clockwork/wall_gear,
 /turf/simulated/floor/clockwork,
@@ -178,15 +209,21 @@
 	pixel_y = 10
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bf" = (
 /obj/item/gun/projectile/automatic/pistol/deagle,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bn" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bo" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/ammo_box/magazine/wt550m9/wtap,
@@ -196,7 +233,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bw" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -206,13 +245,17 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bx" = (
 /obj/machinery/smithing/power_hammer,
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "by" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/bluespace_tap/clothes_uncommon,
@@ -220,21 +263,29 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bJ" = (
 /obj/effect/turf_decal/tiles/department/science/corner,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bL" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bM" = (
 /obj/effect/turf_decal/trimline/department/medbay/corner{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bP" = (
 /obj/machinery/door/airlock/public,
 /obj/machinery/door/poddoor/multi_tile/impassable/triple{
@@ -244,13 +295,17 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bS" = (
 /mob/living/basic/malf_drone,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "bY" = (
 /obj/effect/spawner/random/pool/spaceloot/syndicate/common,
 /obj/structure/chair/sofa/bench{
@@ -259,37 +314,57 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"cc" = (
+/mob/living/simple_animal/hostile/syndicate/shield,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cd" = (
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 4
 	},
 /turf/simulated/floor/bluegrid,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cf" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/computer/operating{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cg" = (
 /obj/machinery/economy/vending/syndicigs,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cm" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/rare_ore,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "co" = (
 /obj/item/gun/projectile/automatic/pistol/enforcer,
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cu" = (
 /obj/structure/table/reinforced,
 /obj/item/borg/upgrade/vtec{
@@ -386,7 +461,9 @@
 	pixel_y = -8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cw" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light/small{
@@ -409,11 +486,21 @@
 	pixel_y = -1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cB" = (
 /obj/item/robot_parts/r_leg,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"cG" = (
+/obj/item/mod/control/pre_equipped/research,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cQ" = (
 /obj/structure/morgue{
 	dir = 8
@@ -422,7 +509,9 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cR" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 9
@@ -433,7 +522,9 @@
 	},
 /obj/item/clothing/glasses/hud/diagnostic,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cV" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/borg/upgrade/abductor_medi,
@@ -443,7 +534,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "cY" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 10
@@ -454,7 +547,9 @@
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/closet/crate/freezer/iv_storage,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "da" = (
 /obj/effect/turf_decal/siding{
 	dir = 1
@@ -463,7 +558,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "db" = (
 /obj/structure/chair/brass,
 /obj/effect/turf_decal/woodsiding{
@@ -478,7 +575,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dh" = (
 /obj/effect/turf_decal/tiles/department/science/side,
 /obj/structure/table/glass/reinforced/plastitanium,
@@ -490,12 +589,16 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "di" = (
 /obj/effect/decal/cleanable/glass,
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dj" = (
 /obj/effect/turf_decal/tiles/department/science/side,
 /obj/structure/shelf/science,
@@ -507,13 +610,17 @@
 /obj/item/robot_parts/robot_component/radio,
 /obj/machinery/light,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dm" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dn" = (
 /obj/structure/gunrack,
 /obj/item/gun/projectile/shotgun/riot,
@@ -521,13 +628,17 @@
 /obj/item/gun/projectile/shotgun/riot,
 /obj/machinery/light,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dp" = (
 /mob/living/basic/netherworld,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dx" = (
 /obj/structure/table/glass/reinforced/titanium,
 /obj/item/reagent_containers/glass/beaker/cryoxadone{
@@ -536,13 +647,17 @@
 	},
 /obj/item/wrench/medical,
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dB" = (
 /mob/living/simple_animal/hostile/megafauna/blood_drunk_miner/syndicate,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dR" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -550,7 +665,9 @@
 	},
 /obj/structure/window/basic,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dW" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -558,20 +675,26 @@
 	},
 /obj/machinery/bodyscanner,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "dX" = (
 /obj/machinery/light/spot{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ea" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/effect/spawner/random/pool/spaceloot/syndicate/rare/depot,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "eb" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
@@ -580,20 +703,26 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ec" = (
 /obj/structure/closet/crate,
 /obj/item/spellbook/oneuse/summonitem,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ef" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "eh" = (
 /obj/machinery/light/clockwork{
 	dir = 8
@@ -606,19 +735,25 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "et" = (
 /mob/living/basic/scarybat,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ey" = (
 /mob/living/basic/giant_spider,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "eA" = (
 /obj/structure/table/reinforced/brass,
 /obj/effect/spawner/random/food_or_drink,
@@ -633,7 +768,9 @@
 	},
 /obj/structure/chair/sofa/bench,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "eI" = (
 /obj/structure/shelf/clockwork,
 /obj/item/clockwork/component/vanguard_cogwheel,
@@ -649,53 +786,71 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "eR" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "eT" = (
 /obj/machinery/economy/vending/cola,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fd" = (
 /obj/machinery/light/clockwork,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
 "fh" = (
-/obj/machinery/economy/vending/smith,
+/obj/machinery/economy/vending/smith{
+	req_access = list()
+	},
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fi" = (
 /mob/living/basic/giant_spider/hunter,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fk" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/taser,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fl" = (
 /turf/simulated/floor/plasteel/fakestairs/center{
 	dir = 1
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fm" = (
 /mob/living/basic/hivebot/tele,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fp" = (
 /obj/effect/turf_decal/tiles/white/half{
 	dir = 4
@@ -703,7 +858,9 @@
 /turf/simulated/floor/plasteel/dark/half{
 	dir = 1
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fv" = (
 /obj/machinery/light/clockwork{
 	dir = 1
@@ -715,50 +872,59 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fH" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/corner{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fL" = (
 /obj/effect/turf_decal/trimline/department/medbay/line{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fM" = (
 /obj/item/clothing/head/caphat,
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/effect/turf_decal/tiles/department/command/mono,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fP" = (
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
-"fW" = (
-/obj/structure/window/reinforced/survival_pod{
-	dir = 8
-	},
-/obj/structure/shuttle/engine/router,
-/turf/simulated/floor/plating/airless,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fX" = (
 /obj/machinery/computer/crew{
 	dir = 4
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "fY" = (
 /obj/effect/spawner/random/barrier/grille_maybe,
 /turf/simulated/floor/transparent/glass/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gd" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gi" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 1
@@ -766,27 +932,43 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gj" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/vortex_shotgun,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"gs" = (
+/mob/living/basic/malfborg/sec,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gw" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gB" = (
 /obj/effect/mine/pickup/healing,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gD" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
@@ -795,19 +977,25 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gF" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/mob_spawn/human/corpse/random_species/engineer,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gG" = (
 /obj/effect/turf_decal/trimline/department/medbay/corner{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gL" = (
 /obj/effect/turf_decal/trimline/department/medbay/line{
 	dir = 4
@@ -816,18 +1004,24 @@
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gN" = (
 /obj/structure/mecha_wreckage/ares,
 /turf/simulated/floor/mech_bay_recharge_floor,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gP" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/sieged_lab/research_paper,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gS" = (
 /obj/structure/table/flipped,
 /turf/simulated/floor/plasteel{
@@ -841,19 +1035,25 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gW" = (
 /mob/living/basic/skeleton/incursion/mobster,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "gX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hc" = (
 /obj/structure/table/reinforced,
 /obj/item/hand_labeler{
@@ -861,19 +1061,25 @@
 	pixel_y = -2
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hf" = (
 /obj/item/flag/nt,
 /obj/effect/turf_decal/siding,
 /obj/structure/railing,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hh" = (
 /obj/machinery/porta_turret/ruin/plasma,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hi" = (
 /obj/structure/chair/brass{
 	dir = 4
@@ -896,41 +1102,55 @@
 	pixel_y = -3
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hp" = (
 /mob/living/simple_animal/hostile/syndicate/ranged,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hv" = (
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hy" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hz" = (
 /obj/machinery/porta_turret/syndicate/grenade,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hQ" = (
 /obj/machinery/porta_turret/ruin/immolator,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hW" = (
 /obj/machinery/door/airlock/public,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "hY" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/bananium{
@@ -942,7 +1162,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ig" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/light{
@@ -950,7 +1172,9 @@
 	},
 /obj/structure/closet/crate/freezer/iv_storage,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ik" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/machinery/door_control{
@@ -959,7 +1183,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "in" = (
 /obj/machinery/sleeper/clockwork{
 	dir = 2
@@ -975,7 +1201,9 @@
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "iv" = (
 /obj/machinery/door/airlock/public,
 /obj/machinery/door/poddoor/multi_tile/impassable/triple{
@@ -985,12 +1213,16 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "iz" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/mob_spawn/human/corpse/random_species/doctor,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "iC" = (
 /obj/effect/turf_decal/siding{
 	dir = 5
@@ -1000,35 +1232,47 @@
 	},
 /obj/item/flag/nt,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "iN" = (
 /obj/machinery/magma_crucible,
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "iP" = (
 /obj/effect/spawner/window/shuttle,
 /turf/simulated/floor/plating,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "iS" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "iT" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /obj/effect/turf_decal/tiles/department/command/mono,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "iZ" = (
 /obj/machinery/door/airlock/survival_pod,
 /obj/structure/fans/tiny,
 /turf/simulated/floor/mineral/plastitanium/red,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "jb" = (
 /obj/machinery/light/clockwork{
 	dir = 1
@@ -1053,20 +1297,28 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ju" = (
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "jz" = (
 /obj/effect/turf_decal/tiles/white/corner,
 /turf/simulated/floor/plasteel/dark/corner,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "jB" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 1
 	},
 /turf/simulated/wall/mineral/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "jD" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -1074,33 +1326,45 @@
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "jF" = (
 /obj/item/kirbyplants/large/alien,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "jI" = (
 /obj/item/kirbyplants/large,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "jJ" = (
 /mob/living/basic/skeleton/incursion/security,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "jL" = (
 /obj/structure/shelf/supply,
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/metal/fifty,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "jT" = (
 /obj/effect/mine/pickup/speed,
 /turf/simulated/floor/transparent/glass/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "jU" = (
 /obj/structure/shelf/engineering,
 /obj/item/rcd_ammo,
@@ -1116,11 +1380,15 @@
 "jV" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/simulated/wall/mineral/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kb" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kf" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 1
@@ -1128,51 +1396,78 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"kg" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/item/mod/control/pre_equipped/cosmohonk,
+/turf/simulated/floor/mineral/titanium/blue/airless,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kl" = (
 /obj/effect/turf_decal/tiles/department/science/corner{
 	dir = 8
 	},
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kr" = (
 /obj/machinery/door/airlock/survival_pod/glass,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ku" = (
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kz" = (
 /obj/structure/sign/medical{
 	pixel_y = 32
 	},
 /obj/structure/chair/sofa/bench/left,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kB" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kF" = (
 /mob/living/basic/nian_caterpillar,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kG" = (
 /mob/living/basic/drakehound_breacher/ranged,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kI" = (
 /obj/structure/window/basic{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kP" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/structure/window/reinforced/tinted/frosted{
@@ -1191,18 +1486,24 @@
 	pixel_y = 5
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kT" = (
 /obj/structure/closet/crate,
 /obj/item/gun/projectile/automatic/speargun,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "kX" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lg" = (
 /obj/structure/railing/cap/reversed{
 	dir = 4
@@ -1213,19 +1514,25 @@
 /turf/simulated/floor/plasteel/dark/half{
 	dir = 1
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lh" = (
 /obj/structure/railing/cap/normal,
 /obj/effect/turf_decal/tiles/department/command,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lj" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/bluespace_tap/organic_uncommon,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lk" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/table/glass/reinforced/titanium,
@@ -1238,7 +1545,9 @@
 	pixel_x = -30
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lm" = (
 /mob/living/basic/giant_spider/flesh_spider{
 	faction = list("spiders")
@@ -1246,11 +1555,15 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lo" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lr" = (
 /obj/structure/chair/sofa/pew/clockwork/right{
 	dir = 8
@@ -1271,7 +1584,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lD" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 9
@@ -1281,13 +1596,17 @@
 "lE" = (
 /obj/structure/chair/sofa/bench/right,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lF" = (
 /obj/machinery/porta_turret/ruin/accellerator,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lN" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -1296,26 +1615,32 @@
 	dir = 1
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lO" = (
 /obj/effect/turf_decal/tiles/department/command/mono,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lP" = (
 /obj/structure/table/flipped{
 	dir = 1
 	},
 /obj/machinery/economy/vending/snack/free,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/template_noop)
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lR" = (
 /mob/living/simple_animal/bot/medbot/syndicate/emagged,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lT" = (
 /obj/effect/turf_decal/siding{
 	dir = 6
@@ -1325,7 +1650,9 @@
 	dir = 6
 	},
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lU" = (
 /obj/structure/table/reinforced/brass,
 /turf/simulated/floor/carpet/royalblack,
@@ -1344,31 +1671,46 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "lW" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/corner{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mg" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/machinery/light/spot{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"mj" = (
+/turf/simulated/floor/plasteel/half,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mo" = (
 /obj/effect/spawner/window/shuttle/survival_pod,
 /turf/simulated/floor/plating,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mp" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/bluespace_tap/cultural_rare,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mt" = (
 /mob/living/basic/bear/brown,
 /obj/effect/turf_decal/tiles/department/engineering/half{
@@ -1377,7 +1719,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mu" = (
 /turf/simulated/wall/indestructible/titanium,
 /area/ruin/space/nss_murphy/clockwork)
@@ -1387,14 +1731,18 @@
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mx" = (
 /obj/structure/closet/crate,
 /obj/item/spellbook/oneuse/charge,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mz" = (
 /obj/structure/chair/brass{
 	dir = 1
@@ -1402,12 +1750,6 @@
 /obj/effect/turf_decal/woodsiding,
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/nss_murphy/clockwork)
-"mE" = (
-/mob/living/simple_animal/hostile/clockwork_construct/clockwork_marauder/hostile,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/template_noop)
 "mH" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 4
@@ -1416,7 +1758,9 @@
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/cell/high/plus,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mI" = (
 /obj/structure/shelf/supply,
 /obj/effect/spawner/random/smithed_item/insert,
@@ -1428,14 +1772,18 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mN" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/ussp_minor,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "mY" = (
 /obj/structure/shelf/clockwork,
 /obj/item/clockwork/component/replicant_alloy/replication_plate,
@@ -1453,20 +1801,18 @@
 	color = "#009dff"
 	},
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
-"nh" = (
-/obj/machinery/door/airlock/atmos/glass,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "nj" = (
 /obj/item/paper/djstation{
 	info = "The ship has gone to hell! I don't know what happened but there's just so much SHIT in the halls now! They picked the crew off so quickly. The radios have gone silent now, I think me and the guys are the last ones left. Thankfully we managed to seal off the medical wing, none of the shitstorm outside can get in here now.<br><br>While we were barricading ourselves in here, my assistant managed to blow up a pair of demons that tried to rush in using an improvised explosive, I managed to recover their brains. We're going to put them into cyborg bodies, and once we verify they work, we'll arm them to the teeth and use them to take back the ship! Karma, baby!<br><br>Update: FUCK! They're bad! They managed to override their laws! I'm locked in here with them! They've not noticed me yet thankfully, they can't see through these frosted windows. If you're reading this, you need to send help before- oh no! NO! They found me! Get away! GET THE FUCK AWAY! NOOOO! AAAAAAAGGGGGHHHHHHHHhHhhhhhhh...<br><br><i>The rest of the paper is too bloodstained to make out.</i>";
 	name = "Bloodstained note"
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "np" = (
 /obj/structure/sign/lifestar{
 	pixel_y = -32
@@ -1474,13 +1820,17 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "nA" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/corner{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "nD" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -1488,18 +1838,24 @@
 /obj/effect/mob_spawn/human/corpse/random_species/doctor,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "nF" = (
 /obj/machinery/porta_turret/syndicate,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "nG" = (
 /turf/simulated/floor/plasteel/fakestairs/right{
 	dir = 1
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "nJ" = (
 /obj/structure/window/basic{
 	dir = 4
@@ -1509,13 +1865,17 @@
 	},
 /obj/machinery/economy/vending/medical,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "nM" = (
 /obj/machinery/bodyscanner{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "nR" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/stock_parts/cell/infinite/abductor,
@@ -1527,7 +1887,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "nU" = (
 /obj/item/ammo_box/magazine/c_foam,
 /obj/item/ammo_box/magazine/c_foam{
@@ -1541,11 +1903,15 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "nX" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "oe" = (
 /obj/structure/chair/brass{
 	dir = 4
@@ -1570,7 +1936,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "op" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 4
@@ -1585,7 +1953,16 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"ou" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/item/mod/control/pre_equipped/cosmohonk,
+/turf/simulated/floor/mineral/titanium/blue/airless,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "oz" = (
 /obj/effect/turf_decal/siding,
 /obj/structure/railing,
@@ -1593,7 +1970,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "oD" = (
 /obj/effect/turf_decal/tiles/department/engineering/half{
 	dir = 1
@@ -1602,7 +1981,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "oH" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/clockwork/component{
@@ -1620,7 +2001,13 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"oM" = (
+/obj/item/storage/belt/federation_webbing,
+/turf/simulated/floor/clockwork,
+/area/ruin/space/nss_murphy/clockwork)
 "oW" = (
 /obj/machinery/sleeper/clockwork{
 	dir = 2
@@ -1632,7 +2019,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pi" = (
 /obj/structure/window/basic{
 	dir = 4
@@ -1640,45 +2029,59 @@
 /obj/machinery/atmospherics/portable/canister/oxygen,
 /obj/machinery/atmospherics/unary/portables_connector,
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pm" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/pool/spaceloot/syndicate/armory/elite,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pq" = (
 /obj/effect/turf_decal/trimline/department/medbay/line{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ps" = (
 /mob/living/basic/hivebot/rapid,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pu" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pz" = (
 /obj/machinery/economy/vending/syndisnack,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pA" = (
 /mob/living/basic/drakehound_breacher/ranged,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pE" = (
 /obj/structure/chair/sofa/pew/clockwork{
 	dir = 4
@@ -1690,7 +2093,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pI" = (
 /obj/structure/chair/sofa/pew/clockwork/left{
 	dir = 1
@@ -1708,7 +2113,9 @@
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pO" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/machinery/door_control{
@@ -1717,17 +2124,23 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pQ" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/simulated/floor/mineral/titanium/blue/airless,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "pR" = (
 /obj/effect/spawner/random/barrier/grille_maybe,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qa" = (
 /obj/structure/shelf/clockwork,
 /obj/item/clockwork/component/vanguard_cogwheel/onyx_prism,
@@ -1745,11 +2158,15 @@
 	name = "NSS Murphy Birdge"
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qc" = (
 /obj/item/gun/projectile/automatic/mini_uzi,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qf" = (
 /obj/effect/turf_decal/tiles/department/science/side,
 /obj/structure/shelf/science,
@@ -1763,41 +2180,59 @@
 	pixel_y = -31
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qg" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/projectile/automatic/gyropistol,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qj" = (
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
-"qk" = (
-/obj/structure/shuttle/engine/router,
-/turf/simulated/floor/plating/airless,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qn" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"qq" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/full{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qs" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qw" = (
 /obj/structure/closet/crate,
 /obj/item/gun/projectile/revolver/capgun,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qz" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 5
@@ -1806,7 +2241,9 @@
 /area/ruin/space/nss_murphy/clockwork)
 "qD" = (
 /turf/simulated/floor/mineral/plastitanium/red,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qF" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/suit/fire/firefighter/atmos{
@@ -1826,7 +2263,9 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qH" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/bodyscanner{
@@ -1834,7 +2273,9 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qL" = (
 /obj/item/assembly/prox_sensor{
 	pixel_x = -8;
@@ -1868,14 +2309,18 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qP" = (
 /obj/structure/closet/crate,
 /obj/item/storage/backpack/quiver/full,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qQ" = (
 /mob/living/basic/vox_miner/foreman{
 	name = "Vox Second-Quill"
@@ -1883,33 +2328,45 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qR" = (
 /obj/structure/window/basic{
 	dir = 4
 	},
 /obj/structure/window/basic,
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qS" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/defibrillator_mount/loaded{
 	pixel_y = -30
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "qZ" = (
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "rd" = (
 /obj/structure/morgue,
 /obj/effect/spawner/random/cobweb/left/rare,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "re" = (
 /obj/effect/decal/cleanable/glass,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "rg" = (
 /obj/item/robot_parts/r_arm,
 /obj/item/robot_parts/l_leg{
@@ -1917,19 +2374,31 @@
 	pixel_y = -10
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ri" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ru" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/light,
 /obj/structure/closet/crate/freezer/iv_storage,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"rB" = (
+/obj/item/mod/control/pre_equipped/praetorian,
+/turf/simulated/floor/indestructible/titanium/blue,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "rH" = (
 /obj/structure/chair/sofa/pew/clockwork/right{
 	dir = 1
@@ -1943,10 +2412,18 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/nss_murphy/clockwork)
+"rN" = (
+/obj/item/mod/control/pre_equipped/apocryphal,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "rT" = (
 /obj/item/card/emag,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "rU" = (
 /obj/structure/table/reinforced/brass,
 /obj/effect/spawner/random/food_or_drink/soup,
@@ -1958,11 +2435,15 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "rZ" = (
 /mob/living/basic/carp/holocarp,
 /turf/simulated/floor/transparent/glass/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "si" = (
 /obj/structure/chair/sofa/pew/clockwork/right,
 /turf/simulated/floor/clockwork,
@@ -1973,7 +2454,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "sl" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/table/glass/reinforced/titanium,
@@ -1984,30 +2467,40 @@
 	},
 /obj/structure/window/basic,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "sp" = (
 /mob/living/basic/hostile_mech/ripley,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "sw" = (
 /obj/item/gun/projectile/automatic/pistol/m1911,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "sF" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/plasma_pistol,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "sI" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_ccw{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "sL" = (
 /obj/structure/sign/science/robotics{
 	pixel_y = -32
@@ -2015,7 +2508,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "sP" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/closet/crate/freezer/iv_storage,
@@ -2029,26 +2524,32 @@
 /obj/item/reagent_containers/iv_bag/slime,
 /obj/item/reagent_containers/iv_bag/slime,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "sS" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/simulated/floor/mineral/titanium/blue/airless,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "sT" = (
 /obj/machinery/autolathe/upgraded/gamma,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "sU" = (
 /obj/structure/table/flipped{
 	dir = 1
 	},
 /obj/machinery/economy/vending/coffee/free,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/template_noop)
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "tb" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -2084,7 +2585,9 @@
 	pixel_y = -14
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "td" = (
 /obj/structure/table/reinforced,
 /obj/item/rcd/combat,
@@ -2136,24 +2639,38 @@
 	pixel_y = 16
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "tg" = (
 /mob/living/basic/hivebot/strong,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "th" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/spikethrower,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "tk" = (
 /obj/machinery/light/clockwork/floor,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
+"tp" = (
+/obj/machinery/light,
+/turf/simulated/floor/plasteel/full{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "tq" = (
 /obj/structure/table/reinforced,
 /obj/item/watertank/atmos{
@@ -2173,11 +2690,15 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "tw" = (
 /obj/machinery/door/airlock/research,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "tD" = (
 /turf/simulated/floor/lava/plasma,
 /area/ruin/space/nss_murphy/clockwork)
@@ -2186,13 +2707,17 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/structure/fans/tiny,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "tU" = (
 /mob/living/basic/skeleton/incursion/mobster,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "tW" = (
 /obj/structure/shelf/clockwork,
 /obj/item/clockwork/component/belligerent_eye/lens_gem,
@@ -2212,21 +2737,29 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "tZ" = (
 /obj/effect/turf_decal/trimline/department/medbay/line,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ue" = (
 /mob/living/basic/hostile_mech/marauder,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "uh" = (
 /obj/mecha/working/ripley/firefighter,
 /turf/simulated/floor/mech_bay_recharge_floor,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ui" = (
 /obj/effect/turf_decal/woodsiding,
 /turf/simulated/floor/lava/plasma,
@@ -2237,7 +2770,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "up" = (
 /obj/structure/table/flipped{
 	dir = 1
@@ -2245,14 +2780,16 @@
 /obj/structure/sign/command{
 	pixel_y = 32
 	},
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/template_noop)
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "uv" = (
 /obj/effect/turf_decal/trimline/department/medbay/line,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "uw" = (
 /obj/structure/table/flipped,
 /obj/structure/sign/command{
@@ -2261,12 +2798,16 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "uB" = (
 /obj/effect/spawner/random/blood,
 /obj/effect/mob_spawn/human/corpse/random_species/scientist,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "uC" = (
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 8
@@ -2275,7 +2816,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "uJ" = (
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
@@ -2284,7 +2827,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "uS" = (
 /obj/effect/turf_decal/siding{
 	dir = 1
@@ -2294,20 +2839,34 @@
 	},
 /obj/structure/chair/sofa/bench/left,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "uU" = (
 /obj/structure/table/reinforced/brass,
 /obj/effect/turf_decal/woodsiding/end{
 	dir = 1
 	},
+/obj/item/storage/belt/utility/brass,
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/nss_murphy/clockwork)
+"uV" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/item/mod/control/pre_equipped/responsory/clown,
+/turf/simulated/floor/mineral/titanium/blue/airless,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vd" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_ccw{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vh" = (
 /obj/machinery/light/clockwork/small{
 	dir = 4
@@ -2319,17 +2878,23 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vn" = (
 /obj/structure/sign/cargo/smith,
 /turf/simulated/wall/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vs" = (
 /mob/living/basic/hostile_mech/ripley,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vu" = (
 /obj/machinery/light{
 	dir = 1
@@ -2339,7 +2904,9 @@
 	},
 /obj/structure/chair/sofa/bench/left,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vw" = (
 /obj/machinery/door_control{
 	id = "murphy_bridge_lockdown";
@@ -2348,13 +2915,17 @@
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/effect/turf_decal/tiles/department/command/mono,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vD" = (
 /obj/machinery/economy/vending/coffee,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vI" = (
 /obj/effect/turf_decal/tiles/department/engineering/half{
 	dir = 1
@@ -2362,10 +2933,14 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vL" = (
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vM" = (
 /obj/machinery/door/airlock/public,
 /obj/machinery/door/poddoor/multi_tile/impassable/triple{
@@ -2375,7 +2950,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vP" = (
 /obj/effect/turf_decal/trimline/department/engineering/filled/warning{
 	dir = 8
@@ -2383,7 +2960,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vQ" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -2391,7 +2970,9 @@
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /obj/item/gun/projectile/automatic/pistol/enforcer,
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vR" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/rocketlauncher,
@@ -2399,7 +2980,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "vS" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -2407,12 +2990,16 @@
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wc" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/light,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "we" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 8
@@ -2423,29 +3010,31 @@
 	},
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wg" = (
 /mob/living/basic/bear/polar,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wj" = (
 /obj/item/gun/projectile/automatic/pistol/type_230,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
-"wl" = (
-/obj/structure/shuttle/engine/huge{
-	dir = 4
-	},
-/turf/simulated/floor/plating/airless,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wm" = (
 /mob/living/basic/hostile_mech/durand,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wq" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 8
@@ -2466,23 +3055,31 @@
 	pixel_y = -3
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wr" = (
 /obj/item/gun/projectile/automatic/pistol/enforcer,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wx" = (
 /mob/living/basic/netherworld/faithless,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wA" = (
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wB" = (
 /obj/structure/reagent_dispensers/watertank/high,
 /turf/simulated/floor/plasteel{
@@ -2492,7 +3089,9 @@
 "wD" = (
 /obj/effect/turf_decal/trimline/department/science/filled/warning,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wH" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/machinery/door_control{
@@ -2501,12 +3100,16 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wL" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/survival_pod,
 /turf/simulated/floor/mineral/plastitanium/red,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wO" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -2514,7 +3117,9 @@
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wX" = (
 /obj/structure/chair/sofa/bench{
 	dir = 8
@@ -2522,7 +3127,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "wY" = (
 /obj/effect/turf_decal/siding{
 	dir = 1
@@ -2532,22 +3139,34 @@
 	},
 /obj/item/flag/nt,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xf" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_ccw,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xn" = (
 /obj/machinery/porta_turret/syndicate/interior,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xp" = (
 /obj/effect/spawner/random/blood/often,
 /obj/item/clothing/head/welding,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"xq" = (
+/obj/item/storage/belt/sheath/secsword,
+/turf/simulated/floor/clockwork,
+/area/ruin/space/nss_murphy/clockwork)
 "xr" = (
 /obj/structure/table/reinforced/brass,
 /obj/effect/spawner/random/food_or_drink/salad,
@@ -2558,50 +3177,66 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xy" = (
 /obj/structure/morgue{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xA" = (
 /obj/structure/barricade/wooden/crude,
 /obj/machinery/door/airlock/research,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xB" = (
 /mob/living/basic/bear/brown,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xC" = (
 /mob/living/basic/mining/basilisk/watcher/magmawing,
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xL" = (
 /obj/effect/turf_decal/tiles/department/science,
 /obj/machinery/recharge_station/upgraded,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xM" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/emitter/gun,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xO" = (
 /mob/living/basic/heretic_summon/raw_prophet,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "xX" = (
 /obj/machinery/door/airlock/clockwork/glass{
 	name = "The Justicular's Nave"
@@ -2612,14 +3247,18 @@
 /obj/structure/railing,
 /obj/effect/turf_decal/siding,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ya" = (
 /obj/structure/sign/securearea{
 	desc = "A warning sign which reads 'KEEP CLEAR OF DOCKING AREA'.";
 	name = "KEEP CLEAR: DOCKING AREA"
 	},
 /turf/simulated/wall/mineral/titanium/survival,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yb" = (
 /obj/machinery/door/airlock/clockwork{
 	name = "Starbo@rD En6i r#err- The Displaced Sanctuary"
@@ -2637,6 +3276,20 @@
 /obj/effect/spawner/random/food_or_drink/juice_boxes,
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/nss_murphy/clockwork)
+"yl" = (
+/obj/machinery/cryopod/robot/offstation,
+/turf/simulated/floor/plasteel/half,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"yp" = (
+/obj/item/mod/control/pre_equipped/mining/asteroid,
+/turf/simulated/floor/plasteel/dark/grid{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yq" = (
 /obj/structure/sign/medical{
 	pixel_y = -32
@@ -2644,68 +3297,92 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yw" = (
 /mob/living/basic/hellhound/greater,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yx" = (
 /obj/item/flag/nt,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yA" = (
 /turf/simulated/wall/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yB" = (
 /mob/living/basic/drakehound_breacher,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yG" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/cybersun_minor,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yH" = (
 /obj/machinery/mech_bay_recharge_port/upgraded,
 /turf/simulated/floor/bluegrid,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yK" = (
 /mob/living/basic/malf_drone,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yL" = (
 /obj/structure/railing/cap/reversed{
 	dir = 1
 	},
 /obj/effect/turf_decal/tiles/department/command,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yN" = (
 /obj/effect/turf_decal/tiles/department/command,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yR" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/magic/wand/chaos,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yT" = (
 /obj/structure/closet/crate,
 /obj/item/gun/projectile/automatic/l6_saw/toy/riot,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "yU" = (
 /obj/structure/chair/sofa/pew/clockwork/left{
 	dir = 8
@@ -2731,14 +3408,18 @@
 /turf/simulated/floor/plasteel/fakestairs/left{
 	dir = 4
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "za" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/bluespace_crystal/five,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zc" = (
 /obj/item/storage/fancy/cigars/cohiba{
 	pixel_x = 2;
@@ -2750,7 +3431,9 @@
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/effect/turf_decal/tiles/department/command/mono,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zf" = (
 /obj/structure/railing{
 	dir = 4
@@ -2760,14 +3443,18 @@
 	},
 /obj/machinery/light/floor,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zj" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
 	},
 /obj/machinery/mecha_part_fabricator/upgraded,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zv" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -2775,19 +3462,25 @@
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zx" = (
 /obj/structure/railing/cap/reversed,
 /obj/effect/turf_decal/tiles/department/command,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zy" = (
 /obj/structure/gunrack,
 /obj/item/gun/energy/gun,
 /obj/item/gun/energy/gun,
 /obj/item/gun/energy/gun,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zz" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw{
 	dir = 4
@@ -2796,13 +3489,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zA" = (
 /mob/living/basic/mining/hivelord/legion/dwarf,
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zL" = (
 /obj/structure/rack,
 /obj/item/tank/internals/oxygen,
@@ -2823,23 +3520,31 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zO" = (
 /obj/machinery/door/airlock/medical,
 /obj/structure/barricade/wooden,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "zP" = (
 /obj/mecha/nkarrdem/loaded,
 /turf/simulated/floor/mech_bay_recharge_floor,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Aa" = (
 /obj/machinery/door/poddoor/impassable{
 	id = "murphy_bridge_lockdown";
 	name = "NNS Murphy Bridge Viewport Blast Door"
 	},
 /turf/simulated/wall/indestructible/opsglass/titanium_window,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ac" = (
 /obj/structure/table/flipped{
 	dir = 1
@@ -2848,20 +3553,30 @@
 	pixel_y = 32
 	},
 /obj/structure/engineeringcart/full,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/template_noop)
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ai" = (
 /obj/structure/engineeringcart/full,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/nss_murphy/clockwork)
+"Am" = (
+/obj/structure/table/reinforced,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "An" = (
 /obj/effect/turf_decal/tiles/white/half,
 /turf/simulated/floor/plasteel/dark/half,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ap" = (
 /obj/effect/turf_decal/tiles/white/corner{
 	dir = 1
@@ -2869,7 +3584,9 @@
 /turf/simulated/floor/plasteel/dark/corner{
 	dir = 1
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ay" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -2877,7 +3594,9 @@
 /obj/effect/mob_spawn/human/corpse/random_species/engineer,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "AC" = (
 /obj/structure/shelf/clockwork,
 /obj/item/clockwork/component/geis_capacitor,
@@ -2900,39 +3619,49 @@
 /obj/item/ammo_box/magazine/laser,
 /obj/structure/shelf/security,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "AO" = (
 /obj/machinery/light/floor,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "AS" = (
 /obj/effect/turf_decal/tiles/department/command,
 /obj/machinery/light/spot{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "AU" = (
 /obj/structure/table/flipped{
 	dir = 1
 	},
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/template_noop)
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "AX" = (
 /mob/living/basic/bear/polar,
 /obj/effect/turf_decal/tiles/department/engineering/half,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "AZ" = (
 /obj/effect/spawner/random/pool/spaceloot/syndicate/common,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Bb" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/borg/upgrade/abductor_engi,
@@ -2942,7 +3671,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Bf" = (
 /obj/effect/turf_decal/siding{
 	dir = 10
@@ -2954,13 +3685,17 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Bg" = (
 /obj/effect/turf_decal/tiles/department/science,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Bh" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
@@ -2969,40 +3704,67 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Bk" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Escape Pod Airlock"
 	},
 /turf/simulated/floor/mineral/titanium/blue/airless,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Bo" = (
 /mob/living/simple_animal/hostile/syndicate/modsuit/elite,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
-"Bt" = (
-/obj/structure/closet/crate/nanotrasen,
-/obj/item/ammo_box/magazine/m75,
-/obj/item/ammo_box/magazine/m75,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Bp" = (
+/obj/effect/spawner/random/barrier/grille_maybe,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Bt" = (
+/obj/structure/closet/crate/nanotrasen,
+/obj/item/ammo_box/magazine/m75{
+	icon_state = "75"
+	},
+/obj/item/ammo_box/magazine/m75{
+	icon_state = "75"
+	},
+/turf/simulated/floor/plasteel/full{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Bx" = (
 /obj/structure/closet/wardrobe/coroner,
 /obj/structure/sign/medical/surgery{
 	pixel_x = 32
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Bz" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "BC" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -3011,7 +3773,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ca" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/spellbook/oneuse/emp,
@@ -3020,7 +3784,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Cb" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 5
@@ -3030,7 +3796,9 @@
 	},
 /obj/machinery/computer/operating,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Cm" = (
 /obj/item/storage/box/emptysandbags,
 /turf/simulated/floor/plasteel{
@@ -3040,14 +3808,18 @@
 "Co" = (
 /obj/structure/morgue,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Cr" = (
 /obj/item/robot_parts/l_arm{
 	pixel_x = 9
 	},
 /obj/item/book/manual/wiki/robotics_cyborgs,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Cs" = (
 /obj/effect/turf_decal/tiles/department/science/corner{
 	dir = 1
@@ -3055,7 +3827,9 @@
 /obj/effect/spawner/random/blood/often,
 /mob/living/basic/malfborg,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "CA" = (
 /obj/effect/turf_decal/tiles/department/science/side,
 /obj/structure/table/glass/reinforced/plastitanium,
@@ -3079,18 +3853,24 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "CJ" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /obj/effect/mob_spawn/human/corpse/random_species/doctor,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "CN" = (
 /mob/living/basic/skeleton/incursion/security,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "CO" = (
 /obj/structure/table/reinforced,
 /obj/item/borg/upgrade/ddrill,
@@ -3127,7 +3907,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "CX" = (
 /obj/item/reagent_containers/drinks/drinkingglass/devilskiss{
 	pixel_x = 3;
@@ -3140,7 +3922,9 @@
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/effect/turf_decal/tiles/department/command/mono,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "CY" = (
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
@@ -3154,7 +3938,9 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Df" = (
 /obj/effect/turf_decal/trimline/department/engineering/filled/warning{
 	dir = 4
@@ -3162,25 +3948,33 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Dk" = (
 /mob/living/basic/hellhound,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Dn" = (
 /mob/living/basic/hivebot,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Dq" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Dr" = (
 /obj/structure/chair/sofa/pew/clockwork/left,
 /turf/simulated/floor/clockwork,
@@ -3188,7 +3982,9 @@
 "Dv" = (
 /obj/structure/filingcabinet/chestdrawer/autopsy,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Dx" = (
 /obj/machinery/computer/nonfunctional{
 	dir = 4;
@@ -3196,7 +3992,9 @@
 	desc = "One of the bridge computers for the NSS Murphy. It is nonfunctional and spitting out error messages."
 	},
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Dz" = (
 /obj/structure/shelf/clockwork,
 /obj/item/storage/firstaid/adv,
@@ -3210,7 +4008,9 @@
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "DI" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/ammo_casing/rocket,
@@ -3220,7 +4020,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "DN" = (
 /mob/living/basic/drakehound_breacher/ranged/captain{
 	name = "Drakehound War Chief"
@@ -3228,14 +4030,18 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "DQ" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "DT" = (
 /obj/structure/window/reinforced/clockwork/fulltile,
 /obj/structure/grille/ratvar,
@@ -3246,14 +4052,18 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Eb" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/projectile/automatic/lasercarbine,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ee" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 8
@@ -3262,11 +4072,15 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ef" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_ccw,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Eg" = (
 /obj/structure/chair/sofa/pew/clockwork/right{
 	dir = 4
@@ -3288,7 +4102,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Et" = (
 /obj/structure/window/basic{
 	dir = 1
@@ -3301,56 +4117,74 @@
 	pixel_x = -32
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "EB" = (
 /mob/living/basic/heretic_summon/rust_spirit,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "EE" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "EI" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/magic/wand/fireball,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "EP" = (
 /mob/living/basic/giant_spider/hunter,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ES" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "EW" = (
 /obj/machinery/door/airlock/medical,
 /obj/structure/barricade/wooden,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "EY" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/iv_drip,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Fc" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
 	},
 /obj/item/crowbar/red,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Fd" = (
 /mob/living/basic/bear/polar,
 /obj/effect/turf_decal/tiles/department/engineering/half{
@@ -3359,20 +4193,26 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Fg" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/bluespace_tap/clothes_rare,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Fj" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Fm" = (
 /mob/living/basic/bear/black,
 /obj/effect/turf_decal/tiles/department/engineering/half{
@@ -3381,7 +4221,19 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Fn" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/full{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Fo" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -3389,25 +4241,35 @@
 	},
 /obj/structure/window/basic,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Fp" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/xray,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Fr" = (
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Fx" = (
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Fz" = (
 /obj/effect/spawner/random/blood,
 /obj/effect/mob_spawn/human/corpse/random_species/assistant,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "FG" = (
 /obj/structure/railing{
 	dir = 1
@@ -3416,13 +4278,17 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "FK" = (
 /mob/living/basic/hivebot/range,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "FL" = (
 /obj/structure/shuttle/engine/huge{
 	dir = 4
@@ -3435,13 +4301,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "FS" = (
 /obj/machinery/sleeper/upgraded{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "FV" = (
 /obj/structure/morgue{
 	dir = 8
@@ -3450,7 +4320,17 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"FW" = (
+/obj/item/mod/control/pre_equipped/apocryphal,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "FX" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/table/glass/reinforced/titanium,
@@ -3486,42 +4366,56 @@
 	pixel_x = 30
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ga" = (
 /turf/simulated/floor/plasteel/fakestairs/right{
 	dir = 4
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Gf" = (
 /obj/effect/turf_decal/tiles/department/science,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Go" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/merchantguild_major,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Gq" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Gs" = (
 /mob/living/basic/heretic_summon/stalker,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Gt" = (
 /obj/structure/railing/cap/reversed{
 	dir = 4
 	},
 /obj/effect/turf_decal/tiles/department/command,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Gu" = (
 /obj/machinery/door_control{
 	id = "crate1"
@@ -3530,14 +4424,20 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "GC" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "GI" = (
 /turf/simulated/wall,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "GJ" = (
 /obj/structure/closet/crate,
 /obj/item/stack/medical/suture/regen_mesh/advanced,
@@ -3546,14 +4446,24 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"GK" = (
+/mob/living/basic/malfborg/sec,
+/turf/simulated/floor/plasteel/half,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "GL" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "GN" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 1
@@ -3565,14 +4475,18 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Hc" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/federation_minor,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Hf" = (
 /obj/effect/turf_decal/tiles/department/science/side,
 /obj/structure/shelf/science,
@@ -3583,30 +4497,40 @@
 /obj/item/robot_parts/robot_component/binary_communication_device,
 /obj/item/robot_parts/robot_component/binary_communication_device,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Hi" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/sink/directional/north,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Hl" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/magic/wand/slipping,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Hn" = (
 /obj/structure/window/basic,
 /obj/machinery/shower/directional/west,
 /turf/simulated/floor/noslip,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ho" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
 	},
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Hs" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/ammo_box/magazine/wt550m9/wttx,
@@ -3616,7 +4540,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Hx" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 8
@@ -3624,20 +4550,26 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Hy" = (
 /mob/living/basic/bear/brown,
 /obj/effect/turf_decal/tiles/department/engineering/corner,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "HC" = (
 /obj/effect/turf_decal/tiles/department/science,
 /obj/effect/spawner/random/blood,
 /obj/effect/mob_spawn/human/corpse/random_species/scientist,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "HD" = (
 /obj/structure/closet/crate,
 /obj/item/stack/medical/bruise_pack/advanced,
@@ -3646,16 +4578,22 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "HJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "HP" = (
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "HR" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/ammo_box/magazine/tommygunm45,
@@ -3663,7 +4601,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "HS" = (
 /obj/machinery/light/clockwork{
 	dir = 4
@@ -3680,7 +4620,9 @@
 	},
 /mob/living/basic/nian_caterpillar,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "HZ" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/borg/upgrade/abductor_jani,
@@ -3690,25 +4632,39 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ia" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/glintscale_minor,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Ib" = (
+/obj/machinery/cryopod/offstation/right,
+/turf/simulated/floor/plasteel/half,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ij" = (
 /obj/machinery/door/airlock/research,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ik" = (
 /obj/structure/window/basic{
 	dir = 4
 	},
 /obj/machinery/bodyscanner,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Il" = (
 /obj/effect/turf_decal/siding,
 /obj/structure/railing,
@@ -3716,20 +4672,34 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"It" = (
+/mob/living/simple_animal/bot/ed209/syndicate,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Iw" = (
 /obj/structure/chair/sofa/bench,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ix" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/technocracy_major,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "IB" = (
 /obj/effect/turf_decal/siding{
 	dir = 9
@@ -3739,7 +4709,9 @@
 	},
 /obj/structure/chair/sofa/bench/right,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "IH" = (
 /obj/structure/gunrack,
 /obj/item/gun/projectile/automatic/laserrifle,
@@ -3749,7 +4721,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "IJ" = (
 /obj/machinery/light/floor,
 /turf/simulated/floor/plasteel{
@@ -3761,7 +4735,17 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"IM" = (
+/obj/item/mod/control/pre_equipped/traitor_elite,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "IT" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -3780,7 +4764,9 @@
 "IY" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ja" = (
 /obj/structure/table/glass/reinforced/titanium,
 /obj/item/reagent_containers/glass/beaker/cryoxadone{
@@ -3792,7 +4778,9 @@
 	pixel_y = 9
 	},
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Jb" = (
 /obj/structure/closet/crate/sci,
 /obj/item/borg/upgrade/syndicate,
@@ -3837,6 +4825,7 @@
 	pixel_x = -4;
 	pixel_y = -5
 	},
+/obj/item/storage/belt/utility/brass,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
 "JB" = (
@@ -3854,13 +4843,17 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "JL" = (
 /obj/structure/sign/medical/surgery{
 	pixel_y = -32
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "JN" = (
 /obj/effect/turf_decal/tiles/white/corner{
 	dir = 1
@@ -3873,7 +4866,9 @@
 /turf/simulated/floor/plasteel/dark/corner{
 	dir = 1
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "JT" = (
 /obj/structure/closet/crate,
 /obj/item/spear/kidan,
@@ -3881,7 +4876,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "JU" = (
 /obj/machinery/light/clockwork/floor,
 /obj/structure/clockwork/wall_gear,
@@ -3894,26 +4891,34 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ka" = (
 /mob/living/basic/hellhound/tear,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Kb" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/effect/spawner/random/pool/spaceloot/syndicate/officer/depot,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Kc" = (
 /obj/machinery/recharger/wallcharger/upgraded{
 	pixel_x = 32
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Kh" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/clockwork/component/belligerent_eye,
@@ -3924,7 +4929,9 @@
 /area/ruin/space/nss_murphy/clockwork)
 "Ki" = (
 /turf/simulated/floor/plasteel/fakestairs/left,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Kl" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/mask/gas,
@@ -3947,7 +4954,9 @@
 "Ko" = (
 /obj/machinery/shower/directional/west,
 /turf/simulated/floor/noslip,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Kq" = (
 /obj/machinery/door/airlock/public,
 /obj/machinery/door/poddoor/multi_tile/impassable/triple{
@@ -3957,7 +4966,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ku" = (
 /obj/structure/shelf/clockwork,
 /obj/item/clockwork/component/belligerent_eye/blind_eye,
@@ -3974,14 +4985,18 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Kx" = (
 /obj/structure/table/reinforced,
 /obj/machinery/phone{
 	pixel_y = 3
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ky" = (
 /obj/structure/closet/crate/freezer/deluxe,
 /obj/effect/spawner/random/food_or_drink/three_course_meal,
@@ -3989,13 +5004,17 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "KE" = (
 /mob/living/basic/skeleton/incursion/reanimator,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "KG" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/table/glass/reinforced/titanium,
@@ -4005,20 +5024,34 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"KL" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "KX" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/effect/spawner/random/pool/spaceloot/syndicate/rare/sieged_lab,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "La" = (
 /obj/effect/spawner/random/barrier/grille_maybe,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Lb" = (
 /obj/structure/sign/medical/surgery{
 	pixel_x = -32
@@ -4026,7 +5059,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ld" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 6
@@ -4039,7 +5074,9 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ln" = (
 /obj/effect/turf_decal/tiles/white/half{
 	dir = 8
@@ -4047,41 +5084,55 @@
 /turf/simulated/floor/plasteel/dark/half{
 	dir = 1
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Lp" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "LC" = (
 /obj/machinery/smithing/casting_basin,
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "LD" = (
 /obj/machinery/atmospherics/unary/cryo_cell/upgraded,
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "LH" = (
 /obj/effect/turf_decal/tiles/department/science/side,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "LI" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/pulse/pistol,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "LJ" = (
 /obj/structure/railing/cap/normal{
 	dir = 1
 	},
 /obj/effect/turf_decal/tiles/department/command,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "LV" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/machinery/door_control{
@@ -4090,21 +5141,29 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "LX" = (
 /turf/simulated/floor/transparent/glass/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "LY" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
 	},
 /turf/simulated/floor/plating/airless,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "LZ" = (
 /turf/simulated/floor/plasteel/fakestairs/left{
 	dir = 1
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ma" = (
 /obj/structure/barricade/sandbags,
 /turf/simulated/floor/plasteel{
@@ -4116,7 +5175,9 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/structure/barricade/wooden,
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Mc" = (
 /mob/living/simple_animal/hostile/clockwork_construct/clockwork_marauder/hostile,
 /turf/simulated/floor/plasteel{
@@ -4129,7 +5190,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Mh" = (
 /obj/effect/turf_decal/tiles/department/science/side,
 /obj/structure/table/glass/reinforced/plastitanium,
@@ -4144,14 +5207,18 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Mo" = (
 /obj/effect/turf_decal/tiles/department/engineering/half,
 /obj/effect/spawner/random/pool/spaceloot/syndicate/common,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Mt" = (
 /obj/structure/table/reinforced,
 /obj/item/rcl,
@@ -4163,44 +5230,58 @@
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "My" = (
 /obj/machinery/atmospherics/unary/thermomachine/freezer/on,
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "MB" = (
 /obj/effect/turf_decal/trimline/department/medbay/line{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "MD" = (
 /mob/living/basic/mining/big_legion,
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "MI" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/ionrifle,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "MK" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /obj/effect/mob_spawn/human/corpse/random_species/engineer,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "MM" = (
 /obj/machinery/computer/nonfunctional{
 	dir = 4;
 	name = "jammed shuttle computer"
 	},
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Na" = (
 /obj/machinery/suit_storage_unit/industrial/engine,
 /turf/simulated/floor/plasteel{
@@ -4212,7 +5293,9 @@
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ne" = (
 /obj/structure/table/reinforced,
 /obj/item/borg/upgrade/thrusters{
@@ -4236,7 +5319,9 @@
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/mob_spawn/human/corpse/random_species/engineer,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Nn" = (
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/nss_murphy/clockwork)
@@ -4248,13 +5333,27 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating/airless,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Nx" = (
+/obj/item/mod/control/pre_equipped/safeguard/gamma,
+/obj/item/mod/control/pre_equipped/safeguard/gamma,
+/obj/item/mod/control/pre_equipped/safeguard/gamma,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "NB" = (
 /obj/effect/mapping_helpers/turfs/damage,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "NE" = (
 /obj/structure/closet/crate/freezer,
 /obj/effect/spawner/random/food_or_drink/dinner,
@@ -4263,14 +5362,19 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "NG" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/iv_drip,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "NT" = (
 /obj/structure/table/reinforced,
+/obj/item/storage/belt/sheath/snakesfang,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
@@ -4278,17 +5382,23 @@
 "Oa" = (
 /obj/machinery/recharge_station/upgraded,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ob" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/corner,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Oc" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Od" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
@@ -4304,20 +5414,26 @@
 /obj/item/robot_parts/robot_component/armour,
 /obj/item/robot_parts/robot_component/armour,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Og" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/bluespace_tap/cultural_uncommon,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Oh" = (
 /mob/living/basic/soviet/ranged/mosin,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Om" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/bluespace_tap/organic_uncommon,
@@ -4325,7 +5441,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Or" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/table/glass/reinforced/titanium,
@@ -4361,7 +5479,9 @@
 	pixel_x = -30
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ot" = (
 /obj/structure/railing/cap/normal{
 	dir = 4
@@ -4372,24 +5492,32 @@
 /turf/simulated/floor/plasteel/dark/half{
 	dir = 1
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "OD" = (
 /obj/structure/barricade/wooden,
 /obj/machinery/door/airlock/command{
 	name = "NSS Murphy Birdge"
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "OH" = (
 /obj/effect/spawner/random/space_pirate,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "OO" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "OP" = (
 /obj/structure/closet/crate/freezer/deluxe,
 /obj/effect/spawner/random/bluespace_tap/food_rare,
@@ -4399,7 +5527,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "OS" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 8
@@ -4408,7 +5538,9 @@
 /area/ruin/space/nss_murphy/clockwork)
 "OV" = (
 /turf/simulated/floor/plasteel/fakestairs/right,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Pd" = (
 /obj/machinery/light/clockwork{
 	dir = 1
@@ -4421,55 +5553,75 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
-"Pl" = (
-/turf/simulated/floor/plating/airless,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Pi" = (
+/obj/machinery/cryopod/offstation,
+/turf/simulated/floor/plasteel/half,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Po" = (
 /obj/machinery/smithing/lava_furnace,
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Pr" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/pool/spaceloot/dvorak_core_table,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ps" = (
 /obj/machinery/computer/robotics{
 	dir = 4
 	},
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "PE" = (
 /obj/effect/mob_spawn/human/corpse/wizard,
 /obj/item/gun/magic/staff/healing,
 /turf/simulated/floor/transparent/glass/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "PF" = (
 /obj/structure/chair/sofa/bench/left,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "PJ" = (
 /obj/structure/shelf/clockwork,
 /obj/item/borg/upgrade/rcd,
 /obj/item/borg/upgrade/rcd,
 /obj/item/borg/upgrade/rcd,
 /obj/item/borg/upgrade/rcd,
+/obj/item/storage/belt/utility/brass,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
 "PL" = (
 /turf/simulated/floor/plasteel/fakestairs/center,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "PU" = (
 /obj/machinery/economy/vending/wallmed/directional/north,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "PW" = (
 /obj/effect/turf_decal/woodsiding,
 /turf/simulated/floor/carpet/royalblack,
@@ -4479,14 +5631,18 @@
 	dir = 8
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Qn" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/skipjack_major,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Qp" = (
 /obj/structure/closet/fireaxecabinet{
 	pixel_y = 32
@@ -4507,13 +5663,17 @@
 /area/ruin/space/nss_murphy/clockwork)
 "Qy" = (
 /turf/simulated/floor/mech_bay_recharge_floor,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "QC" = (
 /mob/living/basic/netherworld/migo,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "QD" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/table/glass/reinforced/titanium,
@@ -4527,31 +5687,41 @@
 	pixel_x = -32
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "QF" = (
 /obj/effect/turf_decal/trimline/department/medbay/corner{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "QI" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "QL" = (
 /mob/living/basic/bear/brown,
 /obj/effect/turf_decal/tiles/department/engineering/half,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "QO" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/spawner/random/pool/spaceloot/syndicate/common,
 /turf/simulated/floor/mineral/titanium/blue/airless,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "QV" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/bed,
@@ -4560,17 +5730,23 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ra" = (
 /obj/effect/turf_decal/trimline/department/medbay/corner,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Rb" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Rc" = (
 /obj/structure/shelf/clockwork,
 /obj/item/clockwork/component/hierophant_ansible,
@@ -4586,7 +5762,9 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Rl" = (
 /obj/machinery/computer/nonfunctional{
 	dir = 4;
@@ -4594,14 +5772,18 @@
 	desc = "One of the bridge computers for the NSS Murphy. It is nonfunctional and spitting out error messages."
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ro" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /obj/machinery/light,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Rp" = (
 /turf/template_noop,
 /area/template_noop)
@@ -4611,14 +5793,18 @@
 	},
 /obj/effect/spawner/random/cobweb/right/rare,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "RB" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/caution,
 /turf/simulated/floor/mineral/plastitanium/red,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "RC" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 4
@@ -4646,12 +5832,16 @@
 	pixel_y = 7
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "RI" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/optable,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "RL" = (
 /turf/simulated/wall/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
@@ -4661,7 +5851,9 @@
 	dir = 8
 	},
 /turf/simulated/floor/bluegrid,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "RQ" = (
 /obj/item/stack/sheet/mineral/sandbags{
 	amount = 50
@@ -4678,17 +5870,23 @@
 	pixel_y = 5
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Sd" = (
 /obj/mecha/working/ripley,
 /turf/simulated/floor/mech_bay_recharge_floor,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Si" = (
 /obj/machinery/smithing/kinetic_assembler,
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Sk" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/projectile/automatic/wt550,
@@ -4696,7 +5894,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Sm" = (
 /obj/structure/table/flipped{
 	dir = 4
@@ -4708,20 +5908,26 @@
 "Sp" = (
 /obj/machinery/door/airlock/command/glass,
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Sq" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/magic/staff/slipping,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Sx" = (
 /mob/living/basic/soviet/nian,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Sy" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
@@ -4731,7 +5937,9 @@
 	},
 /obj/machinery/optable,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Sz" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
@@ -4747,14 +5955,18 @@
 /obj/item/robot_parts/robot_component/actuator,
 /obj/item/robot_parts/robot_component/actuator,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "SB" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/projectile/automatic/tommygun,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "SO" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/diamond{
@@ -4763,47 +5975,63 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "SP" = (
 /obj/item/kirbyplants/large,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "SQ" = (
 /obj/effect/turf_decal/tiles/department/science,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ST" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/computer/operating{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "SV" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "SY" = (
 /obj/structure/closet/crate/nanotrasen,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Te" = (
 /obj/effect/turf_decal/tiles/department/engineering/corner,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Th" = (
 /mob/living/simple_animal/hostile/syndicate/depot/modsuit/elite,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Tn" = (
 /obj/structure/closet/crate/freezer,
 /obj/effect/spawner/random/food_or_drink/juice_boxes,
@@ -4811,7 +6039,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Tz" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
@@ -4819,7 +6049,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "TO" = (
 /obj/structure/table/glass/reinforced/titanium,
 /obj/item/roller{
@@ -4834,14 +6066,18 @@
 	pixel_y = 9
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "TQ" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/temperature,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "TS" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/stack/ore/platinum{
@@ -4850,49 +6086,69 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "TZ" = (
 /mob/living/basic/heretic_summon/rust_spirit,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ua" = (
 /obj/machinery/light,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/nss_murphy/clockwork)
+"Uc" = (
+/mob/living/simple_animal/hostile/syndicate/shield,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ue" = (
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ug" = (
 /obj/structure/table/glass/reinforced/titanium,
 /obj/machinery/light,
 /obj/item/storage/firstaid/o2,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Un" = (
 /mob/living/basic/hostile_mech/gygax,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ut" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Uw" = (
 /obj/machinery/mineral/smart_hopper,
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ux" = (
 /obj/structure/table/reinforced/brass,
 /obj/effect/spawner/random/food_or_drink/dinner,
@@ -4902,7 +6158,9 @@
 /obj/effect/turf_decal/tiles/department/medical,
 /mob/living/basic/lightgeist,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "UE" = (
 /obj/structure/barricade/sandbags,
 /obj/machinery/light{
@@ -4942,13 +6200,15 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "UQ" = (
 /mob/living/simple_animal/bot/ed209/syndicate,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/template_noop)
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "UT" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
@@ -4967,7 +6227,9 @@
 	pixel_y = -7
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "UY" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/plasma{
@@ -4976,14 +6238,18 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Vb" = (
 /obj/structure/gunrack,
 /obj/item/gun/energy/gun/shotgun,
 /obj/item/gun/energy/gun/shotgun,
 /obj/item/gun/energy/gun/shotgun,
 /turf/simulated/floor/mineral/plastitanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Vc" = (
 /obj/machinery/door/airlock/clockwork{
 	name = "Port 3ng1ne r#err- Spinward Transept"
@@ -4995,39 +6261,53 @@
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Vm" = (
 /mob/living/basic/scarybat,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Vq" = (
 /obj/structure/window/basic,
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Vr" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Vu" = (
 /mob/living/basic/soviet/ranged,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Vv" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_ccw{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Vy" = (
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "VJ" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 6
@@ -5042,20 +6322,26 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "VM" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
 	},
 /obj/machinery/autolathe/upgraded/gamma,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "VN" = (
 /obj/effect/turf_decal/tiles/white/half{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/dark/half,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "VO" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
@@ -5071,49 +6357,69 @@
 /obj/item/robot_parts/robot_component/diagnosis_unit,
 /obj/item/robot_parts/robot_component/diagnosis_unit,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "VR" = (
 /obj/machinery/door/airlock/public,
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "VY" = (
-/obj/machinery/economy/vending/smith,
+/obj/machinery/economy/vending/smith{
+	req_access = list()
+	},
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Wi" = (
 /turf/simulated/floor/plasteel/fakestairs/center{
 	dir = 8
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Wj" = (
 /turf/simulated/floor/plasteel/dark/grid{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Wk" = (
 /obj/effect/turf_decal/tiles/department/engineering/half,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Wm" = (
 /obj/effect/turf_decal/tiles/department/science,
 /mob/living/basic/malfborg,
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Wr" = (
 /turf/simulated/wall/mineral/titanium/survival,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Wt" = (
 /mob/living/basic/skeleton/incursion/security,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Wv" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 5
@@ -5125,19 +6431,25 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "WF" = (
 /mob/living/basic/netherworld/blankbody,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "WH" = (
 /mob/living/basic/drakehound_breacher,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "WK" = (
 /obj/effect/decal/cleanable/glass,
 /obj/structure/table/reinforced,
@@ -5152,7 +6464,9 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "WM" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/bananium{
@@ -5161,25 +6475,25 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "WP" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning{
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
-"WZ" = (
-/mob/living/simple_animal/hostile/syndicate/shield,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Xe" = (
 /obj/mecha/combat/marauder/ares/loaded{
 	operation_req_access = list()
 	},
 /turf/simulated/floor/mech_bay_recharge_floor,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Xl" = (
 /obj/structure/table/glass/reinforced/titanium,
 /obj/machinery/light{
@@ -5187,7 +6501,9 @@
 	},
 /obj/item/soap,
 /turf/simulated/floor/plasteel/freezer,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Xo" = (
 /obj/structure/closet/crate,
 /obj/item/gun/projectile/bow,
@@ -5195,13 +6511,27 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Xr" = (
 /mob/living/basic/hostile_mech/ares,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"Xs" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/full{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Xt" = (
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 1
@@ -5209,7 +6539,9 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Xv" = (
 /obj/machinery/light{
 	dir = 1
@@ -5219,11 +6551,15 @@
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Xz" = (
 /obj/machinery/door/airlock/medical,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "XL" = (
 /obj/structure/closet/crate,
 /obj/item/stack/medical/suture/medicated,
@@ -5232,7 +6568,9 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "XM" = (
 /obj/machinery/computer/nonfunctional{
 	dir = 4;
@@ -5242,10 +6580,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/indestructible/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "XO" = (
 /turf/simulated/wall/mineral/titanium,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "XP" = (
 /obj/machinery/light{
 	dir = 8
@@ -5261,31 +6603,41 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Yf" = (
 /mob/living/simple_animal/hostile/clockwork_construct/clockwork_marauder/hostile,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/nss_murphy/clockwork)
 "Yi" = (
 /turf/simulated/wall/indestructible/opsglass/titanium_window,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Yk" = (
 /obj/effect/turf_decal/trimline/department/medbay/corner{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ym" = (
 /turf/simulated/wall{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Yt" = (
 /obj/structure/closet/crate,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Yu" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
@@ -5310,13 +6662,17 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Yx" = (
 /obj/effect/turf_decal/trimline/department/medbay/corner{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "YB" = (
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 4
@@ -5324,27 +6680,35 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "YJ" = (
 /obj/structure/closet/crate,
 /obj/item/gun/projectile/bow,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "YN" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/syntheticunion_major,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "YQ" = (
 /mob/living/basic/netherworld/faithless,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "YS" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
@@ -5358,7 +6722,9 @@
 	pixel_y = 5
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "YU" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/stack/ore/palladium{
@@ -5373,59 +6739,79 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Ze" = (
 /mob/living/basic/malfborg/sec,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Zh" = (
 /obj/machinery/optable,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Zn" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/white,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Zq" = (
 /obj/structure/railing/cap/normal{
 	dir = 4
 	},
 /obj/effect/turf_decal/tiles/department/command,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Zs" = (
 /obj/item/flag/nt,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Zt" = (
 /obj/structure/chair/sofa/bench/right,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ZF" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/ussp_major,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ZG" = (
 /obj/effect/spawner/random/blood/often,
 /obj/item/robot_parts/head{
 	pixel_y = 10
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ZJ" = (
 /obj/effect/turf_decal/siding,
 /obj/structure/railing,
 /turf/simulated/floor/plasteel/dark/full,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ZK" = (
 /obj/effect/turf_decal/tiles/department/engineering/corner{
 	dir = 8
@@ -5433,31 +6819,41 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ZP" = (
 /obj/machinery/porta_turret/ruin/accellerator,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ZQ" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/sink/directional/south,
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ZS" = (
 /mob/living/basic/hellhound/whelp,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ZT" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/smithed_item,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ZU" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/table/glass/reinforced/titanium,
@@ -5470,14 +6866,18 @@
 	pixel_x = 30
 	},
 /turf/simulated/floor/plasteel/dark,
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "ZV" = (
 /obj/structure/closet/crate,
 /obj/item/gun/projectile/automatic/c20r/toy,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/template_noop)
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 
 (1,1,1) = {"
 Rp
@@ -7680,18 +9080,18 @@ Fr
 Fr
 Fr
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 yA
 Rp
@@ -7801,14 +9201,14 @@ Rp
 Rp
 yA
 yA
-UQ
+It
 Ue
 Ue
 Ue
 Ue
 Ue
 Ue
-Ue
+cc
 Ue
 Ue
 Ue
@@ -7842,18 +9242,18 @@ Fr
 Fr
 Fr
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 UQ
 yA
 yA
@@ -8004,20 +9404,20 @@ Fr
 Fr
 Fr
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 yA
 Rp
@@ -8167,20 +9567,20 @@ Fr
 Fr
 yA
 Ac
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Uc
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 yA
 Rp
@@ -8284,7 +9684,7 @@ Rp
 Rp
 yA
 yA
-UQ
+It
 Ue
 Ue
 Ue
@@ -8329,20 +9729,20 @@ Fr
 Fr
 OD
 AU
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 UQ
 yA
 yA
@@ -8422,19 +9822,19 @@ Rp
 Rp
 yA
 yA
+Yi
+Yi
+Yi
+Yi
 yA
 yA
 yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
+Yi
+Yi
+Yi
+Yi
+Yi
+Yi
 yA
 yA
 Rp
@@ -8452,7 +9852,7 @@ Ue
 Ue
 Ue
 Ue
-Ue
+cc
 Ue
 Ue
 Ue
@@ -8491,22 +9891,22 @@ Fr
 Fr
 OD
 lP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Uc
+Fr
+Fr
+Fr
+Fr
 yA
 Rp
 Rp
@@ -8517,19 +9917,19 @@ Rp
 Rp
 yA
 yA
+Yi
+Yi
+Yi
+Yi
+Yi
+Yi
 yA
 yA
 yA
 yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
+Yi
+Yi
+Yi
 yA
 yA
 Rp
@@ -8653,22 +10053,22 @@ Fr
 Fr
 OD
 sU
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Uc
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 Rp
 Rp
@@ -8774,7 +10174,7 @@ Ue
 Ue
 Ue
 Ue
-Ue
+cc
 Ue
 Ue
 Ue
@@ -8815,22 +10215,22 @@ Fr
 lo
 yA
 up
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Uc
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 Rp
 Rp
@@ -8926,11 +10326,11 @@ Ue
 Ue
 yA
 yA
+Yi
+Yi
+Yi
 yA
 yA
-yA
-yA
-yA
 Ue
 Ue
 Ue
@@ -8942,7 +10342,7 @@ Ue
 Ue
 Ue
 Ue
-Ue
+cc
 Ue
 Ue
 Ue
@@ -8976,38 +10376,38 @@ Fr
 Fr
 Fr
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 yA
 yA
+Yi
+Yi
+Yi
 yA
 yA
-yA
-yA
-yA
+Ue
+Ue
+cc
 Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
+cc
 Ue
 Ue
 hW
@@ -9138,23 +10538,23 @@ Fr
 Fr
 Fr
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 hW
 Ue
 Ue
@@ -9269,9 +10669,9 @@ Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
+FW
+FW
+FW
 yA
 Fr
 Fr
@@ -9300,23 +10700,23 @@ Fr
 Fr
 Fr
 yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+rN
+rN
+rN
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 hW
 Ue
 Ue
@@ -9329,7 +10729,7 @@ Ue
 Ue
 Ue
 Ue
-Ue
+cc
 Ue
 Ue
 Ue
@@ -9388,7 +10788,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -9412,9 +10812,9 @@ aP
 aP
 aP
 aP
-aP
-aP
-aP
+Yi
+Yi
+Yi
 aP
 aP
 aP
@@ -9481,9 +10881,9 @@ aP
 aP
 aP
 aP
-aP
-aP
-aP
+Yi
+Yi
+Yi
 aP
 aP
 aP
@@ -9507,7 +10907,7 @@ Ue
 Ea
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -9550,7 +10950,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -9669,7 +11069,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -9712,7 +11112,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -9831,7 +11231,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -9874,7 +11274,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -9898,9 +11298,9 @@ Ue
 Ue
 yA
 yA
-yA
-yA
-yA
+Yi
+Yi
+Yi
 yA
 yA
 Ue
@@ -9967,9 +11367,9 @@ Ue
 Ue
 yA
 yA
-yA
-yA
-yA
+Yi
+Yi
+Yi
 yA
 yA
 Ue
@@ -9993,7 +11393,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -10036,7 +11436,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -10155,7 +11555,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -10198,7 +11598,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -10317,7 +11717,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -10360,7 +11760,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -10479,7 +11879,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -10522,7 +11922,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -10641,7 +12041,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -10684,7 +12084,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -10803,7 +12203,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -10846,7 +12246,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -10965,7 +12365,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -11008,7 +12408,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -11127,7 +12527,7 @@ Ue
 Ue
 Ue
 hp
-yA
+Yi
 Rp
 Rp
 Rp
@@ -11170,7 +12570,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -11289,7 +12689,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -11332,7 +12732,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -11363,7 +12763,7 @@ Rp
 yA
 Ue
 Ue
-WZ
+cc
 aP
 Ue
 Ue
@@ -11451,7 +12851,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -11583,7 +12983,7 @@ Ue
 Ue
 aP
 Ue
-WZ
+cc
 Ue
 yA
 Rp
@@ -11847,7 +13247,7 @@ Rp
 Rp
 Rp
 yA
-WZ
+cc
 Ue
 Ue
 aP
@@ -12232,7 +13632,7 @@ Ue
 aP
 Ue
 Ue
-WZ
+cc
 yA
 Rp
 Rp
@@ -12332,7 +13732,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -12395,7 +13795,7 @@ aP
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -12494,7 +13894,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -12557,7 +13957,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -12656,7 +14056,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -12672,7 +14072,7 @@ Ue
 Ue
 Ue
 Ue
-UQ
+It
 aP
 yA
 Ue
@@ -12703,7 +14103,7 @@ Ue
 Ue
 yA
 aP
-UQ
+It
 Ue
 Ue
 Ue
@@ -12719,7 +14119,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -12818,7 +14218,7 @@ Rp
 Rp
 Rp
 Rp
-yA
+Yi
 Ue
 Ue
 Ue
@@ -12881,7 +14281,7 @@ Ue
 Ue
 Ue
 Ue
-yA
+Yi
 Rp
 Rp
 Rp
@@ -12980,11 +14380,11 @@ Rp
 Rp
 Rp
 Rp
-yA
-yA
-yA
-yA
-yA
+Yi
+Yi
+Yi
+Yi
+Yi
 yA
 yA
 yA
@@ -13005,7 +14405,7 @@ Ue
 Ue
 Ue
 Ue
-Ue
+Nx
 yA
 xn
 Ue
@@ -13017,7 +14417,7 @@ Ue
 Ue
 xn
 yA
-Ue
+Nx
 Ue
 Ue
 Ue
@@ -13039,11 +14439,11 @@ yA
 yA
 yA
 yA
-yA
-yA
-yA
-yA
-yA
+Yi
+Yi
+Yi
+Yi
+Yi
 Rp
 Rp
 Rp
@@ -13171,11 +14571,11 @@ Ue
 yA
 GI
 Ue
-Ue
-Ue
+IM
+IM
 de
-Ue
-Ue
+IM
+IM
 Ue
 GI
 yA
@@ -18672,7 +20072,7 @@ yA
 yA
 DA
 dm
-ju
+rB
 wr
 rT
 wr
@@ -18688,7 +20088,7 @@ Rp
 yA
 DA
 dm
-ju
+rB
 wr
 wr
 rT
@@ -22401,7 +23801,7 @@ dm
 wr
 ju
 ju
-ju
+rB
 dm
 DA
 yA
@@ -22417,7 +23817,7 @@ dm
 ju
 ju
 wr
-ju
+rB
 dm
 DA
 yA
@@ -26033,7 +27433,7 @@ aP
 Ue
 qj
 qj
-pR
+Bp
 qj
 qj
 qj
@@ -26042,7 +27442,7 @@ qj
 qj
 qj
 qj
-qj
+Fn
 qj
 qj
 Ue
@@ -26316,46 +27716,46 @@ Ue
 yA
 Ue
 qj
-qj
+tp
 Ym
 Ym
 Ym
 Ym
 Ym
 Ym
-qj
-qj
-Ue
-aP
-Ue
-qj
-qj
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-qj
+qq
 qj
 Ue
 aP
 Ue
 qj
-qj
+tp
 Ym
 Ym
 Ym
 Ym
 Ym
 Ym
-qj
-qj
+qq
 qj
 Ue
 aP
 Ue
 qj
+tp
+Ym
+Ym
+Ym
+Ym
+Ym
+Ym
+qq
+qj
+qj
+Ue
+aP
+Ue
+tp
 Ym
 fm
 qj
@@ -26368,7 +27768,7 @@ qj
 qj
 fm
 Ym
-qj
+qq
 Ue
 Yi
 Rp
@@ -26521,12 +27921,12 @@ qj
 Ym
 qj
 qj
+Fn
 qj
 qj
 qj
 qj
-qj
-qj
+Fn
 qj
 qj
 Ym
@@ -27275,7 +28675,7 @@ Rp
 yA
 ku
 Wj
-Wj
+yp
 Wj
 Wj
 Wj
@@ -27440,7 +28840,7 @@ Wj
 Wj
 Wj
 Wj
-Wj
+yp
 Wj
 ku
 yA
@@ -27817,12 +29217,12 @@ qj
 Ym
 qj
 qj
+Xs
 qj
 qj
 qj
 qj
-qj
-qj
+Xs
 qj
 qj
 Ym
@@ -27936,46 +29336,46 @@ Ue
 yA
 Ue
 qj
-qj
+tp
 Ym
 Ym
 Ym
 Ym
 Ym
 Ym
-qj
-qj
-Ue
-aP
-Ue
-qj
-qj
-Ym
-Ym
-Ym
-Ym
-Ym
-Ym
-qj
+qq
 qj
 Ue
 aP
 Ue
 qj
-qj
+tp
 Ym
 Ym
 Ym
 Ym
 Ym
 Ym
-qj
-qj
+qq
 qj
 Ue
 aP
 Ue
 qj
+tp
+Ym
+Ym
+Ym
+Ym
+Ym
+Ym
+qq
+qj
+qj
+Ue
+aP
+Ue
+tp
 Ym
 fm
 qj
@@ -27988,7 +29388,7 @@ qj
 qj
 fm
 Ym
-qj
+qq
 Ue
 Yi
 Rp
@@ -28301,6 +29701,7 @@ aP
 Ue
 qj
 qj
+Xs
 qj
 qj
 qj
@@ -28309,8 +29710,7 @@ qj
 qj
 qj
 qj
-qj
-qj
+Xs
 pR
 qj
 Ue
@@ -29865,7 +31265,7 @@ SP
 WE
 Wk
 iP
-sS
+kg
 sS
 Bk
 oD
@@ -31351,7 +32751,7 @@ Ue
 Ue
 aP
 gD
-Fx
+cG
 Gf
 SQ
 Fz
@@ -31832,7 +33232,7 @@ Ue
 Ue
 Ue
 Ue
-Ue
+gs
 Ue
 Ue
 aP
@@ -31936,17 +33336,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -31985,17 +33385,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 LD
@@ -32098,17 +33498,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -32147,17 +33547,17 @@ AZ
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+yl
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+yl
+mj
 Ue
 aP
 Ja
@@ -32260,17 +33660,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -32309,17 +33709,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+yl
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+yl
+mj
 Ue
 aP
 Xl
@@ -32422,17 +33822,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -32463,7 +33863,7 @@ Bk
 vI
 Wk
 iP
-sS
+kg
 sS
 Bk
 vI
@@ -32471,17 +33871,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 dx
@@ -32584,17 +33984,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -32633,17 +34033,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+mj
 Ue
 aP
 LD
@@ -32746,17 +34146,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -32795,17 +34195,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+mj
 Ue
 aP
 pi
@@ -32908,17 +34308,17 @@ Ue
 Ue
 hW
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 hW
 Ue
@@ -32957,17 +34357,17 @@ Ue
 Ue
 hW
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+GK
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 EW
 Vh
@@ -33070,17 +34470,17 @@ Ue
 Ue
 hW
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 hW
 Ue
@@ -33094,7 +34494,7 @@ vI
 Wk
 Bk
 pQ
-pQ
+ou
 iP
 Fm
 WE
@@ -33111,7 +34511,7 @@ Bk
 vI
 Wk
 iP
-sS
+uV
 sS
 Bk
 vI
@@ -33119,17 +34519,17 @@ Ue
 Ue
 hW
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 EW
 Fx
@@ -33232,17 +34632,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -33281,17 +34681,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+mj
 yq
 aP
 Fx
@@ -33394,17 +34794,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -33443,17 +34843,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+mj
 np
 aP
 eb
@@ -33556,17 +34956,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -33605,17 +35005,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 ab
@@ -33718,17 +35118,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -33767,17 +35167,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+yl
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+Pi
+yl
+mj
 Ue
 aP
 ig
@@ -33833,29 +35233,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 yA
@@ -33880,17 +35280,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -33929,17 +35329,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+yl
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+Ib
+yl
+mj
 Ue
 aP
 cZ
@@ -33964,29 +35364,29 @@ NG
 Yi
 Rp
 Rp
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -33995,29 +35395,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 yA
@@ -34042,17 +35442,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 Ue
@@ -34091,17 +35491,17 @@ Ue
 Ue
 aP
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
+mj
 Ue
 aP
 EY
@@ -34126,29 +35526,29 @@ wc
 yA
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -34157,31 +35557,31 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
 Rp
 Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 yA
 Ue
 Ue
@@ -34253,7 +35653,7 @@ Ue
 Ue
 aP
 Ue
-Ue
+gs
 Ue
 Ue
 Ue
@@ -34288,29 +35688,29 @@ sP
 yA
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -34319,31 +35719,31 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
-yA
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 yA
 aP
 aP
@@ -34448,31 +35848,31 @@ aP
 aP
 aP
 yA
-yA
-yA
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -34481,35 +35881,35 @@ Rp
 Rp
 Rp
 Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 yA
 Ue
 Ue
 Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
 Ue
 Ue
 Ue
@@ -34589,7 +35989,7 @@ Ue
 Ue
 Ue
 Ue
-aP
+hW
 Ue
 Ue
 Ue
@@ -34600,7 +36000,7 @@ Ue
 Ue
 Ue
 Ue
-aP
+Ue
 Ue
 Ue
 Ue
@@ -34609,32 +36009,32 @@ Ue
 Lb
 Ue
 Ue
-nh
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
 yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -34643,6 +36043,31 @@ Rp
 Rp
 Rp
 Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 yA
 Ue
 Ue
@@ -34652,31 +36077,6 @@ Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
 aP
 Ue
 Ue
@@ -34751,38 +36151,13 @@ Ue
 Ue
 Ue
 Ue
-aP
+hW
 Ue
 Ue
 Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
 Ue
 Ue
 Ue
@@ -34797,6 +36172,31 @@ Ue
 Ue
 Ue
 yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -34805,6 +36205,31 @@ Rp
 Rp
 Rp
 Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 yA
 Ue
 Ue
@@ -34814,31 +36239,6 @@ Ue
 Ue
 Ue
 Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-nh
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
 aP
 Ue
 Ue
@@ -34909,34 +36309,11 @@ Ue
 Ue
 Ue
 Ue
+aC
 Ue
 Ue
 Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-nh
-Ue
-Ue
-nh
+hW
 Ue
 Ue
 Ue
@@ -34950,8 +36327,6 @@ Ue
 Ue
 Ue
 Ue
-Ue
-mE
 Ue
 Ue
 Ue
@@ -34959,6 +36334,31 @@ Ue
 Ue
 Ue
 yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -34967,31 +36367,31 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
-yA
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 yA
 Ue
 Ue
@@ -35076,51 +36476,51 @@ Ue
 Ue
 Ue
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
 aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
+aP
+aP
+aP
+KL
+KL
+aP
+aP
+aP
+aP
+aP
+aP
+aP
+aP
+KL
+KL
+aP
+aP
+aP
 yA
-yA
-yA
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -35129,135 +36529,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 yA
@@ -35269,11 +36563,92 @@ Ue
 Ue
 Ue
 Ue
-mE
+aP
 Ue
 Ue
 Ue
 Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+KL
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
 Ue
 Ue
 Ue
@@ -35283,6 +36658,31 @@ Ue
 Ue
 Ue
 yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -35291,6 +36691,31 @@ Rp
 Rp
 Rp
 Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 yA
 Ue
 Ue
@@ -35300,6 +36725,7 @@ Ue
 Ue
 Ue
 Ue
+aP
 Ue
 Ue
 Ue
@@ -35309,6 +36735,86 @@ Ue
 Ue
 Ue
 Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+aC
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Am
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+aC
 Ue
 Ue
 Ue
@@ -35316,135 +36822,29 @@ Ue
 yA
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -35453,135 +36853,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-hW
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 yA
@@ -35593,11 +36887,92 @@ Ue
 Ue
 Ue
 Ue
+hW
 Ue
 Ue
 Ue
 Ue
 Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+hW
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+hW
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+hW
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+hW
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+hW
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Am
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aC
+Ue
+Ue
+Ue
+aP
 Ue
 Ue
 Ue
@@ -35607,6 +36982,31 @@ Ue
 Ue
 Ue
 yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -35615,135 +37015,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 yA
@@ -35755,20 +37049,126 @@ Ue
 Ue
 Ue
 Ue
+aP
 Ue
 Ue
 Ue
 Ue
 Ue
 Ue
-mE
 Ue
 Ue
 Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Am
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Am
+Ue
+Ue
+Ue
+Ue
+aC
 Ue
 Ue
 Ue
 yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -35777,6 +37177,31 @@ Rp
 Rp
 Rp
 Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 yA
 Ue
 Ue
@@ -35785,7 +37210,88 @@ Ue
 Ue
 Ue
 Ue
-mE
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Am
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
 Ue
 Ue
 Ue
@@ -35802,135 +37308,29 @@ Ue
 yA
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -35939,135 +37339,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 yA
@@ -36079,11 +37373,92 @@ Ue
 Ue
 Ue
 Ue
+aP
 Ue
 Ue
 Ue
 Ue
 Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aC
+Ue
+Ue
+Ue
+Ue
+Am
+Ue
+Ue
+aC
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
 Ue
 Ue
 Ue
@@ -36093,6 +37468,31 @@ Ue
 Ue
 Ue
 yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -36101,152 +37501,126 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
 Rp
 Rp
-yA
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 yA
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
+yA
 Ue
 Ue
 Ue
 Ue
 Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+aC
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Am
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
 Ue
 Ue
 Ue
@@ -36255,6 +37629,32 @@ Ue
 Ue
 Ue
 yA
+yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -36263,138 +37663,52 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
 Rp
 Rp
 Rp
-yA
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-aP
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
 yA
+yA
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
 Ue
 Ue
 Ue
@@ -36408,8 +37722,67 @@ Ue
 Ue
 Ue
 Ue
+aP
 Ue
-mE
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Am
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+aP
 Ue
 Ue
 Ue
@@ -36417,6 +37790,33 @@ Ue
 Ue
 Ue
 yA
+yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -36425,29 +37825,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -36556,29 +37956,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -36587,29 +37987,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -36718,29 +38118,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -36749,29 +38149,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-mE
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -36880,29 +38280,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -36911,29 +38311,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -37042,29 +38442,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -37073,29 +38473,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -37204,29 +38604,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -37235,29 +38635,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Nv
-Nv
-Nv
-fW
-Nv
-Nv
-Nv
-fW
-fW
-Nv
-Nv
-Nv
-fW
-fW
-Nv
-Nv
-Nv
-fW
-Nv
-Nv
-Nv
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -37366,29 +38766,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Nv
-Nv
-Nv
-fW
-Nv
-Nv
-Nv
-fW
-fW
-Nv
-Nv
-Nv
-fW
-fW
-Nv
-Nv
-Nv
-fW
-Nv
-Nv
-Nv
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -37397,29 +38797,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Pl
-Pl
-wl
-qk
-Pl
-Pl
-wl
-qk
-qk
-Pl
-Pl
-wl
-qk
-qk
-Pl
-Pl
-wl
-qk
-Pl
-Pl
-wl
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -37528,29 +38928,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-Pl
-Pl
-wl
-qk
-Pl
-Pl
-wl
-qk
-qk
-Pl
-Pl
-wl
-qk
-qk
-Pl
-Pl
-wl
-qk
-Pl
-Pl
-wl
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -37559,29 +38959,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -37645,7 +39045,7 @@ qa
 RL
 PJ
 uJ
-uJ
+xq
 uJ
 uJ
 CY
@@ -37690,29 +39090,29 @@ Rp
 Rp
 Rp
 Rp
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
-yA
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
+Rp
 Rp
 Rp
 Rp
@@ -38764,7 +40164,7 @@ oe
 aR
 uJ
 RL
-uJ
+Yf
 uJ
 uJ
 uJ
@@ -38775,14 +40175,14 @@ uJ
 uJ
 uJ
 uJ
-uJ
+Yf
 RL
 oW
 uJ
 jn
 aR
 uJ
-uJ
+xq
 uJ
 uJ
 uJ
@@ -39121,7 +40521,7 @@ IJ
 uJ
 uJ
 uJ
-uJ
+oM
 uJ
 CY
 Ua
@@ -39412,7 +40812,7 @@ aT
 Ld
 uJ
 RL
-uJ
+Yf
 uJ
 uJ
 uJ
@@ -39423,7 +40823,7 @@ uJ
 uJ
 uJ
 uJ
-uJ
+Yf
 RL
 oW
 uJ
