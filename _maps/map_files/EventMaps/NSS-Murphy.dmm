@@ -91,6 +91,9 @@
 "aC" = (
 /obj/effect/turf_decal/tiles/dark/checker,
 /obj/machinery/cooking/ice_cream_mixer/upgraded,
+/obj/item/reagent_containers/cooking/icecream_bowl{
+	pixel_y = 4
+	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -1914,8 +1917,12 @@
 "mD" = (
 /obj/effect/turf_decal/tiles/dark/checker,
 /obj/structure/table/reinforced,
-/obj/item/reagent_containers/cooking/bowl,
 /obj/machinery/light,
+/obj/item/reagent_containers/cooking/sushimat{
+	pixel_x = -1;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/cooking/bowl,
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -2005,6 +2012,10 @@
 /obj/effect/turf_decal/tiles/dark/checker,
 /obj/structure/table/reinforced,
 /obj/machinery/cooking/grill/upgraded,
+/obj/item/reagent_containers/cooking/grill_grate{
+	pixel_x = -10;
+	pixel_y = 7
+	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -2093,6 +2104,13 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
+"nS" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/item/reagent_containers/cooking/pan,
+/turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
@@ -3073,6 +3091,13 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"un" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/item/reagent_containers/cooking/pot,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "up" = (
 /obj/structure/table/flipped{
 	dir = 1
@@ -3732,6 +3757,10 @@
 "yI" = (
 /obj/effect/turf_decal/tiles/dark/checker,
 /obj/machinery/cooking/oven/upgraded,
+/obj/item/reagent_containers/cooking/oven{
+	pixel_x = 2;
+	pixel_y = 11
+	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -5517,6 +5546,20 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"JO" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/item/reagent_containers/cooking/pan{
+	pixel_x = -38;
+	pixel_y = 33
+	},
+/obj/item/reagent_containers/cooking/pot{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "JQ" = (
 /turf/simulated/floor/carpet/purple,
 /area/ruin/space/nss_murphy{
@@ -6858,6 +6901,13 @@
 /area/ruin/space/nss_murphy{
 	requires_power = 0
 	})
+"Tv" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/item/reagent_containers/cooking/deep_basket,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/nss_murphy{
+	requires_power = 0
+	})
 "Tz" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
@@ -7689,6 +7739,7 @@
 /obj/structure/window/basic{
 	dir = 8
 	},
+/obj/item/reagent_containers/cooking/grill_grate,
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/nss_murphy{
 	requires_power = 0
@@ -37780,10 +37831,10 @@ sR
 Am
 Vi
 Vi
+un
 Vi
 Vi
-Vi
-Vi
+Tv
 Vi
 Vi
 Vi
@@ -38103,14 +38154,14 @@ Wc
 sR
 UW
 Vi
+Tv
 Vi
 Vi
 Vi
 Vi
 Vi
 Vi
-Vi
-Vi
+nS
 Vi
 aP
 uz
@@ -38915,7 +38966,7 @@ aP
 GO
 rz
 yI
-Vi
+JO
 nl
 aP
 Wn
