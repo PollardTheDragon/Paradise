@@ -143,23 +143,19 @@
 "aK" = (
 /turf/simulated/floor/plasteel/white/full,
 /area/ruin/space/powered)
-"aM" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 8
-	},
-/obj/structure/shelf/supply,
-/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
-/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "aP" = (
 /turf/simulated/wall/mineral/titanium/interior{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"aQ" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 8
+	},
+/obj/item/stack/sheet/mineral/sandbags{
+	amount = 50
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "aR" = (
 /obj/effect/turf_decal/woodsiding{
@@ -167,14 +163,6 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/clockwork_monastery)
-"aS" = (
-/obj/effect/turf_decal/tiles/dark/corner{
-	dir = 1
-	},
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
 "aT" = (
 /obj/structure/chair/brass{
 	dir = 8
@@ -286,6 +274,19 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"bq" = (
+/obj/effect/turf_decal/tiles/dark/corner{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"bs" = (
+/obj/structure/barricade/sandbags,
+/obj/item/toy/plushie/nianplushie/firewatch,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "bw" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -325,6 +326,21 @@
 	},
 /obj/machinery/atmospherics/portable/canister/toxins,
 /obj/effect/turf_decal/tiles/department/engineering/mono,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"bF" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 9
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
+"bH" = (
+/obj/effect/turf_decal/tiles/dark/side{
+	dir = 1
+	},
+/obj/effect/turf_decal/tiles/dark/corner,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
@@ -369,9 +385,11 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"bU" = (
-/obj/item/stack/sheet/wood/fifty,
-/turf/simulated/floor/plasteel/dark,
+"bV" = (
+/obj/machinery/door/airlock/command,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/powered)
 "bY" = (
 /obj/effect/spawner/random/pool/spaceloot/syndicate/common,
@@ -422,12 +440,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"cn" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "co" = (
 /obj/item/gun/projectile/automatic/pistol/enforcer,
 /turf/simulated/floor/indestructible/titanium,
@@ -438,6 +450,11 @@
 	},
 /obj/structure/closet,
 /turf/simulated/floor/plasteel,
+/area/ruin/space/powered)
+"cs" = (
+/obj/machinery/light,
+/obj/effect/turf_decal/tiles/department/security/side,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "cu" = (
 /obj/structure/table/reinforced,
@@ -570,6 +587,10 @@
 "cG" = (
 /obj/item/mod/control/pre_equipped/research,
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/powered)
+"cH" = (
+/obj/effect/snow,
+/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "cO" = (
 /obj/effect/decal/cleanable/glass,
@@ -729,15 +750,26 @@
 /obj/item/wrench/medical,
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/space/powered)
-"dz" = (
-/obj/machinery/door/airlock/command,
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
+"dA" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
 	},
+/obj/structure/sign/fire{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "dB" = (
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/mineral/plastitanium/red,
+/area/ruin/space/powered)
+"dC" = (
+/mob/living/basic/bear/hudson{
+	desc = "It eats capitalists for breakfast.";
+	name = "Soviet Bear";
+	dir = 8
+	},
+/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "dJ" = (
 /obj/structure/closet/secure_closet/evidence,
@@ -746,27 +778,10 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"dK" = (
-/obj/structure/barricade/sandbags,
-/obj/item/toy/plushie/nianplushie/deadhead,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
-"dL" = (
-/obj/effect/turf_decal/tiles/department/security/corner{
-	dir = 8
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "dM" = (
-/obj/effect/spawner/window/reinforced/grilled,
-/turf/simulated/floor/plating,
+/obj/effect/mob_spawn/human/corpse/mime/corpse,
+/turf/simulated/floor/wood,
 /area/ruin/space/powered)
-"dO" = (
-/obj/machinery/recharge_station/upgraded,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/clockwork_monastery)
 "dR" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/window/basic{
@@ -845,12 +860,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"ee" = (
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 6
-	},
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "ef" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
@@ -892,6 +901,12 @@
 	icon_state = "showroomfloor"
 	},
 /area/ruin/space/powered)
+"em" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "eo" = (
 /obj/structure/gunrack,
 /obj/item/gun/energy/gun/shotgun,
@@ -926,12 +941,6 @@
 /obj/effect/spawner/random/food_or_drink,
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/clockwork_monastery)
-"eB" = (
-/obj/machinery/door/airlock/public,
-/obj/structure/barricade/wooden,
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "eG" = (
 /obj/effect/turf_decal/siding{
 	dir = 1
@@ -943,13 +952,6 @@
 /turf/simulated/floor/plasteel/dark/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"eH" = (
-/obj/item/flag/ussp,
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "eI" = (
 /obj/structure/shelf/clockwork,
@@ -980,6 +982,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/powered)
+"eS" = (
+/mob/living/simple_animal/bot/secbot/buzzsky{
+	desc = "It's Comrade Concordsky! Powered by vodka, communism, and hardbass.";
+	name = "Comrade Concordsky"
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "eT" = (
 /obj/machinery/economy/vending/cola,
@@ -1033,14 +1042,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"fj" = (
-/obj/machinery/recharger/wallcharger/upgraded{
-	pixel_y = 32
-	},
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
 "fk" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/taser,
@@ -1084,6 +1085,11 @@
 "fs" = (
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/ruin/space/powered)
+"ft" = (
+/obj/effect/snow,
+/obj/effect/spawner/random/traders/ussp_minor,
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "fv" = (
 /obj/machinery/light/clockwork{
 	dir = 1
@@ -1105,8 +1111,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"fD" = (
-/obj/effect/mob_spawn/human/corpse/bridgeofficer,
+"fF" = (
+/obj/item/mod/control/pre_equipped/apocryphal,
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/machinery/recharger/wallcharger/upgraded{
+	pixel_x = 32
+	},
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
@@ -1124,11 +1134,6 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"fJ" = (
-/obj/effect/snow,
-/obj/effect/spawner/random/traders/ussp_minor,
-/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "fL" = (
 /obj/effect/turf_decal/trimline/department/medbay/line{
@@ -1181,9 +1186,9 @@
 	},
 /area/ruin/space/powered)
 "gf" = (
-/obj/item/flag/ussp,
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 9
+/mob/living/simple_animal/bot/secbot/buzzsky{
+	desc = "It's Comrade Blyatsky! Powered by vodka, communism, and hardbass.";
+	name = "Comrade Blyatsky"
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
@@ -1216,6 +1221,10 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"gq" = (
+/obj/structure/flora/tree/pine,
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "gr" = (
 /obj/machinery/economy/vending/cigarette,
 /turf/simulated/floor/wood,
@@ -1226,27 +1235,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"gt" = (
-/obj/item/flag/ussp,
-/obj/effect/snow,
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "gw" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"gx" = (
-/obj/item/salvage/ruin/soviet,
-/obj/item/salvage/ruin/soviet,
-/obj/structure/shelf/supply,
-/obj/item/salvage/ruin/soviet,
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "gB" = (
 /obj/effect/mine/pickup/healing,
@@ -1263,6 +1257,16 @@
 	},
 /mob/living/simple_animal/bot/cleanbot,
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/powered)
+"gE" = (
+/mob/living/basic/bear/hudson{
+	desc = "It eats capitalists for breakfast.";
+	name = "Soviet Bear"
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "gF" = (
 /obj/structure/chair/comfy/shuttle,
@@ -1297,6 +1301,15 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"gQ" = (
+/obj/structure/table/flipped{
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "gR" = (
 /obj/effect/mob_spawn/human/corpse/random_species/security_officer,
@@ -1371,15 +1384,6 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/clockwork_monastery)
-"hk" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/obj/structure/sign/nosmoking/alt{
-	pixel_y = 32
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "hm" = (
 /obj/structure/bed,
 /obj/item/bedsheet/clockwork,
@@ -1432,6 +1436,22 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"hD" = (
+/obj/item/reagent_containers/glass/paint/red,
+/obj/item/reagent_containers/glass/paint/black{
+	pixel_x = -9;
+	pixel_y = -10
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"hI" = (
+/obj/machinery/door/airlock/command,
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
 "hL" = (
 /obj/machinery/light{
 	dir = 4
@@ -1459,26 +1479,16 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"hR" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 5
+"hS" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
 	},
-/obj/structure/closet/gimmick/soviet,
-/obj/item/storage/box/soviet,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
-"hV" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
+/mob/living/basic/bear/hudson{
+	desc = "It eats capitalists for breakfast.";
+	name = "Soviet Bear";
+	dir = 4
 	},
-/obj/structure/shelf/supply,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
-/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
-/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
-/turf/simulated/floor/plasteel/dark,
+/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "hW" = (
 /obj/machinery/door/airlock/public,
@@ -1503,6 +1513,10 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"ie" = (
+/obj/item/reagent_containers/glass/paint/black,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "ig" = (
 /obj/effect/turf_decal/tiles/department/medical,
@@ -1577,10 +1591,6 @@
 /obj/effect/mob_spawn/human/corpse/random_species/doctor,
 /turf/simulated/floor/indestructible/titanium/blue,
 /area/ruin/space/powered)
-"iB" = (
-/obj/item/flag/ussp,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "iC" = (
 /obj/effect/turf_decal/siding{
 	dir = 5
@@ -1593,15 +1603,17 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"iE" = (
-/obj/structure/table/glass/reinforced/plastitanium,
-/obj/item/gun/energy/pulse/pistol/m1911,
-/obj/machinery/recharger/wallcharger/upgraded{
-	pixel_x = -32
+"iF" = (
+/obj/effect/turf_decal/tiles/dark/checker,
+/obj/effect/mob_spawn/human/corpse/cook,
+/turf/simulated/floor/plasteel/white,
+/area/ruin/space/powered)
+"iK" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 4
 	},
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
+/obj/structure/barricade/sandbags,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "iN" = (
 /obj/machinery/magma_crucible,
@@ -1635,29 +1647,10 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"iU" = (
-/obj/effect/mob_spawn/human/corpse/random_species/engineer,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/clockwork_monastery)
-"iY" = (
-/obj/effect/mob_spawn/human/corpse/bartender,
-/turf/simulated/floor/carpet/purple,
-/area/ruin/space/powered)
 "iZ" = (
 /obj/machinery/door/airlock/survival_pod,
 /obj/structure/fans/tiny,
 /turf/simulated/floor/mineral/plastitanium/red,
-/area/ruin/space/powered)
-"ja" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/obj/structure/sign/fire{
-	pixel_y = 32
-	},
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "jb" = (
 /obj/machinery/light/clockwork{
@@ -1678,6 +1671,12 @@
 	icon_state = "showroomfloor"
 	},
 /area/ruin/space/powered)
+"jh" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "ji" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 6
@@ -1690,15 +1689,6 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/clockwork_monastery)
-"jo" = (
-/obj/effect/turf_decal/tiles/dark/side{
-	dir = 1
-	},
-/obj/effect/turf_decal/tiles/dark/corner,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
 "jp" = (
 /obj/effect/spawner/random/space_pirate,
 /turf/simulated/floor/plasteel{
@@ -1740,12 +1730,6 @@
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium/blue,
-/area/ruin/space/powered)
-"jE" = (
-/obj/machinery/recharge_station/upgraded,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
 /area/ruin/space/powered)
 "jF" = (
 /obj/item/kirbyplants/large/alien,
@@ -1801,10 +1785,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"kc" = (
-/obj/structure/flora/tree/pine,
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "ke" = (
 /obj/structure/railing{
 	dir = 1
@@ -1828,6 +1808,12 @@
 /obj/item/mod/control/pre_equipped/cosmohonk,
 /turf/simulated/floor/mineral/titanium/blue/airless,
 /area/ruin/space/powered)
+"kj" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "kl" = (
 /obj/effect/turf_decal/tiles/department/science/corner{
 	dir = 8
@@ -1836,6 +1822,13 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"kn" = (
+/obj/vehicle/snowmobile/blue{
+	dir = 4
+	},
+/obj/effect/snow,
+/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "ko" = (
 /obj/structure/table/glass/reinforced/plasma,
@@ -1876,10 +1869,6 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"kA" = (
-/obj/structure/barricade/sandbags,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "kB" = (
 /obj/machinery/door/airlock/external/glass,
@@ -1977,12 +1966,6 @@
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw,
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
-"kZ" = (
-/obj/machinery/door/airlock/command,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
 "lc" = (
 /obj/effect/mob_spawn/human/corpse/random_species/security_officer,
 /obj/structure/chair{
@@ -2056,14 +2039,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"lp" = (
-/obj/effect/turf_decal/tiles/dark/side{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
 "lr" = (
 /obj/structure/chair/sofa/pew/clockwork/right{
 	dir = 8
@@ -2078,10 +2053,23 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"lv" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 6
+	},
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "lw" = (
 /obj/effect/turf_decal/tiles/department/security/side{
-	dir = 9
+	dir = 8
 	},
+/obj/structure/shelf/supply,
+/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
+/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "ly" = (
@@ -2112,12 +2100,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"lC" = (
-/obj/effect/turf_decal/tiles/department/security/corner{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "lD" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 9
@@ -2136,12 +2118,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"lI" = (
-/obj/effect/mob_spawn/human/corpse/clown/officer,
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
 "lK" = (
 /obj/effect/turf_decal/tiles/dark/checker,
 /obj/structure/table/reinforced,
@@ -2154,10 +2130,6 @@
 	pixel_y = 3
 	},
 /turf/simulated/floor/plasteel/white,
-/area/ruin/space/powered)
-"lL" = (
-/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "lN" = (
 /obj/structure/chair/comfy/shuttle{
@@ -2239,7 +2211,7 @@
 /area/ruin/space/powered)
 "lY" = (
 /obj/structure/table/glass/reinforced/plasma,
-/obj/effect/spawner/random/food_or_drink/juice_boxes,
+/obj/effect/spawner/random/food_or_drink,
 /turf/simulated/floor/carpet/purple,
 /area/ruin/space/powered)
 "lZ" = (
@@ -2249,23 +2221,6 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "showroomfloor"
 	},
-/area/ruin/space/powered)
-"ma" = (
-/mob/living/basic/bear/hudson{
-	desc = "It eats capitalists for breakfast.";
-	name = "Soviet Bear"
-	},
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 8
-	},
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
-"me" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "mf" = (
 /obj/effect/turf_decal/tiles/dark/checker,
@@ -2302,6 +2257,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"mm" = (
+/obj/effect/turf_decal/tiles/department/security/corner{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "mn" = (
 /obj/machinery/light{
 	dir = 4
@@ -2322,10 +2283,8 @@
 	},
 /area/ruin/space/powered)
 "mq" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 8
-	},
-/turf/simulated/floor/plasteel/dark,
+/obj/effect/spawner/window/reinforced/grilled,
+/turf/simulated/floor/plating,
 /area/ruin/space/powered)
 "mt" = (
 /mob/living/basic/bear/brown,
@@ -2426,10 +2385,10 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"mS" = (
-/obj/structure/snowman,
-/obj/effect/snow,
-/turf/simulated/floor/grass/jungle,
+"mR" = (
+/obj/structure/barricade/sandbags,
+/obj/item/toy/plushie/nianplushie/deadhead,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "mY" = (
 /obj/structure/shelf/clockwork,
@@ -2447,6 +2406,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
+/area/ruin/space/powered)
+"nc" = (
+/obj/machinery/recharge_station/upgraded,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/powered)
 "ne" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
@@ -2513,12 +2478,6 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/ruin/space/powered)
-"nz" = (
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 9
-	},
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "nA" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/corner{
 	dir = 1
@@ -2553,12 +2512,6 @@
 	dir = 1
 	},
 /area/ruin/space/powered)
-"nI" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 5
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "nJ" = (
 /obj/structure/window/basic{
 	dir = 4
@@ -2589,6 +2542,10 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"nT" = (
+/obj/item/stack/sheet/wood/fifty,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "nU" = (
 /obj/item/ammo_box/magazine/c_foam,
 /obj/item/ammo_box/magazine/c_foam{
@@ -2616,6 +2573,13 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"od" = (
+/obj/item/flag/ussp,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "oe" = (
 /obj/structure/chair/brass{
 	dir = 4
@@ -2633,6 +2597,11 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"oh" = (
+/obj/structure/snowman,
+/obj/effect/snow,
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "oi" = (
 /obj/structure/shelf/clockwork,
 /obj/item/clockwork/component/replicant_alloy,
@@ -2643,11 +2612,6 @@
 /obj/item/clockwork/component/replicant_alloy,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/clockwork_monastery)
-"ol" = (
-/obj/item/key/snowmobile,
-/obj/effect/snow,
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "om" = (
 /mob/living/basic/heretic_summon/ash_spirit,
 /turf/simulated/floor/plasteel/full{
@@ -2666,13 +2630,6 @@
 	},
 /turf/simulated/floor/lava/plasma,
 /area/ruin/space/clockwork_monastery)
-"or" = (
-/obj/machinery/economy/vending/sovietsoda,
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "os" = (
 /obj/structure/closet/crate,
 /obj/item/stack/medical/ointment/advanced,
@@ -2705,13 +2662,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"oB" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/obj/effect/spawner/random/traders/ussp_major,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "oD" = (
 /obj/effect/turf_decal/tiles/department/engineering/half{
 	dir = 1
@@ -2732,6 +2682,15 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"oG" = (
+/obj/structure/table/flipped{
+	dir = 8
+	},
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "oH" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/clockwork/component{
@@ -2744,8 +2703,12 @@
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/clockwork_monastery)
 "oJ" = (
-/obj/item/reagent_containers/glass/paint/black,
-/turf/simulated/floor/plasteel/dark,
+/obj/machinery/recharger/wallcharger/upgraded{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/powered)
 "oL" = (
 /obj/structure/closet/crate,
@@ -2758,6 +2721,14 @@
 /obj/item/storage/belt/federation_webbing,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/clockwork_monastery)
+"oQ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high/plus,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
 "oW" = (
 /obj/machinery/sleeper/clockwork{
 	dir = 2
@@ -2796,6 +2767,13 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"ph" = (
+/obj/item/flag/ussp,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "pi" = (
 /obj/structure/window/basic{
 	dir = 4
@@ -2827,6 +2805,13 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
+"pr" = (
+/obj/structure/table/flipped{
+	dir = 4
+	},
+/obj/effect/snow,
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "ps" = (
 /mob/living/basic/hivebot/rapid,
 /turf/simulated/floor/plasteel/full{
@@ -2839,6 +2824,20 @@
 	},
 /obj/effect/mob_spawn/human/corpse/random_species/cargo_tech,
 /turf/simulated/floor/indestructible/titanium/blue,
+/area/ruin/space/powered)
+"pv" = (
+/obj/effect/decal/snow/clean/surround{
+	dir = 8
+	},
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
+"pw" = (
+/obj/effect/turf_decal/tiles/dark/corner{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
 /area/ruin/space/powered)
 "pz" = (
 /obj/machinery/economy/vending/syndisnack,
@@ -2886,24 +2885,7 @@
 	},
 /area/ruin/space/powered)
 "pK" = (
-/obj/effect/turf_decal/tiles/dark/side{
-	dir = 1
-	},
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
-"pM" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 4
-	},
-/obj/structure/shelf/supply,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
+/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "pO" = (
@@ -2949,6 +2931,12 @@
 /obj/item/gun/projectile/automatic/mini_uzi,
 /turf/simulated/floor/indestructible/titanium/blue,
 /area/ruin/space/powered)
+"qd" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 9
+	},
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "qf" = (
 /obj/effect/turf_decal/tiles/department/science/side,
 /obj/structure/shelf/science,
@@ -2971,11 +2959,6 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"qh" = (
-/obj/structure/flora/tree/pine,
-/obj/effect/snow,
-/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "qi" = (
 /obj/structure/gunrack,
@@ -3001,6 +2984,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/mineral/plastitanium,
+/area/ruin/space/powered)
+"qp" = (
+/obj/structure/closet/gimmick/soviet,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "qq" = (
 /obj/machinery/light{
@@ -3050,6 +3040,10 @@
 	},
 /turf/simulated/floor/lava/plasma,
 /area/ruin/space/clockwork_monastery)
+"qA" = (
+/mob/living/basic/soviet,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "qC" = (
 /obj/mecha/combat/marauder/mauler/loaded{
 	operation_req_access = list();
@@ -3091,6 +3085,10 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"qI" = (
+/obj/item/gun/energy/lwap,
+/turf/simulated/floor/plasteel/full,
 /area/ruin/space/powered)
 "qL" = (
 /obj/item/assembly/prox_sensor{
@@ -3182,16 +3180,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"qX" = (
-/obj/item/mod/control/pre_equipped/apocryphal,
-/obj/structure/table/glass/reinforced/plastitanium,
-/obj/machinery/recharger/wallcharger/upgraded{
-	pixel_x = 32
-	},
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
 "qZ" = (
 /turf/simulated/floor/indestructible/titanium,
 /area/ruin/space/powered)
@@ -3242,6 +3230,19 @@
 /obj/item/mod/control/pre_equipped/praetorian,
 /turf/simulated/floor/indestructible/titanium/blue,
 /area/ruin/space/powered)
+"rC" = (
+/mob/living/basic/soviet,
+/obj/effect/turf_decal/tiles/department/security/side,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
+"rD" = (
+/obj/effect/turf_decal/tiles/dark/side{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
 "rH" = (
 /obj/structure/chair/sofa/pew/clockwork/right{
 	dir = 1
@@ -3265,16 +3266,6 @@
 "rN" = (
 /obj/item/mod/control/pre_equipped/apocryphal,
 /obj/structure/table/glass/reinforced/plastitanium,
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
-"rP" = (
-/obj/structure/table/glass/reinforced/plastitanium,
-/obj/item/gun/energy/pulse/carbine,
-/obj/machinery/recharger/wallcharger/upgraded{
-	pixel_x = 32
-	},
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
@@ -3326,11 +3317,6 @@
 /mob/living/basic/carp/holocarp,
 /turf/simulated/floor/transparent/glass/titanium,
 /area/ruin/space/powered)
-"sa" = (
-/obj/machinery/snow_machine,
-/obj/effect/snow,
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "sb" = (
 /obj/machinery/economy/vending/hydroseeds,
 /obj/effect/turf_decal/tiles/department/virology/mono,
@@ -3376,23 +3362,44 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"sr" = (
+/obj/effect/turf_decal/tiles/dark/side{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"st" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/obj/effect/spawner/random/traders/ussp_major,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "su" = (
 /mob/living/simple_animal/hostile/syndicate/modsuit/ranged,
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"sw" = (
-/obj/item/gun/projectile/automatic/pistol/m1911,
-/turf/simulated/floor/indestructible/titanium/blue,
-/area/ruin/space/powered)
-"sz" = (
+"sv" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/effect/turf_decal/tiles/department/security/side{
 	dir = 1
 	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
+"sw" = (
+/obj/item/gun/projectile/automatic/pistol/m1911,
+/turf/simulated/floor/indestructible/titanium/blue,
+/area/ruin/space/powered)
+"sD" = (
+/obj/machinery/door/airlock/public,
+/obj/structure/barricade/wooden,
+/obj/effect/mapping_helpers/airlock/locked,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "sF" = (
@@ -3435,6 +3442,13 @@
 	},
 /turf/simulated/floor/wood,
 /area/ruin/space/powered)
+"sN" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 5
+	},
+/obj/effect/spawner/random/traders/ussp_minor,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "sP" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/closet/crate/freezer/iv_storage,
@@ -3450,13 +3464,6 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"sQ" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/obj/effect/spawner/random/traders/ussp_minor,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "sR" = (
 /turf/simulated/floor/wood,
@@ -3594,15 +3601,6 @@
 /obj/machinery/light/clockwork/floor,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/clockwork_monastery)
-"tm" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/machinery/recharge_station/upgraded,
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
 "tn" = (
 /obj/structure/gunrack,
 /obj/item/gun/energy/gun/blueshield,
@@ -3611,14 +3609,6 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"to" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 8
-	},
-/obj/structure/barricade/sandbags,
-/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "tq" = (
 /obj/structure/table/reinforced,
@@ -3634,15 +3624,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/clockwork_monastery)
-"tr" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 8
-	},
-/obj/item/stack/sheet/mineral/sandbags{
-	amount = 50
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "ts" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/corner{
 	dir = 4
@@ -3651,6 +3632,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"tu" = (
+/obj/effect/mob_spawn/human/corpse/random_species/engineer,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/clockwork_monastery)
 "tw" = (
 /obj/machinery/door/airlock/research,
 /turf/simulated/floor/plasteel/white,
@@ -3658,13 +3645,9 @@
 "tD" = (
 /turf/simulated/floor/lava/plasma,
 /area/ruin/space/clockwork_monastery)
-"tI" = (
-/obj/structure/table/flipped{
-	dir = 4
-	},
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 6
-	},
+"tJ" = (
+/obj/item/flag/ussp,
+/obj/effect/snow,
 /turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "tP" = (
@@ -3707,18 +3690,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"ua" = (
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 10
-	},
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
-"ud" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "ue" = (
 /mob/living/basic/hostile_mech/marauder,
 /obj/effect/turf_decal/tiles/department/security/mono,
@@ -3737,13 +3708,20 @@
 /obj/effect/turf_decal/woodsiding,
 /turf/simulated/floor/lava/plasma,
 /area/ruin/space/clockwork_monastery)
-"uj" = (
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "ul" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/traders/technocracy_minor,
 /turf/simulated/floor/plasteel/full{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"un" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/item/gun/energy/pulse/carbine,
+/obj/machinery/recharger/wallcharger/upgraded{
+	pixel_x = 32
+	},
+/turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
@@ -3757,6 +3735,15 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"uq" = (
+/obj/structure/table/flipped{
+	dir = 4
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "uu" = (
 /obj/machinery/light{
@@ -3808,13 +3795,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"uI" = (
-/mob/living/simple_animal/bot/secbot/buzzsky{
-	desc = "It's Comrade Concordsky! Powered by vodka, communism, and hardbass.";
-	name = "Comrade Concordsky"
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "uJ" = (
 /turf/simulated/floor/clockwork,
 /area/ruin/space/clockwork_monastery)
@@ -3830,12 +3810,6 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"uR" = (
-/obj/structure/chair/light{
-	dir = 8
-	},
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "uS" = (
 /obj/effect/turf_decal/siding{
@@ -3875,8 +3849,14 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"va" = (
+/obj/machinery/door/airlock/security,
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
 "vb" = (
-/turf/simulated/wall/indestructible/titanium/soviet,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "vd" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_ccw{
@@ -3943,6 +3923,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"vv" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 5
+	},
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "vw" = (
 /obj/machinery/door_control{
 	id = "murphy_bridge_lockdown";
@@ -3970,18 +3956,6 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"vJ" = (
-/obj/machinery/door/airlock,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
-"vL" = (
-/obj/structure/chair/light{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "vM" = (
 /obj/machinery/door/airlock/public,
@@ -4025,6 +3999,28 @@
 /obj/effect/spawner/random/blood/often,
 /turf/simulated/floor/indestructible/titanium/blue,
 /area/ruin/space/powered)
+"vX" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/obj/structure/shelf/supply,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
+/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
+/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
+"vZ" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/obj/structure/sign/nosmoking/alt{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "wc" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/light,
@@ -4045,16 +4041,18 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"wf" = (
-/obj/structure/table/wood,
-/obj/item/food/sliced/mothmallow,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "wg" = (
 /mob/living/basic/bear/polar,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"wi" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "wj" = (
 /obj/item/gun/projectile/automatic/pistol/type_230,
@@ -4159,11 +4157,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"wK" = (
-/obj/machinery/light,
-/obj/effect/turf_decal/tiles/department/security/side,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "wL" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/survival_pod,
@@ -4179,6 +4172,11 @@
 /area/ruin/space/powered)
 "wS" = (
 /turf/simulated/floor/plating/airless,
+/area/ruin/space/powered)
+"wT" = (
+/obj/structure/table/wood,
+/obj/item/food/soup/mysterysoup,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "wX" = (
 /obj/structure/chair/sofa/bench{
@@ -4200,10 +4198,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"wZ" = (
-/mob/living/basic/soviet/ranged/mosin,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "xc" = (
 /obj/effect/turf_decal/tiles/department/security/mono,
 /obj/effect/turf_decal/tiles/department/security/mono,
@@ -4220,18 +4214,6 @@
 	name = "Drakehound War Chief"
 	},
 /turf/simulated/floor/plasteel/full{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
-"xm" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/toolbox/electrical{
-	pixel_y = 9
-	},
-/obj/item/multitool{
-	pixel_x = 3
-	},
-/turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
@@ -4265,18 +4247,15 @@
 /obj/effect/spawner/random/food_or_drink/salad,
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/clockwork_monastery)
-"xs" = (
-/obj/structure/closet/gimmick/soviet,
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "xw" = (
 /obj/machinery/porta_turret/ruin/lwap,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"xx" = (
+/mob/living/simple_animal/bot/secbot/buzzsky/telecomms/doomba,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "xy" = (
 /obj/structure/morgue{
@@ -4305,20 +4284,16 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"xD" = (
-/obj/item/vending_refill/sovietsoda{
-	pixel_x = 12;
-	pixel_y = 6
-	},
-/turf/simulated/floor/plasteel/dark,
+"xG" = (
+/obj/effect/mob_spawn/human/corpse/random_species/engineer,
+/turf/simulated/floor/plasteel/full,
 /area/ruin/space/powered)
-"xE" = (
-/obj/item/salvage/loot/soviet{
-	name = "\improper Blyatski manifesto";
-	desc = "A small book, written in Cygni Standard, detailing the manifesto of Comrade Blyatski, father of The Second Murphy Rebellion. Banned in Federation space, it may fetch a decent price on the black market."
+"xI" = (
+/obj/machinery/recharge_station/upgraded,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
 	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
+/area/ruin/space/clockwork_monastery)
 "xJ" = (
 /obj/machinery/seed_extractor,
 /obj/effect/turf_decal/tiles/department/virology/mono,
@@ -4351,6 +4326,19 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"xP" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 4
+	},
+/obj/structure/shelf/supply,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/obj/item/reagent_containers/drinks/bottle/vodka/badminka,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "xV" = (
 /obj/structure/gunrack,
@@ -4398,12 +4386,6 @@
 	pixel_y = 1
 	},
 /turf/simulated/floor/wood,
-/area/ruin/space/powered)
-"yh" = (
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 8
-	},
-/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "yi" = (
 /obj/structure/table/reinforced/brass,
@@ -4530,6 +4512,10 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
+"yJ" = (
+/obj/item/toy/plushie/nianplushie/snow,
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "yK" = (
 /mob/living/basic/malf_drone,
 /turf/simulated/floor/plasteel/full{
@@ -4544,13 +4530,6 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"yO" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 4
-	},
-/obj/structure/barricade/sandbags,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "yR" = (
 /obj/structure/closet/crate/nanotrasen,
@@ -4625,6 +4604,10 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"zg" = (
+/obj/effect/mob_spawn/human/corpse/bartender,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/space/powered)
 "zj" = (
 /obj/effect/turf_decal/tiles/department/science/side{
 	dir = 1
@@ -4644,15 +4627,6 @@
 /turf/simulated/wall/mineral/titanium/interior{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"zo" = (
-/obj/structure/chair/light{
-	dir = 8
-	},
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "zr" = (
 /obj/structure/table/wood,
@@ -4710,15 +4684,19 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"zG" = (
-/obj/structure/chair/comfy/shuttle,
-/mob/living/basic/bear,
-/turf/simulated/floor/mineral/titanium/blue/airless,
-/area/ruin/space/powered)
 "zH" = (
 /obj/mecha/combat/honker/loaded{
 	internals_req_access = list();
 	operation_req_access = list()
+	},
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"zI" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/machinery/recharger/wallcharger/upgraded{
+	pixel_x = -32
 	},
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
@@ -4769,6 +4747,12 @@
 /obj/item/storage/fancy/cigars,
 /turf/simulated/floor/wood,
 /area/ruin/space/powered)
+"zZ" = (
+/obj/machinery/door/airlock/public,
+/obj/structure/barricade/wooden/crude,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Aa" = (
 /obj/machinery/door/poddoor/impassable{
 	id = "murphy_bridge_lockdown";
@@ -4809,6 +4793,13 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/clockwork_monastery)
+"Aj" = (
+/obj/item/flag/ussp,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 9
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Al" = (
 /obj/structure/gunrack,
 /obj/item/gun/energy/lasercannon,
@@ -4845,10 +4836,6 @@
 /turf/simulated/floor/plasteel/dark/corner{
 	dir = 1
 	},
-/area/ruin/space/powered)
-"At" = (
-/mob/living/basic/soviet,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Av" = (
 /obj/structure/flora/ausbushes/sunnybush,
@@ -4906,6 +4893,16 @@
 "AO" = (
 /obj/machinery/light/floor,
 /turf/simulated/floor/plasteel/dark/full{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"AR" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/item/gun/energy/pulse/pistol/m1911,
+/obj/machinery/recharger/wallcharger/upgraded{
+	pixel_x = -32
+	},
+/turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
@@ -5015,6 +5012,14 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"Bn" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 8
+	},
+/obj/structure/barricade/sandbags,
+/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Bo" = (
 /mob/living/simple_animal/hostile/syndicate/modsuit/elite,
 /obj/structure/table/glass/reinforced/plastitanium,
@@ -5080,6 +5085,10 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"By" = (
+/obj/item/cigbutt,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Bz" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/shrink_cw{
 	dir = 8
@@ -5114,21 +5123,6 @@
 /obj/item/toy/plushie/carpplushie/gold,
 /turf/simulated/floor/wood,
 /area/ruin/space/powered)
-"BI" = (
-/obj/item/painter,
-/obj/item/reagent_containers/glass/paint/red{
-	pixel_x = 9;
-	pixel_y = 7
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
-"BK" = (
-/obj/structure/table/flipped{
-	dir = 4
-	},
-/obj/effect/snow,
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "BM" = (
 /obj/structure/closet/secure_closet/evidence,
 /obj/item/katana/energy,
@@ -5157,13 +5151,6 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"BX" = (
-/mob/living/simple_animal/bot/secbot/buzzsky{
-	desc = "It's Comrade Blyatsky! Powered by vodka, communism, and hardbass.";
-	name = "Comrade Blyatsky"
-	},
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "BZ" = (
 /obj/machinery/door/airlock,
@@ -5198,6 +5185,10 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"Ce" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Cf" = (
 /obj/machinery/computer/nonfunctional{
 	dir = 1
@@ -5212,6 +5203,12 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"Cj" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 10
+	},
+/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "Ck" = (
 /obj/effect/mob_spawn/human/corpse/random_species/security_officer,
@@ -5258,13 +5255,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"Ct" = (
-/obj/structure/barricade/sandbags,
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "Cw" = (
 /obj/structure/railing{
 	dir = 4
@@ -5272,6 +5262,11 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"Cy" = (
+/obj/structure/chair/comfy/shuttle,
+/mob/living/basic/bear,
+/turf/simulated/floor/mineral/titanium/blue/airless,
 /area/ruin/space/powered)
 "CA" = (
 /obj/effect/turf_decal/tiles/department/science/side,
@@ -5303,6 +5298,12 @@
 /obj/machinery/chem_master,
 /obj/effect/turf_decal/tiles/department/virology/mono,
 /turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"CI" = (
+/obj/effect/mob_spawn/human/corpse/clown/officer,
+/turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
@@ -5404,11 +5405,6 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
-"De" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/drinks/bottle/vodka,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "Df" = (
 /obj/effect/turf_decal/trimline/department/engineering/filled/warning{
 	dir = 4
@@ -5420,6 +5416,13 @@
 "Dk" = (
 /mob/living/basic/hellhound,
 /turf/simulated/floor/plasteel/full{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"Dm" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/mechanical,
+/turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
@@ -5437,15 +5440,15 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"Dq" = (
-/obj/structure/barricade/sandbags,
-/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "Dr" = (
 /obj/structure/chair/sofa/pew/clockwork/left,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/clockwork_monastery)
+"Du" = (
+/obj/structure/flora/tree/pine,
+/obj/effect/snow,
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "Dv" = (
 /obj/structure/filingcabinet/chestdrawer/autopsy,
 /turf/simulated/floor/plasteel/dark{
@@ -5505,6 +5508,23 @@
 	},
 /obj/item/pickaxe/gold,
 /turf/simulated/floor/wood,
+/area/ruin/space/powered)
+"DK" = (
+/mob/living/basic/bear/hudson{
+	desc = "It eats capitalists for breakfast.";
+	name = "Soviet Bear"
+	},
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
+"DL" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 9
+	},
+/obj/machinery/economy/vending/cigarette/free,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "DN" = (
 /mob/living/basic/drakehound_breacher/ranged/captain{
@@ -5686,11 +5706,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"EG" = (
-/obj/structure/table/wood,
-/obj/item/food/soup/hong_kong_borscht,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "EH" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/effect/spawner/random/food_or_drink,
@@ -5743,7 +5758,11 @@
 	},
 /area/ruin/space/powered)
 "EV" = (
-/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 5
+	},
+/obj/structure/closet/gimmick/soviet,
+/obj/item/storage/box/soviet,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "EW" = (
@@ -5823,15 +5842,18 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"Fq" = (
+/obj/item/flag/ussp,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Fr" = (
 /obj/effect/turf_decal/tiles/department/command,
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"Ft" = (
-/obj/machinery/door/airlock/public,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Fx" = (
 /turf/simulated/floor/plasteel/white,
@@ -5873,13 +5895,6 @@
 /turf/simulated/floor/plasteel/dark/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"FI" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 8
-	},
-/obj/structure/barricade/sandbags,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "FK" = (
 /mob/living/basic/hivebot/range,
@@ -5928,13 +5943,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"FW" = (
-/obj/vehicle/snowmobile/blue{
-	dir = 4
-	},
-/obj/effect/snow,
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "FX" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/structure/table/glass/reinforced/titanium,
@@ -5973,6 +5981,11 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"FY" = (
+/obj/structure/barricade/sandbags,
+/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Ga" = (
 /turf/simulated/floor/plasteel/fakestairs/right{
 	dir = 4
@@ -5982,14 +5995,6 @@
 /obj/effect/mob_spawn/human/corpse/random_species/security_officer,
 /obj/effect/mapping_helpers/turfs/damage,
 /turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
-"Gd" = (
-/obj/structure/table/reinforced,
-/obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high/plus,
-/turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
@@ -6091,8 +6096,10 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"GA" = (
-/obj/structure/table/wood,
+"Gx" = (
+/obj/structure/chair/light{
+	dir = 4
+	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "GC" = (
@@ -6104,6 +6111,11 @@
 /obj/machinery/cooking/stovetop/loaded,
 /obj/structure/table/reinforced,
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/powered)
+"GF" = (
+/obj/effect/snow,
+/obj/machinery/snow_machine,
+/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "GI" = (
 /obj/machinery/power/treadmill{
@@ -6136,6 +6148,10 @@
 /obj/effect/mob_spawn/human/corpse/random_species/gambler,
 /turf/simulated/floor/indestructible/titanium,
 /area/ruin/space/powered)
+"GM" = (
+/mob/living/basic/nian_caterpillar,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "GN" = (
 /obj/effect/turf_decal/woodsiding{
 	dir = 1
@@ -6148,12 +6164,6 @@
 	dir = 4
 	},
 /turf/simulated/floor/plasteel/white,
-/area/ruin/space/powered)
-"GP" = (
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 5
-	},
-/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "GR" = (
 /mob/living/basic/gorilla/rampaging,
@@ -6233,11 +6243,6 @@
 	},
 /turf/simulated/floor/plasteel/freezer,
 /area/ruin/space/powered)
-"Hr" = (
-/mob/living/basic/soviet,
-/obj/effect/turf_decal/tiles/department/security/side,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "Hs" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/ammo_box/magazine/wt550m9/wttx,
@@ -6254,15 +6259,6 @@
 	},
 /obj/structure/showcase/machinery,
 /turf/simulated/floor/wood,
-/area/ruin/space/powered)
-"Hw" = (
-/obj/machinery/door/window{
-	name = "cell door"
-	},
-/obj/effect/mob_spawn/human/corpse/random_species/security_officer,
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
 /area/ruin/space/powered)
 "Hx" = (
 /obj/structure/chair/sofa/bench/left{
@@ -6331,13 +6327,6 @@
 /area/ruin/space/powered)
 "HP" = (
 /turf/simulated/floor/mineral/plastitanium,
-/area/ruin/space/powered)
-"HQ" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/toolbox/mechanical,
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
 /area/ruin/space/powered)
 "HR" = (
 /obj/structure/closet/crate/nanotrasen,
@@ -6415,6 +6404,18 @@
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
 /area/ruin/space/powered)
+"Ii" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 9
+	},
+/obj/item/multitool{
+	pixel_x = 3
+	},
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
 "Ij" = (
 /obj/machinery/door/airlock/research,
 /turf/simulated/floor/plasteel/dark{
@@ -6437,12 +6438,6 @@
 /turf/simulated/floor/plasteel/dark/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"Ip" = (
-/obj/structure/table/flipped{
-	dir = 8
-	},
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Ir" = (
 /obj/machinery/atmospherics/portable/pump/bluespace,
@@ -6498,16 +6493,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"IE" = (
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 1
-	},
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
-"IG" = (
-/obj/item/cigbutt,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "IH" = (
 /obj/structure/gunrack,
 /obj/item/gun/projectile/automatic/laserrifle,
@@ -6552,10 +6537,6 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"IS" = (
-/obj/item/gun/energy/lwap,
-/turf/simulated/floor/plasteel/full,
 /area/ruin/space/powered)
 "IT" = (
 /obj/structure/shuttle/engine/heater{
@@ -6616,16 +6597,8 @@
 	},
 /area/ruin/space/clockwork_monastery)
 "Jd" = (
-/obj/machinery/door/airlock/security,
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
-"Je" = (
-/obj/effect/decal/snow/clean/surround{
-	dir = 8
-	},
-/turf/simulated/floor/grass/jungle,
+/obj/structure/table/wood,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Jj" = (
 /obj/effect/turf_decal/woodsiding{
@@ -6633,10 +6606,6 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/clockwork_monastery)
-"Jm" = (
-/obj/effect/snow,
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "Jn" = (
 /obj/structure/shelf/clockwork,
 /obj/item/borg/upgrade/selfrepair{
@@ -6681,14 +6650,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"Js" = (
-/obj/structure/table/glass/reinforced/plastitanium,
-/obj/machinery/recharger/wallcharger/upgraded{
-	pixel_x = -32
+"Ju" = (
+/obj/machinery/economy/vending/sovietsoda,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
 	},
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Jz" = (
 /turf/simulated/wall/indestructible/syndicate,
@@ -6717,10 +6684,23 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"JI" = (
+/obj/item/vending_refill/sovietsoda{
+	pixel_x = 12;
+	pixel_y = 6
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "JJ" = (
 /obj/structure/table/glass/reinforced/plasma,
 /obj/item/reagent_containers/drinks/flask/barflask,
 /turf/simulated/floor/carpet/purple,
+/area/ruin/space/powered)
+"JK" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "JL" = (
 /obj/structure/sign/medical/surgery{
@@ -6747,6 +6727,11 @@
 	dir = 1
 	},
 /area/ruin/space/powered)
+"JO" = (
+/obj/structure/table/wood,
+/obj/item/food/soup/hong_kong_borscht,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "JQ" = (
 /turf/simulated/floor/carpet/purple,
 /area/ruin/space/powered)
@@ -6771,13 +6756,14 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"JX" = (
+/mob/living/basic/soviet/ranged/mosin,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "JY" = (
-/obj/structure/chair/sofa/pew/clockwork{
-	dir = 4
-	},
-/obj/item/toy/plushie/nianplushie/clockwork,
-/turf/simulated/floor/clockwork,
-/area/ruin/space/clockwork_monastery)
+/obj/machinery/door/airlock/public,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Ka" = (
 /mob/living/basic/hellhound/tear,
 /turf/simulated/floor/plasteel/full{
@@ -6796,6 +6782,12 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/mineral/plastitanium,
+/area/ruin/space/powered)
+"Kd" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Kh" = (
 /obj/structure/table/reinforced/brass,
@@ -6831,12 +6823,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/clockwork_monastery)
-"Kn" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 10
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "Ko" = (
 /obj/machinery/shower/directional/west,
 /turf/simulated/floor/noslip,
@@ -6921,6 +6907,10 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"KH" = (
+/obj/item/trash/semki,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "KK" = (
 /obj/machinery/door/airlock/public,
@@ -7100,6 +7090,12 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
+"LQ" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 1
+	},
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "LV" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/machinery/door_control{
@@ -7165,6 +7161,13 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"Mj" = (
+/obj/structure/chair/sofa/pew/clockwork{
+	dir = 4
+	},
+/obj/item/toy/plushie/nianplushie/clockwork,
+/turf/simulated/floor/clockwork,
+/area/ruin/space/clockwork_monastery)
 "Mo" = (
 /obj/effect/turf_decal/tiles/department/engineering/half,
 /obj/effect/spawner/random/pool/spaceloot/syndicate/common,
@@ -7194,14 +7197,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/clockwork_monastery)
-"Mu" = (
-/obj/effect/turf_decal/tiles/dark/corner{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
 "Mv" = (
 /obj/structure/sign/public/cryo{
 	pixel_x = -32
@@ -7245,20 +7240,20 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
-"MH" = (
-/obj/structure/barricade/sandbags,
-/obj/item/salvage/loot/soviet{
-	name = "\improper Blyatski manifesto";
-	desc = "A small book, written in Cygni Standard, detailing the manifesto of Comrade Blyatski, father of The Second Murphy Rebellion. Banned in Federation space, it may fetch a decent price on the black market."
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "MI" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/energy/ionrifle,
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"MJ" = (
+/obj/item/painter,
+/obj/item/reagent_containers/glass/paint/red{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "MK" = (
 /obj/structure/chair/comfy/shuttle{
@@ -7274,19 +7269,21 @@
 	},
 /turf/simulated/floor/indestructible/titanium,
 /area/ruin/space/powered)
+"MN" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/obj/effect/spawner/random/traders/ussp_minor,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "MP" = (
 /mob/living/basic/mimic,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"MZ" = (
-/obj/structure/barricade/sandbags,
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
-/turf/simulated/floor/plasteel/dark,
+"MY" = (
+/turf/simulated/wall/indestructible/titanium/soviet,
 /area/ruin/space/powered)
 "Na" = (
 /obj/machinery/suit_storage_unit/industrial/engine,
@@ -7364,13 +7361,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"NA" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 5
-	},
-/obj/item/flag/ussp,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "ND" = (
 /obj/machinery/light,
 /obj/structure/flora/ausbushes/reedbush,
@@ -7392,11 +7382,32 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"NH" = (
+/obj/effect/turf_decal/tiles/department/security/corner{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
+"NL" = (
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
+"NM" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 5
+	},
+/obj/item/flag/ussp,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "NN" = (
 /obj/effect/turf_decal/tiles/department/virology/mono,
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"NO" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "NP" = (
 /obj/structure/closet/secure_closet/evidence,
@@ -7428,15 +7439,6 @@
 	name = "construction mech exhibit"
 	},
 /turf/simulated/floor/wood,
-/area/ruin/space/powered)
-"NW" = (
-/obj/effect/mob_spawn/human/corpse/random_species/engineer,
-/turf/simulated/floor/plasteel/full,
-/area/ruin/space/powered)
-"NX" = (
-/obj/effect/turf_decal/tiles/department/security/side,
-/obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "NZ" = (
 /obj/structure/table,
@@ -7571,6 +7573,15 @@
 	dir = 1
 	},
 /area/ruin/space/powered)
+"Ow" = (
+/obj/machinery/door/window{
+	name = "cell door"
+	},
+/obj/effect/mob_spawn/human/corpse/random_species/security_officer,
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
 "Oz" = (
 /mob/living/basic/malfborg/service,
 /turf/simulated/floor/wood,
@@ -7594,9 +7605,18 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"ON" = (
-/obj/effect/mob_spawn/human/corpse/mime/corpse,
-/turf/simulated/floor/wood,
+"OI" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
+"OK" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/drinks/bottle/vodka,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "OO" = (
 /obj/effect/turf_decal/trimline/department/medbay/filled/warning,
@@ -7620,20 +7640,8 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/clockwork_monastery)
-"OU" = (
-/obj/structure/table/wood,
-/obj/item/food/soup/mysterysoup,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "OV" = (
 /turf/simulated/floor/plasteel/fakestairs/right,
-/area/ruin/space/powered)
-"OY" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 5
-	},
-/obj/effect/spawner/random/traders/ussp_minor,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Pb" = (
 /obj/machinery/light{
@@ -7698,13 +7706,6 @@
 	},
 /turf/simulated/floor/mineral/plastitanium,
 /area/ruin/space/powered)
-"Pt" = (
-/obj/item/storage/box/soviet,
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 1
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "Pu" = (
 /obj/effect/turf_decal/tiles/dark/checker,
 /obj/structure/window/basic,
@@ -7764,6 +7765,13 @@
 /obj/item/storage/belt/utility/brass,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/clockwork_monastery)
+"PK" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 9
+	},
+/obj/item/flag/ussp,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "PL" = (
 /turf/simulated/floor/plasteel/fakestairs/center,
 /area/ruin/space/powered)
@@ -7773,6 +7781,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/full{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"PT" = (
+/obj/effect/mob_spawn/human/corpse/bridgeofficer,
+/turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
@@ -7799,6 +7813,23 @@
 	dir = 8
 	},
 /turf/simulated/floor/mineral/plastitanium/red,
+/area/ruin/space/powered)
+"Qb" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/item/gun/energy/pulse,
+/obj/machinery/recharger/wallcharger/upgraded{
+	pixel_x = -32
+	},
+/turf/simulated/floor/plasteel/dark{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
+"Qd" = (
+/obj/item/storage/box/soviet,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Qi" = (
 /turf/simulated/floor/plasteel/full,
@@ -7843,6 +7874,22 @@
 /obj/item/clockwork/component/geis_capacitor/antennae,
 /turf/simulated/floor/clockwork,
 /area/ruin/space/clockwork_monastery)
+"Qt" = (
+/obj/item/flag/ussp,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 5
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
+"Qu" = (
+/obj/structure/chair/light{
+	dir = 8
+	},
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Qy" = (
 /turf/simulated/floor/mech_bay_recharge_floor,
 /area/ruin/space/powered)
@@ -7947,6 +7994,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"Rj" = (
+/obj/structure/chair/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Rl" = (
 /obj/machinery/computer/nonfunctional{
 	dir = 4;
@@ -7974,11 +8027,10 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/ruin/space/powered)
-"Rt" = (
-/obj/machinery/door/airlock/public,
-/obj/structure/barricade/wooden/crude,
-/obj/effect/mapping_helpers/airlock/locked,
-/turf/simulated/floor/plasteel/dark,
+"Ru" = (
+/obj/structure/table/glass/reinforced/plasma,
+/obj/effect/spawner/random/food_or_drink/juice_boxes,
+/turf/simulated/floor/carpet/purple,
 /area/ruin/space/powered)
 "Rx" = (
 /obj/machinery/light,
@@ -8034,6 +8086,16 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
+"RE" = (
+/obj/structure/barricade/sandbags,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
+"RF" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "RI" = (
 /obj/effect/turf_decal/tiles/department/medical,
 /obj/machinery/optable,
@@ -8049,10 +8111,6 @@
 "RL" = (
 /turf/simulated/wall/clockwork,
 /area/ruin/space/clockwork_monastery)
-"RM" = (
-/mob/living/basic/soviet/nian,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "RN" = (
 /obj/structure/closet/crate,
 /obj/item/melee/energy/sword/saber,
@@ -8125,15 +8183,6 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"Sl" = (
-/obj/structure/table/flipped{
-	dir = 4
-	},
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 5
-	},
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "Sm" = (
 /obj/structure/table/flipped{
 	dir = 4
@@ -8195,6 +8244,13 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"SA" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "SB" = (
 /obj/structure/closet/crate/nanotrasen,
 /obj/item/gun/projectile/automatic/tommygun,
@@ -8203,23 +8259,19 @@
 	},
 /area/ruin/space/powered)
 "SE" = (
-/obj/structure/table/wood,
-/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
-"SK" = (
-/mob/living/basic/nian_caterpillar,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
-"SL" = (
-/obj/item/reagent_containers/glass/paint/red,
-/obj/item/reagent_containers/glass/paint/black{
-	pixel_x = -9;
-	pixel_y = -10
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/simulated/floor/plasteel{
+/obj/machinery/recharge_station/upgraded,
+/turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"SG" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 5
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "SO" = (
 /obj/structure/closet/crate,
@@ -8282,10 +8334,7 @@
 	},
 /area/ruin/space/powered)
 "Tb" = (
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
-"Tc" = (
-/mob/living/simple_animal/bot/secbot/buzzsky/telecomms/doomba,
+/obj/effect/turf_decal/tiles/department/security/side,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Te" = (
@@ -8299,6 +8348,13 @@
 /turf/simulated/floor/plasteel/dark/full{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"Tk" = (
+/obj/item/salvage/loot/soviet{
+	name = "\improper Blyatski manifesto";
+	desc = "A small book, written in Cygni Standard, detailing the manifesto of Comrade Blyatski, father of The Second Murphy Rebellion. Banned in Federation space, it may fetch a decent price on the black market."
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Tn" = (
 /obj/structure/closet/crate/freezer,
@@ -8323,6 +8379,11 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"TB" = (
+/obj/structure/table/wood,
+/obj/item/food/sliced/mothmallow,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "TD" = (
 /obj/structure/closet/secure_closet/evidence,
 /obj/item/gun/projectile/automatic/tommygun,
@@ -8340,16 +8401,6 @@
 	},
 /mob/living/basic/malfborg/service,
 /turf/simulated/floor/carpet/purple,
-/area/ruin/space/powered)
-"TL" = (
-/mob/living/basic/bear/hudson{
-	desc = "It eats capitalists for breakfast.";
-	name = "Soviet Bear"
-	},
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 6
-	},
-/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "TN" = (
 /obj/effect/decal/cleanable/glass,
@@ -8389,26 +8440,12 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"TU" = (
-/obj/structure/table/flipped{
-	dir = 8
-	},
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 8
-	},
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
 "TV" = (
 /mob/living/simple_animal/hostile/syndicate/modsuit/ranged,
 /obj/effect/mapping_helpers/turfs/damage,
 /turf/simulated/floor/plasteel/dark/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"TY" = (
-/obj/effect/snow,
-/obj/machinery/snow_machine,
-/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "TZ" = (
 /mob/living/basic/heretic_summon/rust_spirit,
@@ -8427,14 +8464,6 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"Ud" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 4
-	},
-/obj/structure/barricade/sandbags,
-/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Ue" = (
 /turf/simulated/floor/plasteel{
@@ -8455,21 +8484,12 @@
 /obj/item/id_decal/gold,
 /turf/simulated/floor/wood,
 /area/ruin/space/powered)
-"Uk" = (
-/obj/structure/table/glass/reinforced/plastitanium,
-/obj/item/gun/energy/pulse,
-/obj/machinery/recharger/wallcharger/upgraded{
-	pixel_x = -32
-	},
-/turf/simulated/floor/plasteel/dark{
-	baseturf = /turf/simulated/floor/plating
-	},
-/area/ruin/space/powered)
 "Up" = (
-/obj/item/flag/ussp,
 /obj/effect/turf_decal/tiles/department/security/side{
-	dir = 5
+	dir = 4
 	},
+/obj/structure/barricade/sandbags,
+/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Ur" = (
@@ -8560,11 +8580,6 @@
 	},
 /turf/simulated/floor/plasteel/full,
 /area/ruin/space/clockwork_monastery)
-"UN" = (
-/obj/structure/table/glass/reinforced/plasma,
-/obj/effect/spawner/random/food_or_drink,
-/turf/simulated/floor/carpet/purple,
-/area/ruin/space/powered)
 "UO" = (
 /mob/living/basic/bear/black,
 /obj/effect/turf_decal/tiles/department/engineering/half,
@@ -8611,6 +8626,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/plasteel/white,
+/area/ruin/space/powered)
+"UX" = (
+/obj/structure/table/flipped{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "UY" = (
 /obj/structure/closet/crate,
@@ -8679,6 +8700,12 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
+"Vs" = (
+/obj/machinery/door/airlock,
+/turf/simulated/floor/plasteel{
+	baseturf = /turf/simulated/floor/plating
+	},
+/area/ruin/space/powered)
 "Vu" = (
 /mob/living/basic/soviet/ranged,
 /turf/simulated/floor/plasteel/full{
@@ -8714,9 +8741,9 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
-"VI" = (
+"VH" = (
+/obj/machinery/snow_machine,
 /obj/effect/snow,
-/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
 /turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "VJ" = (
@@ -8777,18 +8804,6 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"VV" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 9
-	},
-/obj/item/flag/ussp,
-/turf/simulated/floor/plasteel/dark,
-/area/ruin/space/powered)
-"VW" = (
-/obj/effect/turf_decal/tiles/dark/checker,
-/obj/effect/mob_spawn/human/corpse/cook,
-/turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
 "VY" = (
 /obj/machinery/economy/vending/smith{
@@ -8861,6 +8876,13 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/space/clockwork_monastery)
+"WB" = (
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 8
+	},
+/obj/structure/barricade/sandbags,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "WD" = (
 /obj/machinery/economy/vending/security,
 /turf/simulated/floor/plasteel/dark{
@@ -8954,13 +8976,6 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/ruin/space/powered)
-"Xa" = (
-/mob/living/basic/bear/hudson{
-	desc = "It eats capitalists for breakfast.";
-	name = "Soviet Bear"
-	},
-/turf/simulated/floor/grass/jungle,
-/area/ruin/space/powered)
 "Xe" = (
 /obj/mecha/combat/marauder/ares/loaded{
 	operation_req_access = list()
@@ -8975,10 +8990,6 @@
 /turf/simulated/floor/plasteel/dark{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"Xg" = (
-/obj/item/toy/plushie/nianplushie/snow,
-/turf/simulated/floor/grass/jungle,
 /area/ruin/space/powered)
 "Xh" = (
 /obj/machinery/suit_storage_unit/gamma,
@@ -9070,6 +9081,10 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/ruin/space/powered)
+"XF" = (
+/mob/living/basic/soviet/nian,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "XG" = (
 /obj/structure/sign/security/brig,
 /turf/simulated/wall/mineral/titanium/interior{
@@ -9126,6 +9141,17 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/plasteel/full,
+/area/ruin/space/powered)
+"XY" = (
+/obj/structure/table/flipped{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
+"Yb" = (
+/obj/effect/turf_decal/tiles/department/security/side,
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "Ye" = (
 /obj/structure/chair/comfy/corp,
@@ -9191,6 +9217,14 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
+"Yw" = (
+/obj/structure/barricade/sandbags,
+/obj/item/salvage/loot/soviet{
+	name = "\improper Blyatski manifesto";
+	desc = "A small book, written in Cygni Standard, detailing the manifesto of Comrade Blyatski, father of The Second Murphy Rebellion. Banned in Federation space, it may fetch a decent price on the black market."
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "Yx" = (
 /obj/effect/turf_decal/trimline/department/medbay/corner{
 	dir = 4
@@ -9210,17 +9244,16 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"YC" = (
+/obj/item/key/snowmobile,
+/obj/effect/snow,
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "YG" = (
 /obj/effect/spawner/random/trash/spread_tiles,
 /turf/simulated/floor/plasteel/dark/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"YH" = (
-/obj/effect/turf_decal/tiles/department/security/side{
-	dir = 6
-	},
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "YI" = (
 /obj/effect/turf_decal/tiles/dark/checker,
@@ -9253,6 +9286,16 @@
 /turf/simulated/floor/plasteel{
 	baseturf = /turf/simulated/floor/plating
 	},
+/area/ruin/space/powered)
+"YR" = (
+/obj/item/salvage/ruin/soviet,
+/obj/item/salvage/ruin/soviet,
+/obj/structure/shelf/supply,
+/obj/item/salvage/ruin/soviet,
+/obj/effect/turf_decal/tiles/department/security/side{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 "YS" = (
 /obj/effect/turf_decal/tiles/department/science/side{
@@ -9334,6 +9377,11 @@
 	},
 /turf/simulated/floor/plasteel/white,
 /area/ruin/space/powered)
+"Zp" = (
+/obj/effect/snow,
+/obj/item/storage/fancy/cigarettes/cigpack_our_brand,
+/turf/simulated/floor/grass/jungle,
+/area/ruin/space/powered)
 "Zq" = (
 /obj/structure/railing/cap/normal{
 	dir = 4
@@ -9405,6 +9453,11 @@
 	baseturf = /turf/simulated/floor/plating
 	},
 /area/ruin/space/powered)
+"ZL" = (
+/obj/structure/table/wood,
+/obj/item/toy/plushie/nianplushie/lovers,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/space/powered)
 "ZP" = (
 /obj/machinery/porta_turret/ruin/accellerator,
 /turf/simulated/floor/plasteel/full{
@@ -9452,10 +9505,6 @@
 /turf/simulated/floor/plasteel/full{
 	baseturf = /turf/simulated/floor/plating
 	},
-/area/ruin/space/powered)
-"ZZ" = (
-/obj/effect/turf_decal/tiles/department/security/side,
-/turf/simulated/floor/plasteel/dark,
 /area/ruin/space/powered)
 
 (1,1,1) = {"
@@ -11627,9 +11676,9 @@ VE
 VE
 VE
 qW
-Js
-Uk
-Uk
+zI
+Qb
+Qb
 rQ
 yA
 ta
@@ -11660,9 +11709,9 @@ ta
 ta
 yA
 rj
-iE
-Uk
-Uk
+AR
+Qb
+Qb
 ta
 Nh
 VE
@@ -12107,7 +12156,7 @@ ta
 Fr
 ta
 ta
-fD
+PT
 ta
 ta
 ta
@@ -12311,9 +12360,9 @@ AU
 ta
 ta
 ta
-fD
+PT
 ta
-lI
+CI
 ta
 ta
 ta
@@ -12640,7 +12689,7 @@ ta
 su
 ta
 ta
-fD
+PT
 ta
 ta
 ta
@@ -12751,12 +12800,12 @@ yA
 Fr
 ta
 ta
-fD
+PT
 ta
 Uc
 ta
 ta
-fD
+PT
 ta
 ta
 ta
@@ -12892,7 +12941,7 @@ VL
 VL
 VL
 ta
-dz
+hI
 ta
 VL
 VL
@@ -12989,7 +13038,7 @@ VL
 cc
 VL
 ta
-dz
+hI
 ta
 VL
 VL
@@ -13065,13 +13114,13 @@ VL
 uF
 uF
 eP
-dz
+hI
 Ue
 lA
 lA
 lA
 Ue
-dz
+hI
 Fr
 Fr
 Fr
@@ -13134,13 +13183,13 @@ Fr
 Fr
 Fr
 Fr
-dz
+hI
 Ue
 lA
 lA
 lA
 Ue
-dz
+hI
 ta
 VL
 uF
@@ -13227,13 +13276,13 @@ HW
 lX
 eP
 eP
-dz
+hI
 Ue
 lA
 lA
 lA
 uu
-dz
+hI
 ta
 ta
 zS
@@ -13245,11 +13294,11 @@ RU
 RU
 RU
 RU
-tm
+SE
 bj
-rP
-qX
-qX
+un
+fF
+fF
 rN
 yA
 ta
@@ -13280,11 +13329,11 @@ ta
 ta
 yA
 rN
-qX
-qX
-rP
+fF
+fF
+un
 bj
-tm
+SE
 RU
 RU
 RU
@@ -13296,13 +13345,13 @@ zS
 ta
 ta
 ta
-dz
+hI
 Ue
 lA
 lA
 lA
 Ue
-dz
+hI
 ta
 zS
 ta
@@ -13551,13 +13600,13 @@ ta
 ta
 ta
 ta
-dz
+hI
 Ue
 lA
 lA
 lA
 Ue
-kZ
+bV
 Ue
 Ue
 Ue
@@ -13576,7 +13625,7 @@ ta
 ta
 ta
 yA
-fj
+oJ
 eo
 eo
 eo
@@ -13598,7 +13647,7 @@ Bv
 vj
 hB
 Lq
-dM
+mq
 cr
 Bv
 oy
@@ -13620,13 +13669,13 @@ aP
 Ue
 Ue
 Ue
-kZ
+bV
 Ue
 lA
 lA
 lA
 Ue
-dz
+hI
 ta
 ta
 ta
@@ -13713,13 +13762,13 @@ uF
 VL
 VL
 ta
-dz
+hI
 Ue
 lA
 lA
 lA
 uu
-kZ
+bV
 Ue
 Ue
 Ue
@@ -13757,7 +13806,7 @@ yA
 xn
 TE
 vp
-dM
+mq
 hB
 Lq
 fC
@@ -13782,13 +13831,13 @@ aP
 Ue
 Ue
 Ue
-kZ
+bV
 Ue
 lA
 lA
 lA
 Ue
-dz
+hI
 ta
 VL
 VL
@@ -13916,16 +13965,16 @@ ta
 ta
 bI
 yA
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 hB
 Lq
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 yA
 ta
 yt
@@ -14062,7 +14111,7 @@ ta
 zt
 ta
 yA
-fj
+oJ
 xV
 xV
 FE
@@ -14084,7 +14133,7 @@ Bv
 vj
 hB
 Lq
-dM
+mq
 cr
 Bv
 oy
@@ -14224,7 +14273,7 @@ ta
 zt
 ta
 yA
-fj
+oJ
 eg
 tn
 eg
@@ -14243,10 +14292,10 @@ yA
 xn
 TE
 vp
-dM
+mq
 hB
 Lq
-Hw
+Ow
 TE
 TE
 XE
@@ -14402,16 +14451,16 @@ ta
 ta
 hM
 yA
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 hB
 ed
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 yA
 ta
 yt
@@ -14695,7 +14744,7 @@ yA
 Ue
 Ue
 Ue
-Jd
+va
 ta
 zt
 vr
@@ -14750,7 +14799,7 @@ ta
 eP
 zt
 ta
-Jd
+va
 Ue
 Ue
 Ue
@@ -14857,7 +14906,7 @@ yA
 Ue
 Ue
 Ue
-Jd
+va
 ta
 zt
 LA
@@ -14871,7 +14920,7 @@ LA
 LA
 zt
 ta
-Jd
+va
 ta
 ta
 ta
@@ -14898,7 +14947,7 @@ ta
 ta
 ta
 ta
-Jd
+va
 ta
 zt
 ta
@@ -14912,7 +14961,7 @@ ta
 eP
 zt
 ta
-Jd
+va
 PY
 PY
 Ue
@@ -15019,7 +15068,7 @@ yA
 Ue
 Ue
 Ue
-Jd
+va
 ta
 zt
 Mp
@@ -15074,7 +15123,7 @@ ta
 ta
 zt
 ta
-Jd
+va
 PY
 PY
 Ue
@@ -15374,16 +15423,16 @@ ks
 ks
 Bj
 yA
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 hB
 Lq
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 yA
 Lr
 yt
@@ -15542,7 +15591,7 @@ Bv
 vj
 Ck
 Lq
-dM
+mq
 cr
 Bv
 oy
@@ -15646,7 +15695,7 @@ VL
 VL
 VL
 ta
-dz
+hI
 ta
 VL
 VL
@@ -15701,7 +15750,7 @@ yA
 xn
 TE
 vp
-dM
+mq
 bh
 Lq
 fC
@@ -15743,7 +15792,7 @@ TV
 VL
 VL
 ta
-dz
+hI
 ta
 VL
 VL
@@ -15808,7 +15857,7 @@ VL
 VL
 VL
 eP
-dz
+hI
 ta
 VL
 VL
@@ -15860,16 +15909,16 @@ ta
 ta
 DZ
 yA
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 hB
 Lq
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 yA
 ta
 yt
@@ -15905,7 +15954,7 @@ uF
 VL
 VL
 ta
-dz
+hI
 ta
 VL
 VL
@@ -16006,7 +16055,7 @@ zt
 ai
 ta
 yA
-fj
+oJ
 fT
 fT
 eg
@@ -16028,7 +16077,7 @@ Bv
 vj
 hB
 Lq
-dM
+mq
 cr
 Bv
 oy
@@ -16168,7 +16217,7 @@ ta
 ta
 ta
 yA
-fj
+oJ
 Ci
 Ci
 FE
@@ -16187,7 +16236,7 @@ yA
 xn
 TE
 vp
-dM
+mq
 hB
 Lq
 fC
@@ -16346,16 +16395,16 @@ ta
 ta
 QS
 yA
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 hB
 Lq
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 yA
 aP
 aP
@@ -16514,7 +16563,7 @@ Bv
 vj
 hB
 Lq
-dM
+mq
 cr
 Bv
 oy
@@ -16654,7 +16703,7 @@ Ue
 It
 aP
 yA
-fj
+oJ
 eg
 eg
 eg
@@ -16673,7 +16722,7 @@ yA
 xn
 TE
 vp
-dM
+mq
 hB
 Lq
 fC
@@ -16816,7 +16865,7 @@ Ue
 Ue
 Ue
 yA
-fj
+oJ
 eY
 eY
 eY
@@ -16832,16 +16881,16 @@ yA
 dY
 yA
 yA
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 hB
 HY
-dM
-dM
-dM
-dM
+mq
+mq
+mq
+mq
 yA
 Ue
 Ue
@@ -17000,7 +17049,7 @@ Bv
 vj
 hB
 Lq
-dM
+mq
 cr
 Bv
 oy
@@ -17159,7 +17208,7 @@ yA
 xn
 TE
 vp
-dM
+mq
 hB
 Lq
 fC
@@ -28804,13 +28853,13 @@ Px
 LX
 Ue
 yA
-jE
-Gd
-xm
-jE
-HQ
-Gd
-jE
+nc
+oQ
+Ii
+nc
+Dm
+oQ
+nc
 yA
 Rp
 Rp
@@ -33804,10 +33853,10 @@ Rp
 Rp
 Rp
 Rp
-vb
-vb
-vb
-vb
+MY
+MY
+MY
+MY
 yA
 yA
 yA
@@ -33952,24 +34001,24 @@ Rp
 Rp
 Rp
 Rp
-vb
+MY
 Yi
 Yi
 Yi
 Yi
 Yi
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-Tb
-iB
-vb
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+DL
+Fq
+MY
 Ue
 Ue
 Ue
@@ -34113,25 +34162,25 @@ Rp
 Rp
 Rp
 Rp
+MY
+MY
+tJ
+pv
+kn
+YC
+tJ
+MY
+Aj
+jh
+WB
+jh
+jh
+jh
+jh
+jh
 vb
-vb
-gt
-Je
-FW
-ol
-gt
-vb
-iB
 Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-vb
+MY
 Ue
 Ue
 Ue
@@ -34274,26 +34323,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+MY
+GF
+cH
+LQ
+hS
+cH
+cH
+MY
+RF
+vb
+RE
+JX
 vb
 vb
-TY
-Jm
-IE
-ua
-Jm
-Jm
+vb
+XF
 vb
 Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-vb
+MY
 Ue
 Ue
 Ue
@@ -34435,27 +34484,27 @@ Rp
 Rp
 Rp
 Rp
+MY
+MY
+oh
+ft
+qd
+NL
+NL
+Du
+VH
+MY
+RF
+vb
+RE
+RE
+RE
+RE
+bs
 vb
 vb
-mS
-fJ
-nz
-uj
-uj
-qh
-sa
-vb
 Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-vb
+MY
 Ue
 Ue
 Ue
@@ -34598,26 +34647,26 @@ Rp
 Rp
 Rp
 Yi
-gt
-VI
-Jm
-IE
-Xa
-uj
-ua
-Jm
+tJ
+Zp
+cH
+LQ
+NL
+NL
+Cj
+cH
+MY
+RF
+vb
+vb
+vb
+vb
+vb
+vb
+vb
 vb
 Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-vb
+MY
 Ue
 Ue
 Ue
@@ -34760,26 +34809,26 @@ Rp
 Rp
 Rp
 Yi
-fJ
-nz
-ma
-uj
-uj
-uj
-uj
-yh
-Ft
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
+ft
+qd
+DK
+NL
+NL
+NL
+NL
+em
+JY
 vb
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+vb
+Tb
+MY
 Ue
 Ue
 Ue
@@ -34922,26 +34971,26 @@ Rp
 Rp
 Rp
 Yi
-Jm
-IE
-uj
-Xg
-uj
-uj
-uj
-ee
+cH
+LQ
+NL
+yJ
+NL
+NL
+NL
+lv
+MY
+RF
+vb
+XY
+XY
+XY
+XY
+XY
+RE
 vb
 Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-vb
+MY
 Ue
 Ue
 Ue
@@ -35084,26 +35133,26 @@ Rp
 Rp
 Rp
 Yi
-Jm
-GP
-kc
-uj
-Xa
-uj
-TL
-Jm
+cH
+vv
+gq
+NL
+NL
+NL
+gE
+cH
+MY
+RF
+vb
+vb
+vb
+vb
+vb
+vb
+RE
 vb
 Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-vb
+MY
 Ue
 Ue
 Ue
@@ -35246,26 +35295,26 @@ Rp
 Rp
 Rp
 Yi
-Jm
-Jm
-GP
-uj
-uj
-ee
-Jm
-Jm
+cH
+cH
+vv
+NL
+dC
+lv
+cH
+cH
+MY
+RF
+vb
+vb
+vb
+vb
+vb
+qA
+RE
 vb
 Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-vb
+MY
 Ue
 Ue
 Ue
@@ -35408,26 +35457,26 @@ Rp
 Rp
 Rp
 Yi
-gt
-sa
-BK
-Sl
-tI
-BK
-sa
-gt
+tJ
+VH
+pr
+uq
+gQ
+pr
+VH
+tJ
+MY
+Qt
+Kd
+Kd
+Kd
 vb
-iB
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-iB
 vb
+Kd
+iK
+Kd
+ph
+MY
 Ue
 Ue
 Ue
@@ -35569,27 +35618,27 @@ Rp
 Rp
 Rp
 Rp
-vb
-vb
-vb
-vb
-eB
-eB
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-Ft
-Ft
-vb
-vb
-vb
-vb
-vb
+MY
+MY
+MY
+MY
+sD
+sD
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+JY
+JY
+MY
+MY
+MY
+MY
+MY
 aP
 aP
 aP
@@ -35731,27 +35780,27 @@ Rp
 Rp
 Rp
 Rp
+MY
+Aj
+lw
+Bn
+RE
+RE
+WB
+aQ
+kj
+MY
+Ue
+Ue
+Ue
+mm
 vb
-gf
-aM
-to
-kA
-kA
-FI
-tr
-Kn
+vb
+jh
 vb
 Ue
 Ue
-Ue
-dL
-Tb
-Tb
-mq
-Tb
-Ue
-Ue
-vb
+MY
 Ue
 Ue
 Ue
@@ -35771,7 +35820,7 @@ AZ
 Wk
 Bk
 pQ
-zG
+Cy
 iP
 vI
 Wk
@@ -35893,27 +35942,27 @@ Rp
 Rp
 Rp
 Rp
+MY
+vX
 vb
-hV
-Tb
-Tb
-IG
-Tb
-bU
-Tb
-Hr
 vb
+By
+vb
+nT
+vb
+rC
+MY
 Ue
 Ue
-Ue
-Ue
-Tb
-Tb
-Tb
-Tb
 Ue
 Ue
 vb
+vb
+vb
+vb
+Ue
+Ue
+MY
 Ue
 mj
 mj
@@ -36055,27 +36104,27 @@ Rp
 Rp
 Rp
 Rp
+MY
+OI
+bs
+RE
+By
 vb
-MZ
-kA
-kA
-IG
-Tb
-At
-Tb
-ZZ
+qA
 vb
 Tb
+MY
+vb
 Ue
 Ue
-Ue
-Ue
-Ue
-Tb
 Ue
 Ue
 Ue
 vb
+Ue
+Ue
+Ue
+MY
 Ue
 mj
 mj
@@ -36217,27 +36266,27 @@ Rp
 Rp
 Rp
 Rp
+Yi
+RF
+XF
 vb
-cn
-RM
-Tb
-Tb
-Tb
-Tb
-IG
-ZZ
 vb
-lC
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
 vb
+vb
+By
+Tb
+MY
+NH
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+MY
 Ue
 mj
 mj
@@ -36379,19 +36428,19 @@ Rp
 Rp
 Rp
 Rp
+Yi
+RF
+RE
+FY
+RE
 vb
-cn
-kA
-Dq
-kA
+qA
+vb
 Tb
-At
-Tb
-ZZ
-vb
-Ct
-kA
-kA
+MY
+SA
+RE
+RE
 Ue
 Ue
 Ue
@@ -36399,7 +36448,7 @@ Ue
 Ue
 Ue
 Ue
-vb
+MY
 Ue
 mj
 mj
@@ -36541,27 +36590,27 @@ Rp
 Rp
 Rp
 Rp
+Yi
+RF
 vb
-cn
-Tb
-wZ
-kA
-Tb
-Tb
-Tb
-ZZ
+JX
+RE
 vb
-cn
-Tb
-kA
-kA
-Ue
-Ue
-Ue
-Ue
-Ue
-Ue
 vb
+vb
+Tb
+MY
+RF
+vb
+RE
+RE
+Ue
+Ue
+Ue
+Ue
+Ue
+Ue
+MY
 Ue
 mj
 mj
@@ -36703,27 +36752,27 @@ Rp
 Rp
 Rp
 Rp
+Yi
+st
+GM
 vb
-oB
-SK
-Tb
-kA
-Tb
-Tb
-IG
-ZZ
+RE
 vb
-eH
-Tb
-Tb
-kA
-SL
-Ue
-Ue
-Ue
-Ue
-Ue
 vb
+By
+Tb
+MY
+od
+vb
+vb
+RE
+hD
+Ue
+Ue
+Ue
+Ue
+Ue
+MY
 Ue
 mj
 mj
@@ -36865,21 +36914,21 @@ Rp
 Rp
 Rp
 Rp
+Yi
+qp
 vb
-xs
-Tb
-wZ
-kA
-IG
-Tb
-Tb
-Tb
-Ft
-Tb
-Tb
-Tb
-IG
-RM
+JX
+RE
+By
+vb
+vb
+vb
+JY
+vb
+vb
+vb
+By
+XF
 Ue
 Ue
 Ue
@@ -37027,22 +37076,22 @@ Rp
 Rp
 Rp
 Rp
+Yi
+Ju
+JI
+JX
+RE
 vb
-or
-xD
-wZ
-kA
-Tb
-Tb
-Tb
-Tb
-eB
-Tb
-Tb
-Tb
-Tb
-Tb
-pK
+vb
+vb
+vb
+sD
+vb
+vb
+vb
+vb
+vb
+rD
 Ue
 Ue
 Ue
@@ -37189,27 +37238,27 @@ Rp
 Rp
 Rp
 Rp
+Yi
+Qd
 vb
-Pt
-Tb
-IG
-kA
-Tb
-SK
-Tb
-ZZ
+By
+RE
 vb
-eH
-IG
-Tb
-kA
-Tb
-Tb
-Ue
-Ue
-Ue
-Ue
+GM
 vb
+Tb
+MY
+od
+By
+vb
+RE
+vb
+vb
+Ue
+Ue
+Ue
+Ue
+MY
 Ue
 mj
 mj
@@ -37351,27 +37400,27 @@ Rp
 Rp
 Rp
 Rp
+Yi
+st
 vb
-oB
-Tb
-wZ
-kA
-Tb
-Tb
-Tb
-ZZ
+JX
+RE
 vb
-cn
-bU
-Dq
-kA
-Tb
-pK
-Ue
-Ue
-Ue
-Ue
 vb
+vb
+Tb
+MY
+RF
+nT
+FY
+RE
+vb
+rD
+Ue
+Ue
+Ue
+Ue
+MY
 Ue
 mj
 mj
@@ -37513,27 +37562,27 @@ Rp
 Rp
 Rp
 Rp
+Yi
+RF
+RE
+RE
+mR
 vb
-cn
-kA
-kA
-dK
-Tb
-Tb
-IG
-ZZ
 vb
-Ct
-kA
-kA
+By
 Tb
-Tb
-aS
-Ue
-Ue
-Ue
-Ue
+MY
+SA
+RE
+RE
 vb
+vb
+pw
+Ue
+Ue
+Ue
+Ue
+MY
 Ue
 mj
 mj
@@ -37675,27 +37724,27 @@ Rp
 Rp
 Rp
 Rp
+Yi
+RF
 vb
-cn
-Tb
-Tb
-Tb
-Tb
-BI
-Tb
-ZZ
 vb
-cn
-Tb
-Tb
-Tb
-Tb
-Ue
-Ue
-Ue
-Ue
-Ue
 vb
+vb
+MJ
+vb
+Tb
+MY
+RF
+vb
+vb
+vb
+vb
+Ue
+Ue
+Ue
+Ue
+Ue
+MY
 Ue
 mj
 mj
@@ -37837,27 +37886,27 @@ Rp
 Rp
 Rp
 Rp
+MY
+SA
+Yw
+RE
+nT
 vb
-Ct
-MH
-kA
-bU
+ie
+XF
 Tb
-oJ
-RM
-ZZ
+MY
+RF
 vb
-cn
-Tb
-Tb
-Tb
-Tb
-Mu
-Ue
-Ue
-Ue
-Ue
 vb
+vb
+vb
+bq
+Ue
+Ue
+Ue
+Ue
+MY
 Ue
 mj
 mj
@@ -37999,27 +38048,27 @@ Rp
 Rp
 Rp
 Rp
+MY
+YR
 vb
-gx
-Tb
-Tb
-RM
-Tb
-IG
-Tb
-ZZ
 vb
-cn
+XF
+vb
+By
+vb
 Tb
-Tb
-Tb
-Tb
-Tb
-lp
+MY
+RF
+vb
+vb
+vb
+vb
+vb
+sr
 Ue
 Ue
 Ue
-vb
+MY
 Ue
 mj
 mj
@@ -38161,27 +38210,27 @@ Rp
 Rp
 Rp
 Rp
-vb
+MY
+Qt
+xP
+iK
+RE
+RE
 Up
-pM
-yO
-kA
-kA
-Ud
-ud
-YH
+Kd
+JK
+MY
+SG
+Kd
+Kd
+Kd
 vb
-nI
-ud
-ud
-ud
-Tb
-Tb
-lC
-jo
+vb
+NH
+bH
 Ue
 Ue
-vb
+MY
 Ue
 Ue
 Ue
@@ -38323,27 +38372,27 @@ Rp
 Rp
 Rp
 Rp
-vb
-vb
-vb
-vb
-eB
-eB
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-Ft
-Ft
-vb
-vb
-vb
-vb
-vb
+MY
+MY
+MY
+MY
+sD
+sD
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+JY
+JY
+MY
+MY
+MY
+MY
+MY
 aP
 aP
 aP
@@ -38399,7 +38448,7 @@ aP
 aP
 aP
 aP
-vJ
+Vs
 aP
 aP
 aP
@@ -38485,26 +38534,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+PK
+jh
+oG
+UX
+UX
+oG
+jh
+kj
+MY
+bF
+jh
+jh
+jh
 vb
-VV
-mq
-TU
-Ip
-Ip
-TU
-mq
-Kn
 vb
-lw
-mq
-mq
-mq
-Tb
-Tb
-mq
-mq
-mq
-Kn
+jh
+jh
+jh
+kj
 aP
 Bd
 Bd
@@ -38647,26 +38696,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+RF
 vb
-cn
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-NX
 vb
-cn
-vL
-vL
-vL
+vb
+vb
+vb
+vb
+Yb
+MY
+RF
+Gx
+Gx
+Gx
+vb
+vb
+Gx
+Gx
+Gx
 Tb
-Tb
-vL
-vL
-vL
-ZZ
 aP
 Bd
 Jp
@@ -38809,26 +38858,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+RF
 vb
-cn
-Tb
-Tb
-Tb
-EV
-Tb
-Tb
-wK
 vb
-sz
-EG
-De
-GA
-Tb
-Tb
-De
-SE
-GA
-wK
+vb
+Ce
+vb
+vb
+cs
+MY
+sv
+JO
+OK
+Jd
+vb
+vb
+OK
+NO
+Jd
+cs
 aP
 Px
 mj
@@ -38971,26 +39020,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+RF
+Ce
 vb
-cn
-EV
-Tb
-Tb
-uI
-Tb
-Tb
-ZZ
 vb
-cn
+eS
+vb
+vb
 Tb
+MY
+RF
+vb
+vb
+vb
+vb
+KH
+Rj
+Rj
+Rj
 Tb
-Tb
-Tb
-Tb
-uR
-uR
-uR
-ZZ
 aP
 oc
 PC
@@ -39133,26 +39182,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+MN
 vb
-sQ
-Tb
-Tb
-Tb
-Tb
-Tb
-EV
-ZZ
 vb
-eH
+vb
+vb
+vb
+Ce
 Tb
+MY
+od
+vb
+qA
+vb
+vb
+vb
+Gx
+Gx
+Gx
 Tb
-Tb
-Tb
-Tb
-vL
-vL
-vL
-ZZ
 aP
 oc
 PC
@@ -39213,7 +39262,7 @@ Mz
 Mz
 Mz
 Mz
-ON
+dM
 sR
 sR
 RK
@@ -39295,26 +39344,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+RF
+Tk
 vb
-cn
-xE
-Tb
-Tb
-Tb
-Tb
-Tb
-ZZ
 vb
-hk
+vb
+vb
+vb
 Tb
+MY
+vZ
+vb
+vb
+vb
+vb
+vb
+TB
+Jd
+OK
 Tb
-Tb
-Tb
-Tb
-wf
-GA
-De
-ZZ
 aP
 Ue
 mj
@@ -39457,26 +39506,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+wi
+pK
+xx
 vb
-me
-lL
-Tc
+vb
+vb
+vb
+vb
+zZ
+vb
+vb
+vb
+vb
+vb
+XF
+Rj
+Rj
+Rj
 Tb
-Tb
-Tb
-Tb
-Tb
-Rt
-Tb
-Tb
-Tb
-Tb
-Tb
-Tb
-uR
-uR
-uR
-ZZ
 aP
 fr
 hg
@@ -39493,7 +39542,7 @@ uZ
 js
 aP
 WG
-IS
+qI
 Qi
 PX
 PX
@@ -39619,26 +39668,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+RF
 vb
-cn
-Tb
-Tb
-Tb
-IG
-Tb
-Tb
-ZZ
 vb
-ja
+vb
+By
+vb
+vb
 Tb
+MY
+dA
+vb
+vb
+vb
+vb
+vb
+Gx
+Gx
+Gx
 Tb
-Tb
-Tb
-Tb
-vL
-vL
-vL
-ZZ
 aP
 fr
 hg
@@ -39705,7 +39754,7 @@ sR
 UW
 Vi
 KT
-VW
+iF
 Vi
 Vi
 Vi
@@ -39781,26 +39830,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+RF
 vb
-cn
-Tb
-Tb
-Tb
-Tb
-BX
-Tb
-NX
 vb
-eH
+vb
+vb
+gf
+vb
+Yb
+MY
+od
+vb
+vb
+vb
+vb
+vb
+wT
+OK
+NO
 Tb
-Tb
-Tb
-Tb
-Tb
-OU
-De
-SE
-ZZ
 aP
 Ue
 mj
@@ -39943,26 +39992,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+NM
 vb
-NA
-Tb
-EV
-Tb
-Tb
-Tb
-Tb
-ZZ
+Ce
 vb
-cn
+vb
+vb
+vb
 Tb
+MY
+RF
+vb
+XF
+KH
+vb
+vb
+Rj
+Rj
+Rj
 Tb
-Tb
-Tb
-Tb
-uR
-uR
-uR
-ZZ
 aP
 Ir
 pp
@@ -40013,7 +40062,7 @@ Ue
 Ye
 Cf
 aP
-lY
+Ru
 dS
 Xu
 Pw
@@ -40105,26 +40154,26 @@ Rp
 Rp
 Rp
 Rp
+MY
+MY
+sN
 vb
 vb
-OY
-Tb
-Tb
-Tb
-Tb
-Tb
-wK
 vb
-sz
-vL
-vL
-vL
-Tb
-Tb
-vL
-vL
-vL
-wK
+vb
+vb
+cs
+MY
+sv
+Gx
+Gx
+Gx
+vb
+vb
+Gx
+Gx
+Gx
+cs
 aP
 Hh
 pp
@@ -40177,7 +40226,7 @@ kJ
 aP
 HK
 JQ
-iY
+zg
 JQ
 JQ
 JQ
@@ -40268,25 +40317,25 @@ Rp
 Rp
 Rp
 Rp
-vb
-vb
-hR
-Tb
-Tb
+MY
+MY
 EV
-Tb
-ZZ
 vb
-cn
-SE
-De
-GA
+vb
+Ce
+vb
 Tb
+MY
+RF
+NO
+OK
+ZL
+vb
+vb
+Jd
+TB
+OK
 Tb
-GA
-wf
-De
-ZZ
 aP
 Ue
 mj
@@ -40318,7 +40367,7 @@ sf
 rK
 ke
 Qi
-NW
+xG
 Qi
 Qi
 id
@@ -40343,7 +40392,7 @@ JQ
 JQ
 JQ
 JQ
-UN
+lY
 Yq
 sR
 sR
@@ -40431,24 +40480,24 @@ Rp
 Rp
 Rp
 Rp
-vb
-vb
-nI
-ud
-ud
-ud
-YH
-vb
-nI
-zo
-zo
-zo
-ud
-ud
-zo
-zo
-zo
-YH
+MY
+MY
+SG
+Kd
+Kd
+Kd
+JK
+MY
+SG
+Qu
+Qu
+Qu
+Kd
+Kd
+Qu
+Qu
+Qu
+JK
 aP
 iQ
 iQ
@@ -40594,23 +40643,23 @@ Rp
 Rp
 Rp
 Rp
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
+MY
 mu
 mu
 mu
@@ -40937,7 +40986,7 @@ Rp
 Rp
 mu
 CY
-iU
+tu
 CY
 CY
 CY
@@ -41103,7 +41152,7 @@ CY
 CY
 CY
 CY
-iU
+tu
 gS
 Ma
 Mc
@@ -41151,7 +41200,7 @@ CY
 Ma
 CY
 RQ
-iU
+tu
 CY
 uJ
 uJ
@@ -41262,7 +41311,7 @@ Rp
 mu
 yV
 CY
-iU
+tu
 CY
 CY
 CY
@@ -41427,7 +41476,7 @@ Sm
 Sm
 Sm
 Sm
-iU
+tu
 CY
 uJ
 CY
@@ -41746,7 +41795,7 @@ Rp
 Rp
 Rp
 mu
-dO
+xI
 CY
 CY
 CY
@@ -41807,7 +41856,7 @@ uJ
 uJ
 uJ
 CY
-dO
+xI
 mu
 Rp
 Rp
@@ -42453,7 +42502,7 @@ uJ
 uJ
 uJ
 Ma
-iU
+tu
 CY
 ly
 mu
@@ -43231,7 +43280,7 @@ uJ
 RL
 uJ
 Eg
-JY
+Mj
 CU
 Eh
 Jj
