@@ -325,7 +325,7 @@ GLOBAL_LIST_INIT(supply_bounties, list(
 	new /datum/supply_bounty(/obj/item/food/cubancarp, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/fishandchips, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	// MARK: SUSHI (CHEF)
-
+	// 2+3+18=something just put lines here and go down the list in cooking_defines.dm
 	// MARK: SCIENCE
 
 
