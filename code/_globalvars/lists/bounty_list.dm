@@ -102,6 +102,7 @@ GLOBAL_LIST_INIT(supply_bounties, list(
 	new /datum/supply_bounty(/obj/item/reagent_containers/drinks/drinkingglass,	TRUE,	SUPPLY_BOUNTY_QUANTITY_LOW,		SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/reagent_containers/drinks/drinkingglass/shotglass,	TRUE,	SUPPLY_BOUNTY_QUANTITY_LOW,		SUPPLY_BOUNTY_REWARD_CHEAP),
 	new /datum/supply_bounty(/obj/item/reagent_containers/drinks/ice,	TRUE,	SUPPLY_BOUNTY_QUANTITY_LOW,		SUPPLY_BOUNTY_REWARD_LOW),
+	// MARK: BOTANY
 	new /datum/supply_bounty(/obj/item/seeds/aloe
 	new /datum/supply_bounty(/obj/item/seeds/ambrosia
 	new /datum/supply_bounty(/obj/item/seeds/apple
@@ -165,34 +166,165 @@ GLOBAL_LIST_INIT(supply_bounties, list(
 	new /datum/supply_bounty(/obj/item/food/grown/ambrosia/deus
 	new /datum/supply_bounty(/obj/item/food/grown/poppy
 	new /datum/supply_bounty(/obj/item/food/grown/harebell
-	new /datum/supply_bounty(/obj/item/food/rations/liquidfood
-	new /datum/supply_bounty(/obj/item/food/sliced/bread/food
-	// MARK: FOODS
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-	new /datum/supply_bounty(
-
+	// MARK: MEATS (CHEF)
+	new /datum/supply_bounty(/obj/item/food/burger/mcrib, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/burrito, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/chimichanga, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/bbqribs, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/bacon, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/meatsteak/chicken, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/cutlet, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/goliath_steak, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/meatkebab, FALSE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/meatsteak, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sausage, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/syntikebab, FALSE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/telebacon, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/wingfangchu, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/meat/patty, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/meatball, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/taco, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/meatbread, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/meatpie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/turkey, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/xemeatpie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/xenomeatbread, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/enchiladas, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/meatbun, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/monkeysdelight, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	// MARK: DESSERTS (CHEF)
+	new /datum/supply_bounty(/obj/item/food/friedbanana, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/ant, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/bananatop, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/berrycream, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/berryicecreamsandwich, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/berrytop, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/cornuto, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/frozenpineapple, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/honkdae, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/icecreamsandwich, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/popsicle, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/licoricecream, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/orangecream, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/peanutbuttermochi, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/pineappletop, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/sea_salt, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/apple, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/berry, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/bluecherry, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/cherry, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/cola, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/fruitsalad, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/grape, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/honey, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/lemon, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/lime, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/mime, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/orange, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/pineapple, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/rainbow, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/snowcone/spacemountain, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/spacefreezy, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/frozen/sundae, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/applecake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/applepie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/appletart, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/bananacake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/beary_pie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/berry_muffin, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/berryclafoutis, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/birthdaycake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/blumpkin_pie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/booberry_muffin, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/braincake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/cannoli, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/carrotcake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/cheesecake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/cherry_cupcake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/cherry_cupcake/blue, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/cherrypie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/chocolate_cornet, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/chocolate_lava_tart, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/chocolatecake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/clowncake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/storage/bag/tray/cookies_tray, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/fortunecookie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/french_silk_pie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/frosty_pie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/grape_tart, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/hardware_cake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/holy_cake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/honey_bun, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/lemoncake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/liars_cake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/limecake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/mime_tart, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/moffin, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/mothmallow, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/muffin, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/oatmeal_cookie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/orangecake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/peanut_butter_cookie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/pie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/plaincake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/plum_cake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/plump_pie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/plumphelmetbiscuit, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/pound_cake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/pumpkin_spice_cake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/pumpkinpie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/raisin_cookie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/slime_cake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/spaceman_cake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/storage/bag/tray/cookies_tray/sugarcookie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/tofupie, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/vanilla_berry_cake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/vanilla_cake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/amanitajelly, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/candiedapple, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/dulce_de_batata, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/friedbanana, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/popcorn, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/ricepudding, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/tapioca_pudding, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	// MARK: BREADS (CHEF)
+	new /datum/supply_bounty(/obj/item/food/tortilla, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/baguette, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/bananabread, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/banarnarbread, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/bread, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/bun, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/cracker, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/creamcheesebread, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/croissant, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/flatbread, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/sliceable/tofubread, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/poppypretzel, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/tapiocaflatbread, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	// MARK: BREAKFAST (CHEF)
+	new /datum/supply_bounty(/obj/item/food/burger/mcguffin, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/omelette, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/rofflewaffles, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/waffles, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/friedegg, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/benedict,, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/boiledegg, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/pancake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/pancake/berry_pancake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/pancake/choc_chip_pancake, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	// MARK: SEAFOOD (CHEF)
+	new /datum/supply_bounty(/obj/item/food/fried_shrimp, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/fish_skewer, FALSE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/fishfingers, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/picoss_kebab, FALSE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/fried_shrimp, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/salmonsteak, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/shrimp_skewer, FALSE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/boiled_shrimp, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/cubancarp, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	new /datum/supply_bounty(/obj/item/food/fishandchips, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
+	// MARK: SUSHI (CHEF)
 
 	// MARK: SCIENCE
 
