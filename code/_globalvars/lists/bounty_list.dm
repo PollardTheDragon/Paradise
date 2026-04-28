@@ -103,70 +103,72 @@ GLOBAL_LIST_INIT(supply_bounties, list(
 	new /datum/supply_bounty(/obj/item/reagent_containers/drinks/drinkingglass/shotglass,	TRUE,	SUPPLY_BOUNTY_QUANTITY_LOW,		SUPPLY_BOUNTY_REWARD_CHEAP),
 	new /datum/supply_bounty(/obj/item/reagent_containers/drinks/ice,	TRUE,	SUPPLY_BOUNTY_QUANTITY_LOW,		SUPPLY_BOUNTY_REWARD_LOW),
 	// MARK: BOTANY
-	new /datum/supply_bounty(/obj/item/seeds/aloe
-	new /datum/supply_bounty(/obj/item/seeds/ambrosia
-	new /datum/supply_bounty(/obj/item/seeds/apple
-	new /datum/supply_bounty(/obj/item/seeds/bamboo
-	new /datum/supply_bounty(/obj/item/seeds/banana
-	new /datum/supply_bounty(/obj/item/seeds/berry
-	new /datum/supply_bounty(/obj/item/seeds/cabbage
-	new /datum/supply_bounty(/obj/item/seeds/carrot
-	new /datum/supply_bounty(/obj/item/seeds/cassava
-	new /datum/supply_bounty(/obj/item/seeds/cherry
-	new /datum/supply_bounty(/obj/item/seeds/chanter
-	new /datum/supply_bounty(/obj/item/seeds/chili
-	new /datum/supply_bounty(/obj/item/seeds/cocoapod
-	new /datum/supply_bounty(/obj/item/seeds/coffee
-	new /datum/supply_bounty(/obj/item/seeds/comfrey
-	new /datum/supply_bounty(/obj/item/seeds/corn
-	new /datum/supply_bounty(/obj/item/seeds/cotton
-	new /datum/supply_bounty(/obj/item/seeds/nymph
-	new /datum/supply_bounty(/obj/item/seeds/eggplant
-	new /datum/supply_bounty(/obj/item/seeds/garlic
-	new /datum/supply_bounty(/obj/item/seeds/glowshroom
-	new /datum/supply_bounty(/obj/item/seeds/grape
-	new /datum/supply_bounty(/obj/item/seeds/grass
-	new /datum/supply_bounty(/obj/item/seeds/harebell
-	new /datum/supply_bounty(/obj/item/seeds/lemon
-	new /datum/supply_bounty(/obj/item/seeds/lettuce
-	new /datum/supply_bounty(/obj/item/seeds/lime
-	new /datum/supply_bounty(/obj/item/seeds/mint
-	new /datum/supply_bounty(/obj/item/seeds/olive
-	new /datum/supply_bounty(/obj/item/seeds/onion
-	new /datum/supply_bounty(/obj/item/seeds/orange
-	new /datum/supply_bounty(/obj/item/seeds/peanuts
-	new /datum/supply_bounty(/obj/item/seeds/pineapple
-	new /datum/supply_bounty(/obj/item/seeds/plum
-	new /datum/supply_bounty(/obj/item/seeds/poppy
-	new /datum/supply_bounty(/obj/item/seeds/potato
-	new /datum/supply_bounty(/obj/item/seeds/pumpkin
-	new /datum/supply_bounty(/obj/item/seeds/wheat/rice
-	new /datum/supply_bounty(/obj/item/seeds/soya
-	new /datum/supply_bounty(/obj/item/seeds/sugarcane
-	new /datum/supply_bounty(/obj/item/seeds/sunflower
-	new /datum/supply_bounty(/obj/item/seeds/tea
-	new /datum/supply_bounty(/obj/item/seeds/tobacco
-	new /datum/supply_bounty(/obj/item/seeds/tomato
-	new /datum/supply_bounty(/obj/item/seeds/tower
-	new /datum/supply_bounty(/obj/item/seeds/watermelon
-	new /datum/supply_bounty(/obj/item/seeds/wheat
-	new /datum/supply_bounty(/obj/item/seeds/whitebeet
-	new /datum/supply_bounty(/obj/item/seeds/cannabis
-	new /datum/supply_bounty(/obj/item/seeds/amanita
-	new /datum/supply_bounty(/obj/item/seeds/fungus
-	new /datum/supply_bounty(/obj/item/seeds/liberty
-	new /datum/supply_bounty(/obj/item/seeds/nettle
-	new /datum/supply_bounty(/obj/item/seeds/plump
-	new /datum/supply_bounty(/obj/item/seeds/reishi
-	new /datum/supply_bounty(/obj/item/seeds/starthistle
-	new /datum/supply_bounty(/obj/item/food/grown/banana
-	new /datum/supply_bounty(/obj/item/food/grown/potato
-	new /datum/supply_bounty(/obj/item/food/grown/tomato
-	new /datum/supply_bounty(/obj/item/food/grown/ambrosia
-	new /datum/supply_bounty(/obj/item/food/grown/ambrosia/deus
-	new /datum/supply_bounty(/obj/item/food/grown/poppy
-	new /datum/supply_bounty(/obj/item/food/grown/harebell
-	// MARK: MEATS (CHEF)
+	new /datum/supply_bounty(/obj/item/seeds/aloe, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/ambrosia, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/apple, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/bamboo, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/banana, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/berry, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/cabbage, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/carrot, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/cassava, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/cherry, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/chanter, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/chili, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/cocoapod, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/coffee, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/comfrey, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/corn, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/cotton, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/nymph, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/eggplant, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/garlic, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/glowshroom, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/grape, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/grass, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/harebell, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/lemon, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/lettuce, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/lime, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/mint, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/olive, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/onion, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/orange, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/peanuts, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/pineapple, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/plum, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/poppy, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/potato, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/pumpkin, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/wheat/rice, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/soya, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/sugarcane, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/sunflower, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/tea, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/tobacco, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/tomato, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/tower, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/watermelon, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/wheat, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/whitebeet, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/cannabis, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/amanita, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/fungus, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/liberty, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/nettle, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/plump, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/reishi, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/seeds/starthistle, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/food/grown/banana, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/food/grown/potato, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/food/grown/tomato, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/food/grown/ambrosia, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/food/grown/ambrosia/deus, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/food/grown/poppy, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	new /datum/supply_bounty(/obj/item/food/grown/harebell, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_CHEAP),
+	// TODO: more seeds, more plants
+
+	// MARK: MEAT (CHEF)
 	new /datum/supply_bounty(/obj/item/food/burger/mcrib, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/burrito, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/chimichanga, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
@@ -192,7 +194,7 @@ GLOBAL_LIST_INIT(supply_bounties, list(
 	new /datum/supply_bounty(/obj/item/food/enchiladas, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/meatbun, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/monkeysdelight, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
-	// MARK: DESSERTS (CHEF)
+	// MARK: DESSERT (CHEF)
 	new /datum/supply_bounty(/obj/item/food/friedbanana, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/ant, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/frozen/popsicle/bananatop, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
@@ -288,7 +290,7 @@ GLOBAL_LIST_INIT(supply_bounties, list(
 	new /datum/supply_bounty(/obj/item/food/popcorn, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/ricepudding, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/tapioca_pudding, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
-	// MARK: BREADS (CHEF)
+	// MARK: BREAD (CHEF)
 	new /datum/supply_bounty(/obj/item/food/tortilla, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/baguette, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/sliceable/bananabread, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
@@ -325,8 +327,26 @@ GLOBAL_LIST_INIT(supply_bounties, list(
 	new /datum/supply_bounty(/obj/item/food/cubancarp, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/supply_bounty(/obj/item/food/fishandchips, TRUE, SUPPLY_BOUNTY_QUANTITY_LOW, SUPPLY_BOUNTY_REWARD_LOW),
 	// MARK: SUSHI (CHEF)
-	// 2+3+18=something just put lines here and go down the list in cooking_defines.dm
+	// TODO: rest of the chef categories
+
+
+
+
+
+
+
 	// MARK: SCIENCE
+	// TODO: circuits, robotics, robotic organs, implants, mech parts(?), gun kits, etc
+
+
+
+
+
+
+
+
+
+
 
 
 	// MARK: MEDICAL
@@ -362,6 +382,8 @@ GLOBAL_LIST_INIT(supply_bounties, list(
 	new /datum/medical_bounty(/obj/item/healthanalyzer,		FALSE,			SUPPLY_BOUNTY_QUANTITY_HIGH,		SUPPLY_BOUNTY_REWARD_LOW),
 	new /datum/medical_bounty(/obj/item/sensor_device,		TRUE,				SUPPLY_BOUNTY_QUANTITY_LOW,		SUPPLY_BOUNTY_REWARD_MEDIUM),
 	new /datum/medical_bounty(/obj/item/pinpointer/crew,		TRUE,				SUPPLY_BOUNTY_QUANTITY_LOW,		SUPPLY_BOUNTY_REWARD_MEDIUM),
+	// TODO: actual species organs
+
 
 	// MARK: SECURITY
 	new /datum/security_bounty(/obj/item/melee/baton,		TRUE,			SUPPLY_BOUNTY_QUANTITY_LOW,			SUPPLY_BOUNTY_REWARD_MEDIUM),
