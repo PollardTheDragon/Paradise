@@ -206,7 +206,7 @@ GLOBAL_LIST_INIT(command_strings, list(
 	remove_traits(list(TRAIT_IMMOBILIZED, TRAIT_HANDS_BLOCKED))
 	set_light(bot_mode_flags & BOT_MODE_ON ? initial(light_range) : 0)
 	// In case we somehow got additions to the list during when the bot was off, clear it just in case.
-	ai_controller.blackboard.clear_blackboard_key(BB_BASIC_MOB_RETALIATE_LIST)
+	ai_controller.clear_blackboard_key(BB_BASIC_MOB_RETALIATE_LIST)
 	ai_controller.set_ai_status(AI_STATUS_ON)
 	update_appearance()
 	diag_hud_set_botstat()
@@ -215,7 +215,7 @@ GLOBAL_LIST_INIT(command_strings, list(
 /mob/living/basic/bot/proc/turn_off()
 	set_mode_flags(bot_mode_flags & ~BOT_MODE_ON)
 	set_light(bot_mode_flags & BOT_MODE_ON ? initial(light_range) : 0)
-	ai_controller.blackboard.clear_blackboard_key(BB_BASIC_MOB_RETALIATE_LIST)
+	ai_controller.clear_blackboard_key(BB_BASIC_MOB_RETALIATE_LIST)
 	ai_controller.set_ai_status(AI_STATUS_OFF)
 	bot_reset() // Resets an AI's call, should it exist.
 	update_appearance()
