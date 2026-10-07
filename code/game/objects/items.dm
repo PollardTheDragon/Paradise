@@ -165,6 +165,9 @@ GLOBAL_DATUM_INIT(welding_sparks, /mutable_appearance, mutable_appearance('icons
 	/// If this item is a tool, the speed multiplier. Smaller numbers are faster.
 	var/toolspeed = 1
 
+	/// Can we be disassembled for research
+	var/researchable = TRUE
+
 	//Tooltip vars
 
 	/// Is this item equipped into an inventory slot or hand of a mob?
