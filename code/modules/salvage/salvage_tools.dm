@@ -2,6 +2,7 @@
 #define SCAN_OVERLAY_WARM "salvage_scanner_warm"
 #define SCAN_OVERLAY_HOT "salvage_scanner_hot"
 
+// MARK: Salvage Scanner
 /obj/item/salvage_scanner
 	name = "salvage scanner"
 	desc = "A handheld monitor that scans the surrounding area for salvage."
@@ -68,6 +69,7 @@
 		return
 	START_PROCESSING(SSfastprocess, src)
 
+//MARK: Salvage Detector
 /obj/item/salvage_detector
 	name = "salvage detector"
 	desc = "A device resembling a metal detector that is fine-tuned to locate and extract valuable salvage."
@@ -112,6 +114,8 @@
 	user.put_in_hands(salvage)
 	target.has_salvage = FALSE
 	GLOB.salvage_objects -= target
+
+// MARK: Salvage Decryptor
 
 #undef SCAN_OVERLAY_COLD
 #undef SCAN_OVERLAY_WARM
