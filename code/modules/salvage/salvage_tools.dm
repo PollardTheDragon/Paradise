@@ -81,8 +81,17 @@
 	throwforce = 7
 	materials = list(MAT_METAL=2000)
 	new_attack_chain = TRUE
+	/// How fast do we scan
+	var/scan_time = 6 SECONDS
+	/// What's our scan tier?
+	var/scan_tier = 1
 	/// The installed decryptor chip
 	var/decryptor
+
+/obj/item/salvage_detector/Initialize(mapload)
+	. = ..()
+	RegisterSignal(src, COMSIG_BIT_ATTACH, PROC_REF(add_bit))
+	RegisterSignal(src, COMSIG_CLICK_ALT, PROC_REF(remove_bit))
 
 /obj/item/salvage_detector/attack_obj(obj/attacked_obj, mob/living/user, params)
 	if(user.a_intent != INTENT_HELP)
@@ -91,6 +100,15 @@
 		extract_salvage(attacked_obj, user)
 	return FALSE
 
+/obj/item/salvage_detector/add_bit(atom/source, obj/item/smithed_item/tool_bit/bit, mob/user)
+	. = ..()
+	scan_time = scan_time * bit.speed_mod
+	scan_tier = scan_tier * bit.productivity_mod
+
+/obj/item/salvage_detector/remove_bit(atom/source, mob/user)
+	. = ..()
+	scan_time = scan_time / bit.speed_mod
+	scan_tier = scan_tier / bit.productivity_mod
 
 /obj/item/salvage_detector/item_interaction(mob/living/user, obj/item/used, list/modifiers)
 	// POLTODO: Salvage Decryptors
@@ -111,7 +129,10 @@
 		return
 	to_chat("You scan [target] and find a piece of salvage!")
 	var/obj/item/storage/salvage_crate/salvage = new()
+	salvage.salvage_tier = rand(1, min(floor(scan_tier), 4))
 	user.put_in_hands(salvage)
+	for(/obj/item/smithed_item/tool_bit/bit in attached_bits)
+		bit.damage_bit(rand(5, 10)) // Bits don't last long in this thing. Scan wisely.
 	target.has_salvage = FALSE
 	GLOB.salvage_objects -= target
 
