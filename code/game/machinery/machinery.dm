@@ -10,7 +10,7 @@
 	flags_ricochet = RICOCHET_HARD
 	receive_ricochet_chance_mod = 0.3
 	new_attack_chain = TRUE
-	salvage_prob = 10
+	salvage_prob = 3
 	var/stat = 0
 
 	/// How is this machine currently passively consuming power?

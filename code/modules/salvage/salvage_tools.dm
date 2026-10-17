@@ -31,7 +31,7 @@
 	var/off_z = TRUE
 	var/new_icon
 	for(var/atom/A in GLOB.salvage_objects)
-		if(is_station_level(get_turf(A.z)))
+		if(A.z != z)
 			continue
 		off_z = FALSE
 		var/dist = get_dist(get_turf(A), get_turf(src))
@@ -103,6 +103,9 @@
 	)
 	if(!do_after_once(user, 6 SECONDS, TRUE, target = target))
 		to_chat(user, SPAN_NOTICE("You fail to scan [target]."))
+		return
+	if(!target.has_salvage)
+		to_chat(user, SPAN_WARNING("Whatever salvage [target] had is gone!"))
 		return
 	to_chat("You scan [target] and find a piece of salvage!")
 	var/obj/item/storage/salvage_crate/salvage = new()

@@ -66,6 +66,16 @@
 			loot_item.researchable = FALSE
 		loot_to_spawn--
 
+/obj/item/storage/salvage_crate/dropped(mob/user, silent)
+	. = ..()
+	if(icon_state == "[base_icon_state]_open")
+		close(user)
+
+/obj/item/storage/salvage_crate/throw_at(atom/target, range, speed, mob/thrower, spin, diagonals_first, datum/callback/callback, force, dodgeable)
+	. = ..()
+	if(icon_state == "[base_icon_state]_open")
+		close(thrower)
+
 /obj/item/storage/salvage_crate/open(mob/user)
 	if(locked)
 		to_chat(user, SPAN_NOTICE("[src] is locked!"))
@@ -90,11 +100,11 @@
 		update_appearance(UPDATE_ICON_STATE)
 		flick("[icon_state]_closing", src)
 
-/obj/item/storage/salvage_crate/try_insert_item(obj/item/I, mob/user)
+/obj/item/storage/salvage_crate/can_be_inserted(obj/item/I)
 	if(locked)
-		return
+		return FALSE
 	if(!opened)
-		return
+		return FALSE
 	. = ..()
 
 /obj/item/storage/salvage_crate/multitool_act(mob/living/user, obj/item/I)
