@@ -16,6 +16,7 @@
 		. += SPAN_NOTICE("Currently displaying [decryptor_schematic].")
 		. += SPAN_NOTICE("[decryptor_schematic] requires the following components:")
 		var/list/checked_schematic_ingredients = list()
+		var/list/required_items = decryptor_schematic.required_items
 		for(var/obj/item/schematic_ingredient in required_items)
 			if(schematic_ingredient in checked_schematic_ingredients)
 				continue
@@ -66,7 +67,7 @@
 	if(user.a_intent != INTENT_HELP)
 		return ..()
 	if(istype(used, /obj/item/salvage_decryptor_schematic))
-		if(salvage_decryptor_schematic)
+		if(decryptor_schematic)
 			to_chat(user, SPAN_NOTICE("[src] already has an open schematic! Remove that first!"))
 			return
 		if(used.flags & NODROP || !user.transfer_item_to(used, src))
