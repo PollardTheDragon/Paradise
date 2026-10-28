@@ -84,12 +84,36 @@
 	/// How fast do we scan
 	var/scan_time = 6 SECONDS
 	/// The installed decryptor chip
-	var/decryptor
+	var/obj/item/salvage_decryptor/decryptor
+	/// The odds we find any specific crate
+	var/crate_chances = list(
+		/obj/item/storage/salvage_crate/salvage = 1000,
+		/obj/item/storage/salvage_crate/parts = 100,
+		/obj/item/storage/salvage_crate/cooler = 100,
+		/obj/item/storage/salvage_crate/lost = 100,
+		/obj/item/storage/salvage_crate/service = 100,
+		/obj/item/storage/salvage_crate/industrial = 10,
+		/obj/item/storage/salvage_crate/freezer = 10,
+		/obj/item/storage/salvage_crate/med = 10,
+		/obj/item/storage/salvage_crate/backlog = 10,
+		/obj/item/storage/salvage_crate/clown = 10,
+		/obj/item/storage/salvage_crate/hazmat = 1,
+		/obj/item/storage/salvage_crate/unstable = 1,
+		/obj/item/storage/salvage_crate/contain = 1,
+		/obj/item/storage/salvage_crate/live = 1,
+		/obj/item/storage/salvage_crate/exotic = 1,
+		/obj/item/storage/salvage_crate/illegal = 1,
+	)
 
 /obj/item/salvage_detector/Initialize(mapload)
 	. = ..()
 	RegisterSignal(src, COMSIG_BIT_ATTACH, PROC_REF(add_bit))
 	RegisterSignal(src, COMSIG_CLICK_ALT, PROC_REF(remove_bit))
+
+/obj/item/salvage_detector/emag_act(mob/user)
+	. = ..()
+	emagged = TRUE
+	update_odds()
 
 /obj/item/salvage_detector/attack_obj(obj/attacked_obj, mob/living/user, params)
 	if(user.a_intent != INTENT_HELP)
@@ -109,8 +133,24 @@
 	. = ..()
 
 /obj/item/salvage_detector/item_interaction(mob/living/user, obj/item/used, list/modifiers)
-	// POLTODO: Salvage Decryptors
+	if(!istype(used, /obj/item/salvage_decryptor) || user.a_intent != INTENT_HELP)
+		return ..()
+	if(decryptor)
+		to_chat(user, SPAN_WARNING("[src] already contains a decryptor chip! Remove it first!"))
+		return ITEM_INTERACT_COMPLETE
+	if(used.flags & NODROP || !user.transfer_item_to(used, src))
+		to_chat(user, SPAN_WARNING("[used] is stuck to your hand!"))
+		return ITEM_INTERACT_COMPLETE
+	decryptor = used
+	update_odds()
+	return ITEM_INTERACT_COMPLETE
+
+/obj/item/salvage_detector/AltClick(mob/user, modifiers)
 	. = ..()
+	if(decryptor)
+		to_chat(user, SPAN_WARNING("You pop [src] out of the decryptor slot."))
+		user.put_in_hands(decryptor)
+		decryptor = null
 
 /obj/item/salvage_detector/proc/extract_salvage(obj/target, mob/living/user)
 	playsound(get_turf(src), 'sound/items/metal_detector.ogg', 40, FALSE)
@@ -126,14 +166,27 @@
 		to_chat(user, SPAN_WARNING("Whatever salvage [target] had is gone!"))
 		return
 	to_chat("You scan [target] and find a piece of salvage!")
-	var/obj/item/storage/salvage_crate/salvage = new()
+	var/crate_type = pickweight(crate_chances)
+	var/obj/item/storage/salvage_crate/salvage = new crate_type()
 	user.put_in_hands(salvage)
 	for(var/obj/item/smithed_item/tool_bit/bit in attached_bits)
-		bit.damage_bit(rand(5, 10)) // Bits don't last long in this thing. Scan wisely.
+		bit.damage_bit(1) // Bits don't last long in this thing. Scan wisely.
+	if(decryptor)
+		decryptor.durability -= 1
+		if(!decryptor.durability)
+			decryptor = null
+			to_chat(user, SPAN_WARNING("The decrpytor chip sparks and ejects from [src], completely burnt out!"))
+			new /obj/item/broken_decryptor(get_turf(src))
 	target.has_salvage = FALSE
 	GLOB.salvage_objects -= target
 
-// MARK: Salvage Decryptor
+/obj/item/salvage_detector/proc/update_odds()
+	crate_chances = initial(crate_chances)
+	if(decryptor)
+		crate_chances += list(decryptor.crate_type = decryptor.weight_increase)
+	if(emagged)
+		crate_chances += list(/obj/item/storage/salvage_crate/illegal = 250)
+
 
 #undef SCAN_OVERLAY_COLD
 #undef SCAN_OVERLAY_WARM

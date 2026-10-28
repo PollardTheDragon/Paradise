@@ -16,8 +16,10 @@
 	var/minimum_loot = 1
 	/// Maximum amount of loot items to spawn
 	var/maximum_loot = 4
-	/// Tier of salvage. Determines specific loot to spawn
-	var/salvage_tier = 1
+	/// Types of crate upgrade schematic it can drop
+	var/list/possible_schematics = list()
+	/// Chance for a schematic to drop
+	var/schem_chance = 15
 
 /obj/item/storage/salvage_crate/Initialize(mapload)
 	. = ..()
@@ -46,16 +48,7 @@
 /obj/item/storage/salvage_crate/populate_contents()
 	var/loot_to_spawn = rand(minimum_loot, maximum_loot)
 	while(loot_to_spawn > 0)
-		var/list/loot_table = list()
-		switch(salvage_tier)
-			if(2)
-				loot_table = loot_datum.uncommon_loot
-			if(3)
-				loot_table = loot_datum.rare_loot
-			if(4)
-				loot_table = loot_datum.ultra_loot
-			else
-				loot_table = loot_datum.common_loot
+		var/list/loot_table = loot_datum.loot
 		var/loot_type = pickweight(loot_table)
 		if(!loot_type) // Break out if this shit is ever null
 			log_debug("Attempted to create a [name] with null loot.")
@@ -63,8 +56,11 @@
 		var/atom/loot_atom = new loot_type(src)
 		if(isitem(loot_atom))
 			var/obj/item/loot_item = loot_atom
-			loot_item.researchable = FALSE
+			loot_item.origin_tech = list()
 		loot_to_spawn--
+	if(prob(schem_chance))
+		var/new_schematic_type = pick(possible_schematics)
+		new new_schematic_type(src)
 
 /obj/item/storage/salvage_crate/dropped(mob/user, silent)
 	. = ..()
@@ -134,103 +130,191 @@
 
 /obj/item/storage/salvage_crate/salvage
 	name = "salvage crate"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/parts,
+		/obj/item/salvage_decryptor_schematic/cooler,
+		/obj/item/salvage_decryptor_schematic/lost
+	)
 
 /obj/item/storage/salvage_crate/illegal
 	name = "operative dead drop"
 	icon_state = "illegal"
 	base_icon_state = "illegal"
+	schem_chance = 0
 
 /obj/item/storage/salvage_crate/parts
 	name = "spare parts crate"
 	icon_state = "parts"
 	base_icon_state = "parts"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/industrial,
+		/obj/item/salvage_decryptor_schematic/cooler
+	)
 
 /obj/item/storage/salvage_crate/cooler
 	name = "abandoned cooler"
 	icon_state = "cooler"
 	base_icon_state = "cooler"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/parts,
+		/obj/item/salvage_decryptor_schematic/lost,
+		/obj/item/salvage_decryptor_schematic/freezer,
+	)
 
 /obj/item/storage/salvage_crate/lost
 	name = "lost and found crate"
 	icon_state = "lost"
 	base_icon_state = "lost"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/cooler,
+		/obj/item/salvage_decryptor_schematic/service,
+		/obj/item/salvage_decryptor_schematic/backlog,
+	)
 
 /obj/item/storage/salvage_crate/service
 	name = "service surplus crate"
 	icon_state = "service"
 	base_icon_state = "service"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/lost,
+		/obj/item/salvage_decryptor_schematic/clown,
+	)
 
 /obj/item/storage/salvage_crate/industrial
 	name = "industrial crate"
 	icon_state = "industrial"
 	base_icon_state = "industrial"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/hazmat
+	)
 
 /obj/item/storage/salvage_crate/freezer
 	name = "deep freezer"
 	icon_state = "freezer"
 	base_icon_state = "freezer"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/med,
+		/obj/item/salvage_decryptor_schematic/contain,
+	)
 
 /obj/item/storage/salvage_crate/med
 	name = "dated medicine crate"
 	icon_state = "med"
 	base_icon_state = "med"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/live
+	)
 
 /obj/item/storage/salvage_crate/backlog
 	name = "undelivered backlog crate"
 	icon_state = "backlog"
 	base_icon_state = "backlog"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/exotic
+	)
 
 /obj/item/storage/salvage_crate/clown
 	name = "failed comedian's footlocker"
 	icon_state = "clown"
 	base_icon_state = "clown"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/industrial
+	)
 
 /obj/item/storage/salvage_crate/hazmat
 	name = "hazmat crate"
 	icon_state = "hazmat"
 	base_icon_state = "hazmat"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/dno,
+		/obj/item/salvage_decryptor_schematic/unstable,
+	)
 
 /obj/item/storage/salvage_crate/unstable
 	name = "unstable samples crate"
 	icon_state = "unstable"
 	base_icon_state = "unstable"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/bluespace
+	)
 
 /obj/item/storage/salvage_crate/contain
 	name = "long term containment crate"
 	icon_state = "contain"
 	base_icon_state = "contain"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/ancient
+	)
 
 /obj/item/storage/salvage_crate/live
 	name = "live samples crate"
 	icon_state = "live"
 	base_icon_state = "live"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/exotic
+	)
 
 /obj/item/storage/salvage_crate/exotic
 	name = "exotic imports crate"
 	icon_state = "exotic"
 	base_icon_state = "exotic"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/deposit
+	)
 
 /obj/item/storage/salvage_crate/dno
 	name = "DO NOT OPEN crate"
 	icon_state = "dno"
 	base_icon_state = "dno"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/pandora
+	)
 
 /obj/item/storage/salvage_crate/bluespace
 	name = "bluespace crate"
 	icon_state = "bluespace"
 	base_icon_state = "bluespace"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/ancient
+	)
 
 /obj/item/storage/salvage_crate/ancient
 	name = "ancient crate"
 	icon_state = "ancient"
 	base_icon_state = "ancient"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/pandora
+	)
 
 /obj/item/storage/salvage_crate/deposit
 	name = "safety deposit box"
 	icon_state = "deposit"
 	base_icon_state = "deposit"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/pandora
+	)
 
 /obj/item/storage/salvage_crate/pandora
 	name = "pandora's box"
 	icon_state = "pandora"
 	base_icon_state = "pandora"
+	possible_schematics = list(
+		/obj/item/salvage_decryptor_schematic/parts,
+		/obj/item/salvage_decryptor_schematic/cooler,
+		/obj/item/salvage_decryptor_schematic/lost,
+		/obj/item/salvage_decryptor_schematic/service,
+		/obj/item/salvage_decryptor_schematic/industrial,
+		/obj/item/salvage_decryptor_schematic/freezer,
+		/obj/item/salvage_decryptor_schematic/med,
+		/obj/item/salvage_decryptor_schematic/backlog,
+		/obj/item/salvage_decryptor_schematic/clown,
+		/obj/item/salvage_decryptor_schematic/hazmat,
+		/obj/item/salvage_decryptor_schematic/unstable,
+		/obj/item/salvage_decryptor_schematic/contain,
+		/obj/item/salvage_decryptor_schematic/live,
+		/obj/item/salvage_decryptor_schematic/exotic,
+		/obj/item/salvage_decryptor_schematic/dno,
+		/obj/item/salvage_decryptor_schematic/bluespace,
+		/obj/item/salvage_decryptor_schematic/ancient,
+		/obj/item/salvage_decryptor_schematic/deposit,
+	)
